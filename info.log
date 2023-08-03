@@ -1,0 +1,821 @@
+2021-01-21 18:42:46,226 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-01-21 18:42:46,279 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-01-21 18:42:46,280 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpm3i9wj2m'
+2021-01-21 18:42:46,282 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-01-21 18:42:46,287 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-01-21 18:42:46,287 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpcfi6h5yz'
+2021-01-21 18:45:48,515 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-01-21 18:45:48,567 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-01-21 18:45:48,568 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpyjeelj5a'
+2021-01-21 18:45:48,569 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-01-21 18:45:48,574 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-01-21 18:45:48,574 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp5gswbqmz'
+2021-01-21 18:47:50,992 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-01-21 18:47:51,040 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-01-21 18:47:51,041 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpijblrp9a'
+2021-01-21 18:47:51,042 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-01-21 18:47:51,047 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-01-21 18:47:51,047 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmppnz01lm1'
+2021-01-21 18:47:52,834 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-01-21 18:49:39,964 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-01-21 18:49:40,011 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-01-21 18:49:40,012 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpc5sa9tap'
+2021-01-21 18:49:40,014 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-01-21 18:49:40,018 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-01-21 18:49:40,019 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpvpeyg6qx'
+2021-01-21 18:49:41,550 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-01-21 18:51:21,461 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-01-21 18:51:21,509 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-01-21 18:51:21,509 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpwpegcukw'
+2021-01-21 18:51:21,510 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-01-21 18:51:21,514 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-01-21 18:51:21,514 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpc5toi62h'
+2021-01-21 18:51:23,079 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-01-21 18:51:48,959 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-01-21 18:51:49,005 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-01-21 18:51:49,006 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpvop6ljpj'
+2021-01-21 18:51:49,007 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-01-21 18:51:49,012 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-01-21 18:51:49,013 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpwyevr1jv'
+2021-01-21 18:51:50,539 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-01-21 18:52:17,004 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-01-21 18:52:17,055 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-01-21 18:52:17,056 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpqnyfod4z'
+2021-01-21 18:52:17,057 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-01-21 18:52:17,061 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-01-21 18:52:17,062 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp0r1ongkw'
+2021-01-21 18:52:18,582 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-01-21 18:53:28,752 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-01-21 18:53:28,799 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-01-21 18:53:28,800 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpvw6tyj4i'
+2021-01-21 18:53:28,801 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-01-21 18:53:28,804 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-01-21 18:53:28,805 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmprc2xsx7q'
+2021-01-21 18:53:30,308 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-01-21 18:54:11,766 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-01-21 18:54:11,811 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-01-21 18:54:11,812 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpm1fjmtw3'
+2021-01-21 18:54:11,813 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-01-21 18:54:11,817 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-01-21 18:54:11,817 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp855b_d8t'
+2021-01-21 18:54:13,344 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-01-21 18:55:13,135 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-01-21 18:55:13,185 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-01-21 18:55:13,186 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp_ogne75x'
+2021-01-21 18:55:13,187 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-01-21 18:55:13,190 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-01-21 18:55:13,191 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmph5m7zr75'
+2021-01-21 18:55:14,729 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-01-21 18:55:47,799 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-01-21 18:55:47,848 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-01-21 18:55:47,848 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpldejdzq8'
+2021-01-21 18:55:47,849 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-01-21 18:55:47,853 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-01-21 18:55:47,853 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmphw84ldvb'
+2021-01-21 18:55:49,361 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-01-21 18:58:46,877 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-01-21 18:58:46,927 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-01-21 18:58:46,928 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpx4b1bzhh'
+2021-01-21 18:58:46,929 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-01-21 18:58:46,932 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-01-21 18:58:46,933 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpgy63n14d'
+2021-01-21 18:58:48,401 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-01-21 19:00:02,877 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-01-21 19:00:02,924 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-01-21 19:00:02,925 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp6x5c6uxq'
+2021-01-21 19:00:02,925 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-01-21 19:00:02,929 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-01-21 19:00:02,929 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpvhnsdqn3'
+2021-01-21 19:00:04,432 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-01-21 19:00:43,148 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-01-21 19:00:43,201 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-01-21 19:00:43,202 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp8slvkx5f'
+2021-01-21 19:00:43,203 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-01-21 19:00:43,206 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-01-21 19:00:43,207 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpcjdo2epr'
+2021-01-21 19:00:44,659 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-01-21 19:03:22,623 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-01-21 19:03:22,670 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-01-21 19:03:22,671 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmplnnbdc4h'
+2021-01-21 19:03:22,672 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-01-21 19:03:22,675 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-01-21 19:03:22,676 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp76duggku'
+2021-01-21 19:03:24,155 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-01-21 19:07:13,675 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-01-21 19:07:13,725 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-01-21 19:07:13,726 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmptod4e27z'
+2021-01-21 19:07:13,726 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-01-21 19:07:13,730 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-01-21 19:07:13,730 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpwx4ibklc'
+2021-01-21 19:07:15,529 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-01-21 19:22:57,851 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-01-21 19:22:57,994 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-01-21 19:22:57,994 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp0wlm33d_'
+2021-01-21 19:22:57,995 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-01-21 19:22:58,006 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-01-21 19:22:58,006 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpi3ruxhr2'
+2021-01-21 19:23:03,126 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-01-21 19:42:34,734 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-01-21 19:42:34,787 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-01-21 19:42:34,787 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpdszn_av_'
+2021-01-21 19:42:34,789 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-01-21 19:42:34,793 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-01-21 19:42:34,793 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpquamqnzk'
+2021-01-21 19:42:41,936 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-01-21 20:06:32,436 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-01-21 20:06:32,533 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-01-21 20:06:32,534 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpkukr76kz'
+2021-01-21 20:06:32,535 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-01-21 20:06:32,540 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-01-21 20:06:32,541 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpzk69jjcj'
+2021-01-21 20:06:38,067 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-01-21 20:28:23,103 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-01-21 20:28:23,163 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-01-21 20:28:23,164 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpexb8mhv6'
+2021-01-21 20:28:23,165 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-01-21 20:28:23,170 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-01-21 20:28:23,171 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmphekiwio5'
+2021-01-21 20:28:29,524 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-01-21 23:26:11,816 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-01-21 23:26:11,865 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-01-21 23:26:11,866 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpa8zib4sd'
+2021-01-21 23:26:11,867 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-01-21 23:26:11,871 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-01-21 23:26:11,871 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpj0h74g2m'
+2021-01-21 23:26:14,710 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-01-21 23:34:20,482 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-01-21 23:34:20,545 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-01-21 23:34:20,546 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpj9m257x6'
+2021-01-21 23:34:20,547 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-01-21 23:34:20,551 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-01-21 23:34:20,552 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp136aeb5c'
+2021-01-21 23:34:23,310 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-01-21 23:45:50,866 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-01-21 23:45:50,918 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-01-21 23:45:50,919 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpj25vky1g'
+2021-01-21 23:45:50,920 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-01-21 23:45:50,924 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-01-21 23:45:50,924 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpb2jo6erl'
+2021-01-21 23:45:53,690 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-01-21 23:48:49,751 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-01-21 23:48:49,805 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-01-21 23:48:49,806 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpge6j46a0'
+2021-01-21 23:48:49,818 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-01-21 23:48:49,821 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-01-21 23:48:49,822 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpkg1r5ecl'
+2021-01-21 23:48:52,162 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-01-22 00:02:23,036 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-01-22 00:02:23,083 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-01-22 00:02:23,084 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmplswhthik'
+2021-01-22 00:02:23,085 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-01-22 00:02:23,089 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-01-22 00:02:23,090 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpdq6wegmm'
+2021-01-22 00:02:25,581 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-01-22 15:05:58,594 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-01-22 15:05:58,651 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-01-22 15:05:58,652 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp0c6e9qv5'
+2021-01-22 15:05:58,653 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-01-22 15:05:58,657 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-01-22 15:05:58,658 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmphp4oqfmm'
+2021-01-22 15:08:05,554 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-01-22 15:08:05,602 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-01-22 15:08:05,603 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpgk8a0l94'
+2021-01-22 15:08:05,604 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-01-22 15:08:05,608 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-01-22 15:08:05,609 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpdugvv4t2'
+2021-01-22 15:10:12,649 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-01-22 15:10:12,697 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-01-22 15:10:12,698 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpu04p_l3j'
+2021-01-22 15:10:12,699 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-01-22 15:10:12,703 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-01-22 15:10:12,704 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpk_i1eugb'
+2021-01-22 15:11:04,297 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-01-22 15:11:04,350 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-01-22 15:11:04,351 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp_8gm2lmy'
+2021-01-22 15:11:04,352 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-01-22 15:11:04,357 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-01-22 15:11:04,357 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp_4jyty2j'
+2021-01-22 15:13:10,445 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-01-22 15:13:10,501 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-01-22 15:13:10,502 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpyeql_6cp'
+2021-01-22 15:13:10,503 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-01-22 15:13:10,507 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-01-22 15:13:10,508 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp5on7rw6s'
+2021-01-22 15:13:12,344 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-01-22 15:16:30,345 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-01-22 15:16:30,393 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-01-22 15:16:30,394 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmph_9sh180'
+2021-01-22 15:16:30,395 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-01-22 15:16:30,399 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-01-22 15:16:30,399 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp8tx56j33'
+2021-01-22 15:16:31,962 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-02 17:29:16,542 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-02 17:29:16,591 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-02 17:29:16,592 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpqhswo3_l'
+2021-02-02 17:29:16,593 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-02 17:29:16,597 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-02 17:29:16,598 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp571ugoan'
+2021-02-02 17:29:19,797 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-02 17:30:58,463 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-02 17:30:58,512 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-02 17:30:58,513 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpkfb1j8uu'
+2021-02-02 17:30:58,514 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-02 17:30:58,517 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-02 17:30:58,518 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp8f2m9f1x'
+2021-02-02 17:31:00,075 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-02 17:40:10,366 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-02 17:40:10,427 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-02 17:40:10,429 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpui3injlm'
+2021-02-02 17:40:10,430 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-02 17:40:10,434 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-02 17:40:10,435 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpmr5qb529'
+2021-02-02 17:40:13,098 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-02 18:15:54,258 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-02 18:15:54,307 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-02 18:15:54,308 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpm3t0l43d'
+2021-02-02 18:15:54,309 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-02 18:15:54,313 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-02 18:15:54,314 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp2gdwwodm'
+2021-02-02 18:15:56,810 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-02 18:32:16,228 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-02 18:32:16,277 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-02 18:32:16,277 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpzo4lddtv'
+2021-02-02 18:32:16,278 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-02 18:32:16,282 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-02 18:32:16,282 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpfoek4ekc'
+2021-02-02 18:32:18,684 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-02 18:44:25,314 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-02 18:44:25,363 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-02 18:44:25,364 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpnflmwpyi'
+2021-02-02 18:44:25,364 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-02 18:44:25,368 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-02 18:44:25,369 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmprkevpojv'
+2021-02-02 18:44:28,064 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-02 18:56:04,240 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-02 18:56:04,288 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-02 18:56:04,289 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpup_2f31t'
+2021-02-02 18:56:04,290 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-02 18:56:04,295 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-02 18:56:04,296 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpcr22dvsg'
+2021-02-02 18:56:07,219 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-02 19:16:00,532 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-02 19:16:00,579 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-02 19:16:00,580 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpsah06q2t'
+2021-02-02 19:16:00,581 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-02 19:16:00,585 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-02 19:16:00,585 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp7ym77yve'
+2021-02-02 19:18:09,403 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-02 19:18:09,449 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-02 19:18:09,450 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpj8amlio7'
+2021-02-02 19:18:09,450 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-02 19:18:09,454 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-02 19:18:09,455 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpu1jqzmdt'
+2021-02-02 19:24:07,753 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-02 19:24:07,801 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-02 19:24:07,801 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpmjfo7z64'
+2021-02-02 19:24:07,802 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-02 19:24:07,806 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-02 19:24:07,807 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpw3wxtbrs'
+2021-02-02 19:25:44,632 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-02 19:25:44,679 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-02 19:25:44,679 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpp7cs55xv'
+2021-02-02 19:25:44,680 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-02 19:25:44,684 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-02 19:25:44,685 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp9qegad0j'
+2021-02-02 19:28:04,211 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-02 19:28:04,258 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-02 19:28:04,259 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpwqsn9p77'
+2021-02-02 19:28:04,260 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-02 19:28:04,264 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-02 19:28:04,265 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp4dql3q7r'
+2021-02-02 19:28:05,759 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-02 19:46:24,449 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-02 19:46:24,497 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-02 19:46:24,498 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmppy3nnf6d'
+2021-02-02 19:46:24,499 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-02 19:46:24,504 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-02 19:46:24,504 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp6d5fckhl'
+2021-02-02 19:46:27,176 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-02 20:04:21,222 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-02 20:04:21,295 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-02 20:04:21,296 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmplmleeir0'
+2021-02-02 20:04:21,297 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-02 20:04:21,307 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-02 20:04:21,307 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpczcspezo'
+2021-02-02 20:04:23,870 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-02 20:17:06,122 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-02 20:17:06,170 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-02 20:17:06,170 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpem8mryvd'
+2021-02-02 20:17:06,171 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-02 20:17:06,175 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-02 20:17:06,176 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp06dw_5vq'
+2021-02-02 20:17:08,632 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-03 13:33:01,157 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-03 13:33:01,205 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-03 13:33:01,206 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpyxlst10d'
+2021-02-03 13:33:01,207 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-03 13:33:01,211 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-03 13:33:01,211 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpqgv1rpt6'
+2021-02-03 13:33:04,293 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-03 13:46:12,809 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-03 13:46:12,856 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-03 13:46:12,857 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpxssicrs4'
+2021-02-03 13:46:12,858 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-03 13:46:12,861 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-03 13:46:12,862 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp0siak8xb'
+2021-02-03 13:46:14,733 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-03 13:59:46,558 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-03 13:59:46,607 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-03 13:59:46,607 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp0bi22cup'
+2021-02-03 13:59:46,608 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-03 13:59:46,612 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-03 13:59:46,613 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpya9_srh0'
+2021-02-03 13:59:49,176 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-03 14:03:34,478 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-03 14:03:34,527 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-03 14:03:34,528 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpvehe22xj'
+2021-02-03 14:03:34,529 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-03 14:03:34,534 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-03 14:03:34,535 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpyessheyv'
+2021-02-03 14:03:36,097 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-03 14:08:53,081 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-03 14:08:53,127 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-03 14:08:53,127 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp5lsbgc6q'
+2021-02-03 14:08:53,129 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-03 14:08:53,133 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-03 14:08:53,134 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmprcmrua3d'
+2021-02-03 14:08:54,612 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-03 14:12:28,982 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-03 14:12:29,030 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-03 14:12:29,030 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmps9b9zwb3'
+2021-02-03 14:12:29,032 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-03 14:12:29,036 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-03 14:12:29,037 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmps3ninhha'
+2021-02-03 14:12:30,493 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-03 14:58:19,848 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-03 14:58:19,897 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-03 14:58:19,898 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpe95ivitx'
+2021-02-03 14:58:19,899 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-03 14:58:19,902 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-03 14:58:19,903 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpj1t9cekj'
+2021-02-03 14:59:24,612 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-03 14:59:24,660 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-03 14:59:24,661 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp6gj4kxss'
+2021-02-03 14:59:24,661 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-03 14:59:24,665 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-03 14:59:24,665 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpxxzavai7'
+2021-02-03 14:59:26,247 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-03 15:00:27,540 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-03 15:00:27,586 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-03 15:00:27,587 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp_h4h4qdd'
+2021-02-03 15:00:27,588 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-03 15:00:27,592 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-03 15:00:27,592 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpjm3_jhdw'
+2021-02-03 15:00:29,128 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-03 15:04:56,507 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-03 15:04:56,554 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-03 15:04:56,555 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpw5u3lkn5'
+2021-02-03 15:04:56,556 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-03 15:04:56,561 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-03 15:04:56,562 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp4ggyqz9l'
+2021-02-03 15:04:58,061 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-03 15:08:55,541 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-03 15:08:55,590 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-03 15:08:55,591 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpzxw01c85'
+2021-02-03 15:08:55,592 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-03 15:08:55,595 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-03 15:08:55,595 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp4divd19y'
+2021-02-03 15:08:57,236 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-03 15:59:38,834 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-03 15:59:38,888 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-03 15:59:38,889 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpj4cw7i_n'
+2021-02-03 15:59:38,890 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-03 15:59:38,894 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-03 15:59:38,895 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp2793jx3u'
+2021-02-03 15:59:40,918 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-03 16:27:52,256 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-03 16:27:52,328 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-03 16:27:52,329 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpx84qs7q7'
+2021-02-03 16:27:52,330 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-03 16:27:52,333 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-03 16:27:52,333 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpxr5p_6th'
+2021-02-03 16:27:54,190 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-03 16:38:54,894 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-03 16:38:54,947 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-03 16:38:54,948 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpat82yhv0'
+2021-02-03 16:38:54,949 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-03 16:38:54,953 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-03 16:38:54,953 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpv79az_r0'
+2021-02-03 16:38:56,766 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-03 17:54:15,826 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-03 17:54:15,878 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-03 17:54:15,879 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpl19t53ml'
+2021-02-03 17:54:15,880 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-03 17:54:15,885 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-03 17:54:15,886 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpeda79gy5'
+2021-02-03 17:54:18,377 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-03 18:09:31,602 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-03 18:09:31,673 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-03 18:09:31,674 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpa6a0__cf'
+2021-02-03 18:09:31,676 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-03 18:09:31,681 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-03 18:09:31,682 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpm_0lnijy'
+2021-02-03 18:09:33,485 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-03 18:21:01,421 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-03 18:21:01,469 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-03 18:21:01,470 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpnleltzwg'
+2021-02-03 18:21:01,471 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-03 18:21:01,476 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-03 18:21:01,476 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpscl0x46j'
+2021-02-03 18:21:03,124 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-03 18:33:23,086 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-03 18:33:23,145 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-03 18:33:23,146 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp64mhw973'
+2021-02-03 18:33:23,147 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-03 18:33:23,150 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-03 18:33:23,151 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpatnsua1u'
+2021-02-03 18:33:25,265 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-03 18:47:09,288 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-03 18:47:09,335 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-03 18:47:09,336 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp74spcgoj'
+2021-02-03 18:47:09,337 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-03 18:47:09,341 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-03 18:47:09,342 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp6h9ptnaa'
+2021-02-03 18:47:11,102 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-03 19:11:48,938 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-03 19:11:48,996 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-03 19:11:48,996 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmphf9veui1'
+2021-02-03 19:11:48,997 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-03 19:11:49,002 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-03 19:11:49,003 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp5c_jp_i0'
+2021-02-03 19:11:51,229 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-03 19:20:21,288 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-03 19:20:21,338 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-03 19:20:21,338 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp5wb0sihw'
+2021-02-03 19:20:21,339 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-03 19:20:21,343 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-03 19:20:21,344 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpeklt023b'
+2021-02-03 19:20:23,196 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-03 19:49:29,709 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-03 19:49:29,757 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-03 19:49:29,758 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp1d4dgwto'
+2021-02-03 19:49:29,759 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-03 19:49:29,763 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-03 19:49:29,763 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpkyfgz5s0'
+2021-02-03 19:49:31,909 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-03 19:53:49,981 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-03 19:53:50,034 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-03 19:53:50,034 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpkin48dxq'
+2021-02-03 19:53:50,035 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-03 19:53:50,039 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-03 19:53:50,040 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpt_5b9wly'
+2021-02-03 19:53:51,782 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-03 19:54:22,406 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-03 19:54:22,460 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-03 19:54:22,460 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpv8rbqug6'
+2021-02-03 19:54:22,461 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-03 19:54:22,466 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-03 19:54:22,467 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpexcl24bx'
+2021-02-03 19:54:24,566 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-03 20:05:15,982 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-03 20:05:16,050 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-03 20:05:16,051 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpc29xu7li'
+2021-02-03 20:05:16,052 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-03 20:05:16,057 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-03 20:05:16,058 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpa7xvtncb'
+2021-02-03 20:05:20,342 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-03 20:08:43,981 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-03 20:08:44,031 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-03 20:08:44,032 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp3j99u95_'
+2021-02-03 20:08:44,034 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-03 20:08:44,039 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-03 20:08:44,039 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpmrelnuaj'
+2021-02-03 20:08:45,965 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-03 20:17:57,657 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-03 20:17:57,706 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-03 20:17:57,707 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpsoj12c9l'
+2021-02-03 20:17:57,708 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-03 20:17:57,712 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-03 20:17:57,713 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpli6ndqoo'
+2021-02-03 20:17:59,499 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-03 20:29:24,330 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-03 20:29:24,380 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-03 20:29:24,381 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpiy_yv5xx'
+2021-02-03 20:29:24,382 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-03 20:29:24,386 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-03 20:29:24,387 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpvczsrz0l'
+2021-02-03 20:29:26,220 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-03 20:38:20,216 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-03 20:38:20,290 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-03 20:38:20,291 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp4bfs7vu5'
+2021-02-03 20:38:20,293 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-03 20:38:20,296 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-03 20:38:20,297 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp3oawktng'
+2021-02-03 20:38:22,170 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-03 20:44:00,096 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-03 20:44:00,150 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-03 20:44:00,151 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpojgtqy9s'
+2021-02-03 20:44:00,153 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-03 20:44:00,156 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-03 20:44:00,157 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmps4qy87bm'
+2021-02-03 20:44:01,958 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-03 21:38:00,626 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-03 21:38:00,682 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-03 21:38:00,683 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmprj_v8srs'
+2021-02-03 21:38:00,684 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-03 21:38:00,689 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-03 21:38:00,690 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpj0gsn8gn'
+2021-02-03 21:39:54,181 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-03 21:39:54,241 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-03 21:39:54,242 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpslqexlqi'
+2021-02-03 21:39:54,243 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-03 21:39:54,247 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-03 21:39:54,248 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpn6r4llqy'
+2021-02-03 21:39:56,747 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-03 23:18:05,159 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-03 23:18:05,211 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-03 23:18:05,212 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp5a_jgxfe'
+2021-02-03 23:18:05,214 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-03 23:18:05,219 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-03 23:18:05,220 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpgyft_sor'
+2021-02-03 23:18:07,664 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-04 00:05:32,451 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-04 00:05:32,505 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-04 00:05:32,506 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpeyq2v2vg'
+2021-02-04 00:05:32,507 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-04 00:05:32,512 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-04 00:05:32,513 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpmbianrk7'
+2021-02-04 00:05:34,618 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-04 10:57:06,660 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-04 10:57:06,709 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-04 10:57:06,710 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpugjkowhs'
+2021-02-04 10:57:06,711 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-04 10:57:06,715 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-04 10:57:06,716 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpe92as_le'
+2021-02-04 10:57:09,437 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-04 11:39:26,780 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-04 11:39:26,838 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-04 11:39:26,839 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpahiugjxc'
+2021-02-04 11:39:26,840 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-04 11:39:26,843 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-04 11:39:26,844 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpzurvqzkz'
+2021-02-04 11:39:28,656 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-04 11:44:00,822 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-04 11:44:00,871 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-04 11:44:00,872 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp1iy5vsth'
+2021-02-04 11:44:00,873 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-04 11:44:00,877 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-04 11:44:00,878 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpzt0hnmo5'
+2021-02-04 11:44:02,404 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-04 12:14:06,912 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-04 12:14:06,963 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-04 12:14:06,964 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpadj9hpbg'
+2021-02-04 12:14:06,966 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-04 12:14:06,971 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-04 12:14:06,972 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpr9bigb3i'
+2021-02-04 12:14:09,033 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-04 12:19:37,405 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-04 12:19:37,452 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-04 12:19:37,453 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp6updij66'
+2021-02-04 12:19:37,454 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-04 12:19:37,457 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-04 12:19:37,458 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpuxei3hg5'
+2021-02-04 12:19:39,420 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-04 12:48:46,651 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-04 12:48:46,701 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-04 12:48:46,702 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmptg0xnzj5'
+2021-02-04 12:48:46,703 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-04 12:48:46,707 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-04 12:48:46,707 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpmf7i43u9'
+2021-02-04 12:48:49,049 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-04 13:19:03,459 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-04 13:19:03,550 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-04 13:19:03,551 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp25zetf2k'
+2021-02-04 13:19:03,552 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-04 13:19:03,555 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-04 13:19:03,556 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpxw571gj4'
+2021-02-04 13:19:05,669 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-04 13:46:06,530 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-04 13:46:06,585 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-04 13:46:06,586 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpfmrddp2c'
+2021-02-04 13:46:06,587 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-04 13:46:06,592 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-04 13:46:06,593 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmptm0ik68v'
+2021-02-04 13:46:08,732 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-04 14:14:36,441 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-04 14:14:36,490 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-04 14:14:36,491 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpwnpsm24l'
+2021-02-04 14:14:36,492 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-04 14:14:36,495 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-04 14:14:36,496 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpx0ejpn1y'
+2021-02-04 14:14:38,755 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-04 14:41:47,848 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-04 14:41:47,899 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-04 14:41:47,899 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpnj4brzhe'
+2021-02-04 14:41:47,900 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-04 14:41:47,904 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-04 14:41:47,904 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpwefvc5oa'
+2021-02-04 14:41:49,769 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-04 15:27:44,346 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-04 15:27:44,405 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-04 15:27:44,406 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp6a82xr85'
+2021-02-04 15:27:44,407 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-04 15:27:44,412 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-04 15:27:44,413 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpjim3b225'
+2021-02-04 15:27:47,789 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-04 16:06:11,440 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-04 16:06:11,487 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-04 16:06:11,488 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp_pg7nzox'
+2021-02-04 16:06:11,489 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-04 16:06:11,493 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-04 16:06:11,493 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpl7kbva9l'
+2021-02-04 16:06:13,969 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-04 16:42:07,792 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-04 16:42:07,841 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-04 16:42:07,841 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmppdw5wvr1'
+2021-02-04 16:42:07,842 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-04 16:42:07,847 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-04 16:42:07,848 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpo29tii_p'
+2021-02-04 16:42:09,793 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-04 17:12:12,990 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-04 17:12:13,038 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-04 17:12:13,039 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpqk6i18fu'
+2021-02-04 17:12:13,040 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-04 17:12:13,044 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-04 17:12:13,045 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpcmp279h5'
+2021-02-04 17:12:15,115 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-04 17:47:10,970 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-04 17:47:11,024 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-04 17:47:11,025 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmppls9c5c7'
+2021-02-04 17:47:11,026 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-04 17:47:11,029 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-04 17:47:11,030 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpw9f_l5it'
+2021-02-04 17:47:13,225 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-04 17:47:54,560 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-04 17:47:54,607 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-04 17:47:54,608 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpv7bvfavm'
+2021-02-04 17:47:54,609 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-04 17:47:54,612 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-04 17:47:54,613 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpq_1q0psp'
+2021-02-04 17:47:56,163 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-04 17:52:47,900 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-04 17:52:48,082 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-04 17:52:48,083 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp0pzc220t'
+2021-02-04 17:52:48,084 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-04 17:52:48,088 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-04 17:52:48,089 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp4bhem1vh'
+2021-02-04 17:52:49,905 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-04 17:56:52,356 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-04 17:56:52,403 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-04 17:56:52,403 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpnzmdekr3'
+2021-02-04 17:56:52,404 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-04 17:56:52,409 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-04 17:56:52,409 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpi587ktoy'
+2021-02-04 17:56:54,228 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-04 18:17:06,316 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-04 18:17:06,364 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-04 18:17:06,365 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmplatt0gpd'
+2021-02-04 18:17:06,365 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-04 18:17:06,369 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-04 18:17:06,370 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp90bhnmmb'
+2021-02-04 18:17:08,849 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-04 18:44:22,212 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-04 18:44:22,261 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-04 18:44:22,262 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpj9psgr3h'
+2021-02-04 18:44:22,263 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-04 18:44:22,267 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-04 18:44:22,267 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp7nytt1pl'
+2021-02-04 18:44:24,691 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-04 18:58:06,903 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-04 18:58:06,952 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-04 18:58:06,953 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpbnbzlhgq'
+2021-02-04 18:58:06,954 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-04 18:58:06,957 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-04 18:58:06,958 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmptf9ajr39'
+2021-02-04 18:58:09,430 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-04 19:11:44,728 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-04 19:11:44,783 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-04 19:11:44,784 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpjlpqf3wg'
+2021-02-04 19:11:44,785 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-04 19:11:44,789 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-04 19:11:44,789 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpnik9dj1o'
+2021-02-04 19:11:47,673 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-04 19:13:04,454 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-04 19:13:04,506 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-04 19:13:04,507 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpt4mo_3x3'
+2021-02-04 19:13:04,508 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-04 19:13:04,512 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-04 19:13:04,512 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpvm9xmoc0'
+2021-02-04 19:13:06,363 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-04 19:31:01,096 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-04 19:31:01,147 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-04 19:31:01,148 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpgby1npuy'
+2021-02-04 19:31:01,149 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-04 19:31:01,153 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-04 19:31:01,154 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpenpd9mqt'
+2021-02-04 19:31:03,671 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-04 19:48:50,897 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-04 19:48:50,947 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-04 19:48:50,947 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpl37vhhmx'
+2021-02-04 19:48:50,948 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-04 19:48:50,953 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-04 19:48:50,953 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp_h82dn0n'
+2021-02-04 19:48:53,748 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-04 19:49:08,094 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-04 19:49:08,142 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-04 19:49:08,142 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpkqo7vnwm'
+2021-02-04 19:49:08,144 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-04 19:49:08,148 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-04 19:49:08,148 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpsa6x0z2o'
+2021-02-04 19:49:09,679 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-04 19:49:22,716 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-04 19:49:22,763 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-04 19:49:22,764 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp4lc7hmuu'
+2021-02-04 19:49:22,765 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-04 19:49:22,769 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-04 19:49:22,769 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp2rl10rfi'
+2021-02-04 19:49:24,286 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-04 19:54:49,998 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-04 19:54:50,048 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-04 19:54:50,049 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp2ajb093t'
+2021-02-04 19:54:50,050 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-04 19:54:50,055 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-04 19:54:50,056 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp65nycaj3'
+2021-02-04 19:54:52,575 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-04 20:06:26,973 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-04 20:06:27,020 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-04 20:06:27,021 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpzcd5wox5'
+2021-02-04 20:06:27,022 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-04 20:06:27,026 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-04 20:06:27,026 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmppd0bw_lb'
+2021-02-04 20:06:28,700 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-09 18:43:28,736 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-09 18:43:28,785 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-09 18:43:28,786 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmptu4bu428'
+2021-02-09 18:43:28,787 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-09 18:43:28,791 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-09 18:43:28,792 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp1ep6f8jc'
+2021-02-09 18:43:31,799 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-09 18:44:47,248 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-09 18:44:47,295 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-09 18:44:47,296 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpov6z6ed6'
+2021-02-09 18:44:47,297 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-09 18:44:47,302 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-09 18:44:47,302 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpw6jdxmil'
+2021-02-09 18:44:48,881 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-09 18:48:13,785 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-09 18:48:13,838 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-09 18:48:13,839 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpnx3hmaag'
+2021-02-09 18:48:13,840 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-09 18:48:13,843 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-09 18:48:13,844 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmppbw1vb3v'
+2021-02-09 18:48:15,454 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-09 18:58:09,897 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-09 18:58:09,945 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-09 18:58:09,947 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp3zuvbijk'
+2021-02-09 18:58:09,948 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-09 18:58:09,952 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-09 18:58:09,952 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpanjgo6j3'
+2021-02-09 18:58:12,479 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-09 19:14:47,677 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-09 19:14:47,746 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-09 19:14:47,747 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpqss3pm75'
+2021-02-09 19:14:47,748 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-09 19:14:47,758 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-09 19:14:47,759 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp7uxna0iw'
+2021-02-09 19:14:50,403 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-09 19:24:33,316 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-09 19:24:33,367 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-09 19:24:33,368 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp6mwcll3y'
+2021-02-09 19:24:33,369 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-09 19:24:33,373 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-09 19:24:33,374 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpingjjrd4'
+2021-02-09 19:24:35,929 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-09 19:35:13,977 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-09 19:35:14,028 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-09 19:35:14,028 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpp31eif_i'
+2021-02-09 19:35:14,029 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-09 19:35:14,033 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-09 19:35:14,034 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp7_d4pjlv'
+2021-02-09 19:35:16,539 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-09 19:46:19,532 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-09 19:46:19,587 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-09 19:46:19,587 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpch0f_djv'
+2021-02-09 19:46:19,588 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-09 19:46:19,592 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-09 19:46:19,593 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpxoctpyet'
+2021-02-09 19:46:23,070 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-09 20:00:33,697 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-09 20:00:33,747 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-09 20:00:33,748 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpwnqrbqiy'
+2021-02-09 20:00:33,749 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-09 20:00:33,752 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-09 20:00:33,753 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpc3vthpiz'
+2021-02-09 20:00:36,321 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
+2021-02-09 20:11:16,937 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/Grammar.txt
+2021-02-09 20:11:16,989 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/Grammar3.7.9.final.0.pickle
+2021-02-09 20:11:16,990 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmp43yw1ag1'
+2021-02-09 20:11:16,991 - blib2to3.pgen2.driver - INFO - Generating grammar tables from /miniconda/envs/optimus/lib/python3.7/site-packages/blib2to3/PatternGrammar.txt
+2021-02-09 20:11:16,996 - blib2to3.pgen2.driver - INFO - Writing grammar tables to /root/.cache/black/19.10b0/PatternGrammar3.7.9.final.0.pickle
+2021-02-09 20:11:16,997 - blib2to3.pgen2.driver - INFO - Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/19.10b0/tmpat8mxw5y'
+2021-02-09 20:11:19,626 - matplotlib.font_manager - INFO - Generating new fontManager, this may take some time...
