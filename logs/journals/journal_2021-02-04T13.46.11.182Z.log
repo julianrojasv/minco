@@ -1,0 +1,1 @@
+{"type": "ContextJournalRecord", "run_id": "2021-02-04T13.46.11.182Z", "project_path": "/optimus", "env": "local", "kedro_version": "0.16.4", "tags": [], "from_nodes": [], "to_nodes": [], "node_names": [], "from_inputs": [], "load_versions": {}, "pipeline_name": "dq", "extra_params": {"KEDRO_ENV": "local"}, "git_sha": "60109e2"}

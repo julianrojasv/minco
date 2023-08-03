@@ -1,0 +1,144 @@
+2021-01-21 19:04:35,824 - kedro.pipeline.node - ERROR - Node `remove_outliers: remove_outliers([data_norm]) -> [data_filtrada]` failed with error: 
+ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2021-01-21 19:13:23,349 - kedro.pipeline.node - ERROR - Node `create_features: create_features([data_general,params:general_tags_esp]) -> [data_features_general]` failed with error: 
+'r_agua_r3_a330_ait_507'
+2021-01-21 19:32:07,047 - kedro.pipeline.node - ERROR - Node `create_features: create_features([data_general,params:general_tags_esp]) -> [data_features_general]` failed with error: 
+'r_agua_r9_a330_lit_906_pulg'
+2021-01-21 19:58:07,234 - kedro.pipeline.node - ERROR - Node `create_features: create_features([data_general,params:general_tags_esp]) -> [data_features_general]` failed with error: 
+cannot reindex from a duplicate axis
+2021-01-21 20:16:35,802 - kedro.pipeline.node - ERROR - Node `create_features: create_features([data_general,params:general_tags_esp]) -> [data_features_general]` failed with error: 
+cannot reindex from a duplicate axis
+2021-01-21 20:37:06,897 - kedro.pipeline.node - ERROR - Node `create_features: create_features([data_general,params:general_tags_esp]) -> [data_features_general]` failed with error: 
+'sag:dit2189b'
+2021-01-21 23:32:08,582 - kedro.pipeline.node - ERROR - Node `create_features: create_features([data_general,params:general_tags_esp]) -> [data_features_general]` failed with error: 
+'Solido_Convencional'
+2021-01-21 23:40:51,128 - kedro.pipeline.node - ERROR - Node `create_features: create_features([data_general,params:general_tags_esp]) -> [data_features_general]` failed with error: 
+'Solido_Convencional'
+2021-01-21 23:54:48,573 - kedro.pipeline.node - ERROR - Node `create_features: create_features([data_general,params:general_tags_esp]) -> [data_features_general]` failed with error: 
+'tph_sag_mills'
+2021-02-02 17:49:00,109 - kedro.pipeline.node - ERROR - Node `group_per_hour: data_group_per_hour([data_features_general]) -> [data_all_features_grouped]` failed with error: 
+Only valid with DatetimeIndex, TimedeltaIndex or PeriodIndex, but got an instance of 'Int64Index'
+2021-02-02 18:21:55,415 - kedro.pipeline.node - ERROR - Node `group_per_hour: data_group_per_hour([data_features_general]) -> [data_all_features_grouped]` failed with error: 
+Only valid with DatetimeIndex, TimedeltaIndex or PeriodIndex, but got an instance of 'Int64Index'
+2021-02-02 18:38:32,670 - kedro.pipeline.node - ERROR - Node `group_per_hour: data_group_per_hour([data_features_general]) -> [data_all_features_grouped]` failed with error: 
+"None of ['Fecha'] are in the columns"
+2021-02-02 18:50:15,225 - kedro.pipeline.node - ERROR - Node `group_per_hour: data_group_per_hour([data_features_general]) -> [data_all_features_grouped]` failed with error: 
+Only valid with DatetimeIndex, TimedeltaIndex or PeriodIndex, but got an instance of 'Int64Index'
+2021-02-02 19:01:59,546 - kedro.pipeline.node - ERROR - Node `add_on_off_features_by_hour([data_all_features_grouped,parameters]) -> [data_all_features_esp]` failed with error: 
+'on_off_R2'
+2021-02-02 19:34:51,356 - kedro.pipeline.node - ERROR - Node `add_on_off_features_by_hour([data_all_features_grouped,parameters]) -> [data_all_features_esp]` failed with error: 
+"['Fecha'] not in index"
+2021-02-02 20:10:24,799 - kedro.pipeline.node - ERROR - Node `add_on_off_features_by_hour([data_all_features_grouped,parameters]) -> [data_all_features_esp]` failed with error: 
+"['Fecha'] not in index"
+2021-02-03 13:35:31,596 - kedro.pipeline.node - ERROR - Node `parse_columns: norm_columns_name([data_det]) -> [data_clean]` failed with error: 
+'Fecha'
+2021-02-03 13:49:12,295 - kedro.pipeline.node - ERROR - Node `apply_cleaning_filters([data_clean_intermediate_filtered_lasts_months,parameters]) -> [concentrated_data,null_data,stat_na]` failed with error: 
+"None of ['Fecha'] are in the columns"
+2021-02-03 14:02:12,188 - kedro.pipeline.node - ERROR - Node `parse_columns: norm_columns_name([data_det]) -> [data_clean]` failed with error: 
+'Fecha'
+2021-02-03 14:05:58,281 - kedro.pipeline.node - ERROR - Node `parse_columns: norm_columns_name([data_det]) -> [data_clean]` failed with error: 
+'fecha'
+2021-02-03 14:11:34,647 - kedro.pipeline.node - ERROR - Node `apply_cleaning_filters([data_clean_intermediate_filtered_lasts_months,parameters]) -> [concentrated_data,null_data,stat_na]` failed with error: 
+"None of ['Fecha'] are in the columns"
+2021-02-03 14:36:18,566 - kedro.pipeline.node - ERROR - Node `apply_cleaning_filters([data_clean_intermediate_filtered_lasts_months,parameters]) -> [concentrated_data,null_data,stat_na]` failed with error: 
+local variable 'ks_test_sum' referenced before assignment
+2021-02-03 15:33:13,653 - kedro.pipeline.node - ERROR - Node `apply_cleaning_filters([data_clean_intermediate_filtered_lasts_months,parameters]) -> [concentrated_data,ks_test_sum,null_data,stat_na]` failed with error: 
+local variable 'ks_test_sum' referenced before assignment
+2021-02-03 16:22:30,114 - kedro.pipeline.node - ERROR - Node `apply_cleaning_filters([data_clean_intermediate_filtered_lasts_months,parameters]) -> [concentrated_data,ks_test_sum,null_data,stat_na]` failed with error: 
+local variable 'ks_test_sum' referenced before assignment
+2021-02-03 17:01:21,040 - kedro.pipeline.node - ERROR - Node `apply_cleaning_filters([data_clean_intermediate_filtered_lasts_months,parameters]) -> [concentrated_data,ks_test_sum,null_data,stat_na]` failed with error: 
+local variable 'ks_test_sum' referenced before assignment
+2021-02-03 17:57:36,869 - kedro.pipeline.node - ERROR - Node `revestimiento_columns: add_duracion_revestimiento([data_clean,parameters,revestimiento]) -> [data_clean_intermediate]` failed with error: 
+Index(['Fecha'], dtype='object')
+2021-02-03 18:11:13,460 - kedro.pipeline.node - ERROR - Node `parse_columns: norm_columns_name([data_det]) -> [data_clean]` failed with error: 
+'Fecha'
+2021-02-03 18:23:53,015 - kedro.pipeline.node - ERROR - Node `revestimiento_columns: add_duracion_revestimiento([data_clean,parameters,revestimiento]) -> [data_clean_intermediate]` failed with error: 
+Index(['Fecha'], dtype='object')
+2021-02-03 18:36:27,943 - kedro.pipeline.node - ERROR - Node `revestimiento_columns: add_duracion_revestimiento([data_clean,parameters,revestimiento]) -> [data_clean_intermediate]` failed with error: 
+"None of ['Fecha'] are in the columns"
+2021-02-03 18:50:09,831 - kedro.pipeline.node - ERROR - Node `revestimiento_columns: add_duracion_revestimiento([data_clean,parameters,revestimiento]) -> [data_clean_intermediate]` failed with error: 
+"None of ['Fecha'] are in the columns"
+2021-02-03 19:23:39,721 - kedro.pipeline.node - ERROR - Node `apply_cleaning_filters([data_clean_intermediate_filtered_lasts_months,parameters]) -> [concentrated_data,null_data,stat_na]` failed with error: 
+"None of ['Fecha'] are in the columns"
+2021-02-03 19:51:16,945 - kedro.pipeline.node - ERROR - Node `revestimiento_columns: add_duracion_revestimiento([data_clean,parameters,revestimiento]) -> [data_clean_intermediate]` failed with error: 
+Index(['Fecha'], dtype='object')
+2021-02-03 19:56:21,349 - kedro.pipeline.node - ERROR - Node `revestimiento_columns: replace_duracion_revestimiento([data_clean,parameters]) -> [data_clean_intermediate]` failed with error: 
+Index(['Fecha'], dtype='object')
+2021-02-03 20:07:33,088 - kedro.pipeline.node - ERROR - Node `revestimiento_columns: replace_duracion_revestimiento([data_clean,parameters]) -> [data_clean_intermediate]` failed with error: 
+Index(['Fecha'], dtype='object')
+2021-02-03 20:10:26,221 - kedro.pipeline.node - ERROR - Node `revestimiento_columns: replace_duracion_revestimiento([data_clean,parameters]) -> [data_clean_intermediate]` failed with error: 
+"None of ['Fecha'] are in the columns"
+2021-02-03 20:20:52,528 - kedro.pipeline.node - ERROR - Node `apply_cleaning_filters([data_clean_intermediate_filtered_lasts_months,parameters]) -> [concentrated_data,null_data,stat_na]` failed with error: 
+"None of ['Fecha'] are in the columns"
+2021-02-03 20:38:09,305 - kedro.pipeline.node - ERROR - Node `apply_cleaning_filters([data_clean_intermediate_filtered_lasts_months,parameters]) -> [concentrated_data,null_data,stat_na]` failed with error: 
+
+2021-02-03 20:47:01,637 - kedro.pipeline.node - ERROR - Node `revestimiento_columns: replace_duracion_revestimiento([data_clean,parameters]) -> [data_clean_intermediate]` failed with error: 
+"None of ['Fecha'] are in the columns"
+2021-02-03 22:08:10,791 - kedro.pipeline.node - ERROR - Node `apply_cleaning_filters([data_clean_intermediate_filtered_lasts_months,parameters]) -> [concentrated_data,null_data,stat_na]` failed with error: 
+
+2021-02-03 23:17:51,563 - kedro.pipeline.node - ERROR - Node `revestimiento_columns: replace_duracion_revestimiento([data_clean,parameters]) -> [data_clean_intermediate]` failed with error: 
+
+2021-02-03 23:43:20,162 - kedro.pipeline.node - ERROR - Node `apply_cleaning_filters([data_clean_intermediate_filtered_lasts_months,parameters]) -> [concentrated_data,null_data,stat_na]` failed with error: 
+local variable 'ks_test_sum' referenced before assignment
+2021-02-04 11:36:54,311 - kedro.pipeline.node - ERROR - Node `apply_cleaning_filters([data_clean_intermediate_filtered_lasts_months,parameters]) -> [concentrated_data,null_data,stat_na]` failed with error: 
+
+2021-02-04 11:42:39,412 - kedro.pipeline.node - ERROR - Node `revestimiento_columns: replace_duracion_revestimiento([data_clean,parameters]) -> [data_clean_intermediate]` failed with error: 
+
+2021-02-04 12:06:25,878 - kedro.pipeline.node - ERROR - Node `apply_cleaning_filters([data_clean_intermediate_filtered_lasts_months,parameters]) -> [concentrated_data,null_data,stat_na]` failed with error: 
+not enough values to unpack (expected 3, got 2)
+2021-02-04 12:17:17,794 - kedro.pipeline.node - ERROR - Node `revestimiento_columns: replace_duracion_revestimiento([data_clean,parameters]) -> [data_clean_intermediate]` failed with error: 
+"None of ['Fecha'] are in the columns"
+2021-02-04 12:42:36,961 - kedro.pipeline.node - ERROR - Node `apply_cleaning_filters([data_clean_intermediate_filtered_lasts_months,parameters]) -> [concentrated_data,null_data,stat_na]` failed with error: 
+not enough values to unpack (expected 3, got 2)
+2021-02-04 13:12:18,299 - kedro.pipeline.node - ERROR - Node `apply_cleaning_filters([data_clean_intermediate_filtered_lasts_months,parameters]) -> [concentrated_data,null_data,stat_na]` failed with error: 
+name 'ks_test_sum' is not defined
+2021-02-04 13:42:16,891 - kedro.pipeline.node - ERROR - Node `apply_cleaning_filters([data_clean_intermediate_filtered_lasts_months,parameters]) -> [concentrated_data,null_data,stat_na]` failed with error: 
+not enough values to unpack (expected 5, got 4)
+2021-02-04 14:09:14,874 - kedro.pipeline.node - ERROR - Node `generate_qa_plots([data_clean_intermediate_filtered_lasts_months,data_qa_table,tag_dict_master]) -> None` failed with error: 
+<class 'numpy.ndarray'>
+2021-02-04 14:41:32,967 - kedro.pipeline.node - ERROR - Node `generate_qa_plots([data_clean_intermediate_filtered_lasts_months,data_qa_table,tag_dict_master]) -> None` failed with error: 
+
+2021-02-04 15:26:44,147 - kedro.pipeline.node - ERROR - Node `generate_qa_plots([data_clean_intermediate_filtered_lasts_months,data_qa_table,tag_dict_master]) -> None` failed with error: 
+
+2021-02-04 16:04:54,327 - kedro.pipeline.node - ERROR - Node `generate_qa_plots([data_clean_intermediate_filtered_lasts_months,data_qa_table,tag_dict_master]) -> None` failed with error: 
+
+2021-02-04 16:32:14,248 - kedro.pipeline.node - ERROR - Node `generate_qa_plots([data_clean_intermediate_filtered_lasts_months,data_qa_table,tag_dict_master]) -> None` failed with error: 
+<class 'numpy.ndarray'>
+2021-02-04 17:09:46,356 - kedro.pipeline.node - ERROR - Node `generate_qa_plots([data_clean_intermediate_filtered_lasts_months,data_qa_table,tag_dict_master]) -> None` failed with error: 
+<class 'numpy.ndarray'>
+2021-02-04 17:49:30,973 - kedro.pipeline.node - ERROR - Node `replace_outliers_by_value([data_det,go_or_nogo,parameters]) -> [data_corrected_by_val,data_curation_stats]` failed with error: 
+name 'sag2_320_li_3270' is not defined
+2021-02-04 17:54:13,181 - kedro.pipeline.node - ERROR - Node `replace_outliers_by_value([data_det,go_or_nogo,parameters]) -> [data_corrected_by_val,data_curation_stats]` failed with error: 
+name 'sag2_320_li_3270' is not defined
+2021-02-04 18:05:02,738 - kedro.pipeline.node - ERROR - Node `merge_to_grid: merge_to_grid([data_corrected,params:create_primary,time_grid]) -> [data_primary]` failed with error: 
+Merging dataframe 1 led to a change in the number of rows from 9500 to 9503. Please check for duplicate timestamps.
+2021-02-04 18:23:45,833 - kedro.pipeline.node - ERROR - Node `merge_to_grid: merge_to_grid([data_corrected,params:create_primary,time_grid]) -> [data_primary]` failed with error: 
+Merging dataframe 1 led to a change in the number of rows from 9500 to 9503. Please check for duplicate timestamps.
+2021-02-04 18:46:30,525 - kedro.pipeline.node - ERROR - Node `merge_to_grid: merge_to_grid([data_corrected,params:create_primary,time_grid]) -> [data_primary]` failed with error: 
+'tuple' object has no attribute 'drop_duplicates'
+2021-02-04 19:11:25,220 - kedro.pipeline.node - ERROR - Node `merge_to_grid: merge_to_grid([data_corrected,params:create_primary,time_grid]) -> [data_primary]` failed with error: 
+
+2021-02-04 19:22:22,265 - kedro.pipeline.node - ERROR - Node `group_per_hour: data_group_per_hour([data_features_general]) -> [data_all_features_grouped]` failed with error: 
+Only valid with DatetimeIndex, TimedeltaIndex or PeriodIndex, but got an instance of 'Int64Index'
+2021-02-04 19:43:56,191 - kedro.pipeline.node - ERROR - Node `group_per_hour: data_group_per_hour([data_features_general]) -> [data_all_features_grouped]` failed with error: 
+
+2021-02-04 19:51:08,382 - kedro.pipeline.node - ERROR - Node `remove_outliers: remove_outliers([data_norm]) -> [data_filtrada]` failed with error: 
+[Errno 5] Input/output error
+2021-02-04 20:06:19,163 - kedro.pipeline.node - ERROR - Node `remove_outliers: remove_outliers([data_norm]) -> [data_filtrada]` failed with error: 
+
+2021-02-04 20:12:58,854 - kedro.pipeline.node - ERROR - Node `replace_outliers_by_nan([data_det,go_or_nogo,parameters,tag_dict_master]) -> [data_corrected_csv,data_curation_stats_nan]` failed with error: 
+[Errno 5] Input/output error
+2021-02-09 18:47:37,109 - kedro.pipeline.node - ERROR - Node `replace_outliers_by_nan([data_det,go_or_nogo,parameters,tag_dict_master]) -> [data_corrected_csv,data_curation_stats_nan]` failed with error: 
+
+2021-02-09 18:54:04,626 - kedro.pipeline.node - ERROR - Node `replace_outliers_by_nan([data_det,go_or_nogo,parameters,tag_dict_master]) -> [data_corrected_csv,data_curation_stats_nan]` failed with error: 
+
+2021-02-09 19:05:12,998 - kedro.pipeline.node - ERROR - Node `group_per_hour: data_group_per_hour([data_features_general]) -> [data_all_features_grouped]` failed with error: 
+"None of ['Fecha'] are in the columns"
+2021-02-09 19:30:52,443 - kedro.pipeline.node - ERROR - Node `group_per_hour: data_group_per_hour([data_features_general]) -> [data_all_features_grouped]` failed with error: 
+
+2021-02-09 19:41:35,128 - kedro.pipeline.node - ERROR - Node `group_per_hour: data_group_per_hour([data_features_general]) -> [data_all_features_grouped]` failed with error: 
+"None of ['Fecha'] are in the columns"
+2021-02-09 19:53:53,283 - kedro.pipeline.node - ERROR - Node `add_on_off_features_by_hour([data_all_features_grouped,parameters]) -> [data_all_features_esp]` failed with error: 
+'apertura_valv_descarga_l1_r2'
+2021-02-09 20:07:05,055 - kedro.pipeline.node - ERROR - Node `add_on_off_features_by_hour([data_all_features_grouped,parameters]) -> [data_all_features_esp]` failed with error: 
+'promedio_apertura_valv_descarga_l1_r10'
