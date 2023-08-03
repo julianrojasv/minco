@@ -1,0 +1,247 @@
+recommend: &recommend
+    datetime_col: "${timestamp_col_name}"
+    filter_timestamps:
+#        begin_date: "${begin_test}"      # see globals
+        begin_date: "2020-09-20 00:00:00"      # see globals
+        end_date: "${end_test}"      # see globals
+        type: "end" #"beginning" #"end"  #"date"
+        beginning: 1
+        end: 1
+        date: ['2020-05-22 00:00:00', '2020-05-22 06:00:00', '2020-05-28 18:00:00', '2020-05-30 00:00:00',
+            '2020-05-19 06:00:00', '2020-05-20 06:00:00', '2020-05-21 06:00:00', '2020-05-28 06:00:00']
+    solver:
+        class: optimizer.solvers.DifferentialEvolutionSolver
+        kwargs:
+            sense: "minimize"
+            seed: 0
+            maxiter: 150 # 1000
+            mutation: [0.5, 1.0]
+            recombination: 0.7
+            strategy: "best1bin"
+        # class: optimizer.solvers.ParticleSwarmSolver  # has init parameter: optional initial population
+        # kwargs:
+        #     sense: "maximize"
+        #     seed: 0
+        #     maxiter: 100
+        #     inertia: 0.5
+        #     social_parameter: 2.0
+        # #     cognitive_parameter: 2.0
+        # class: optimizer.solvers.SimulatedAnnealingSolver  # has initial_x parameter: optional vector for initial point
+        # kwargs:
+        #     sense: "maximize"
+        #     seed: 0
+        #     initial_temp: 1000
+        #     final_temp: 0.1
+        #     initial_neighborhood: 0.1
+        #     update_scale_steps: 20
+        #     reduce_temp_steps: 2
+        #     maxiter: 10000000000
+        #     max_acceptable_deterioration: 0.0001
+    stopper:
+        class: optimizer.stoppers.NoImprovementStopper
+        kwargs:
+            patience: 5
+            sense: "minimize"
+            min_delta: 0.1
+    n_jobs: 12
+
+recommend_uplift_report: &up_report
+    n_jobs: 6
+    template_path: src/project_clisham/optimus_core/reporting_html//uplift_report_template.ipynb
+    output_dir: data/08_reporting/
+    report_name: "uplift_report"
+    kernel: "python3"
+    timeout: 600
+    remove_code: True
+    timestamp: True
+
+## Area SAG - tph
+sag.recommend:
+    <<: *recommend
+    <<: *up_report
+    namespace: "sag"
+    model_features: ["${sag1.model_feature}", "${sag2.model_feature}"]   # see globals
+    opt_target: "${sag.opt_target}"  # see globals
+#    context_variables: ['ma2_3wi116', 'ma2_3wi216'] # TODO: CHECKEAR ESTAS VARIABLES DE CONTEXTO
+    context_variables: ['sag2_270_wit_2711a', 'sag_pebbles_s1']
+    recommend_sensitivity:
+        n_points: 50 # Resolution/number of objective values to plot when the tagdict doesn't specify a constraint set of values.
+        unique_ids: # The unique columns which help to identify a set of recommendations.
+            - run_id
+            - "${timestamp_col_name}"
+        objective_kwargs: {} # When performing counterfactuals with neural networks, these may need to be specified.
+        sensitivity_app_data_mapping: # Datasets to map when using the streamlit application.
+            features: sag.data_input_optim_uuid # Name of the dataset holding features to load.
+            model: sag.optimization_function # Name of the dataset holding the objective to load.
+            recs: sag.recommendations # Name of the dataset holding the recommendations to load.
+            sensitivity_data: sag.sensitivity_plot_df # Dataframe of sensitivity data to load.
+            timestamp_col: "${timestamp_col_name}"  # Column id of the timestamp column
+    output_dir: data/08_reporting/optimization/sag/
+
+## Area Espesadores - torque
+esp.recommend:
+    <<: *recommend
+    <<: *up_report
+    namespace: "esp"
+    model_features: [
+        "${r10_esp.model_feature}",
+        "${r9_esp.model_feature}",
+        "${r7_esp.model_feature}",
+        "${r6_esp.model_feature}",
+        "${r5_esp.model_feature}",
+        "${r4_esp.model_feature}",
+        "${r3_esp.model_feature}",
+        "${r2_esp.model_feature}"
+    ]   # see globals
+    model_target: [
+        "${r10_esp.model_target}",
+        "${r9_esp.model_target}",
+        "${r7_esp.model_target}",
+        "${r6_esp.model_target}",
+        "${r5_esp.model_target}",
+        "${r4_esp.model_target}",
+        "${r3_esp.model_target}",
+        "${r2_esp.model_target}"
+    ]   # see globals
+    opt_target: "${esp.opt_target}"  # see globals
+    context_variables: [
+        'delta_torque_r2',
+        'delta_torque_r2_1hora',
+        'delta_torque_r2_2hora',
+        'delta_torque_r2_4hora',
+        'delta_torque_r2_8hora',
+#        'promedio_densimetros_r2',
+#        'media_mov_densimetros_r2',
+#        'nivel_rastras_r2',
+#        'agua_clara_media_r2',
+#        'nivel_interfaz_r2',
+#        'turbidez_r2',
+
+        'delta_torque_r3',
+        'delta_torque_r3_1hora',
+        'delta_torque_r3_2hora',
+        'delta_torque_r3_4hora',
+        'delta_torque_r3_8hora',
+#        'promedio_densimetros_r3',
+#        'media_mov_densimetros_r3',
+        'nivel_rastras_r3',
+        'agua_clara_media_r3',
+#        'nivel_interfaz_r3',
+#        'turbidez_r3',
+
+        'delta_torque_r4',
+        'delta_torque_r4_1hora',
+        'delta_torque_r4_2hora',
+        'delta_torque_r4_4hora',
+        'delta_torque_r4_8hora',
+#        'promedio_densimetros_r4',
+#        'media_mov_densimetros_r4',
+        'nivel_rastras_r4',
+        'agua_clara_media_r4',
+#        'nivel_interfaz_r4',
+#        'turbidez_r4',
+
+        'delta_torque_r5',
+        'delta_torque_r5_1hora',
+        'delta_torque_r5_2hora',
+        'delta_torque_r5_4hora',
+        'delta_torque_r5_8hora',
+#        'promedio_densimetros_r5',
+#        'media_mov_densimetros_r5',
+        'nivel_rastras_r5',
+        'agua_clara_media_r5',
+#        'nivel_interfaz_r5',
+
+        'delta_torque_r6',
+        'delta_torque_r6_1hora',
+        'delta_torque_r6_2hora',
+        'delta_torque_r6_4hora',
+        'delta_torque_r6_8hora',
+#        'promedio_densimetros_r6',
+#        'media_mov_densimetros_r6',
+        'nivel_rastras_r6',
+        'agua_clara_media_r6',
+#        'nivel_interfaz_r6',
+#        'turbidez_r6',
+
+        'delta_torque_r7',
+        'delta_torque_r7_1hora',
+        'delta_torque_r7_2hora',
+        'delta_torque_r7_4hora',
+        'delta_torque_r7_8hora',
+#        'promedio_densimetros_r7',
+#        'media_mov_densimetros_r7',
+        'nivel_rastras_r7',
+        'agua_clara_media_r7',
+#        'nivel_interfaz_r7',
+#        'turbidez_r7',
+
+        'delta_torque_r9',
+        'delta_torque_r9_1hora',
+        'delta_torque_r9_2hora',
+        'delta_torque_r9_4hora',
+        'delta_torque_r9_8hora',
+#        'promedio_densimetros_r9',
+#        'media_mov_densimetros_r9',
+        'nivel_rastras_r9',
+#        'agua_clara_media_r9',
+
+        'delta_torque_r10',
+        'delta_torque_r10_1hora',
+        'delta_torque_r10_2hora',
+        'delta_torque_r10_4hora',
+        'delta_torque_r10_8hora',
+#        'promedio_densimetros_r10',
+#        'media_mov_densimetros_r10',
+#        'nivel_interfaz_r10',
+#        'turbidez_r10',
+#        'presion_cono_decimal_suav_r10',
+#        'presion_cono_decimal_r10',
+#        'delta_presion_cono_decimal_r10',
+
+        # Nivel de rastras
+        'r_agua_r2_nivel_rastras',
+        'r_agua_r3_nivel_rastras',
+        'r_agua_r4_nivel_rastras',
+        'r_agua_r5_nivel_rastras',
+        'r_agua_r6_nivel_rastras',
+        'r_agua_r7_nivel_rastras',
+        'r_agua_r9_nivel_rastras',
+        'r_agua_r10_nivel_rastras',
+
+        # Flujos de agua clara
+
+
+      # Contexto General. NO COMENTAR!!!
+        'Agua_Fresca_Colon',
+        'Procesamiento_SAG',
+        'Procesamiento_Convencional',
+        'Procesamiento_Total',
+        'Solido_SAG',
+        'Solido_Convencional',
+        'Agua_SAG',
+        'Agua_Convencional',
+        'Agua_Total',
+        'CEA_Total',
+        'tph_sag1',
+        'tph_sag2',
+        'tph_sag_mills',
+        'promedio_descarga_bomba_15_16',
+        'promedio_descarga_bomba_17_18',
+        'flujo_agua_recup_prom',
+        'agua_prom_descarga_recuperadores',
+        'ph_ca6_suavizado'
+    ]
+    recommend_sensitivity:
+        n_points: 50 # Resolution/number of objective values to plot when the tagdict doesn't specify a constraint set of values.
+        unique_ids: # The unique columns which help to identify a set of recommendations.
+            - run_id
+            - "${timestamp_col_name}"
+        objective_kwargs: {} # When performing counterfactuals with neural networks, these may need to be specified.
+        sensitivity_app_data_mapping: # Datasets to map when using the streamlit application.
+            features: esp.data_input_optim_uuid # Name of the dataset holding features to load.
+            model: esp.optimization_function # Name of the dataset holding the objective to load.
+            recs: esp.recommendations # Name of the dataset holding the recommendations to load.
+            sensitivity_data: esp.sensitivity_plot_df # Dataframe of sensitivity data to load.
+            timestamp_col: "${timestamp_col_name}"  # Column id of the timestamp column
+    output_dir: data/08_reporting/optimization/esp/

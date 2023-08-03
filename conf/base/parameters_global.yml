@@ -1,0 +1,169 @@
+timestamp_col_name: "Fecha"
+
+# Train/test dates for all models (edit time windows for each model in parameters_model_input.yml)
+begin_train: !!timestamp "2020-07-01"           # Train start date "2019-09-01"
+end_train: !!timestamp "2020-09-01 00:00:00"    # Train end date "2020-09-01 00:00:00"
+begin_test: !!timestamp "2020-09-01 01:00:00"   # Test start date "2020-09-01 01:00:00"
+end_test: !!timestamp "2021-10-01 00:00:00"              # Test end date "2020-10-30"
+
+# Column of each model in the dictionary
+
+# Linea DET SAG
+sag1: &sag1_base
+    model_feature: "sag1_feature"
+    model_target: "sag1_target"
+
+sag2: &sag2_base
+    model_feature: "sag2_feature"
+    model_target: "sag2_target"
+
+fsag: &fsag_base
+    model_feature: "fsag_feature"
+    model_target: "fsag_target"
+
+sag:
+    opt_target: "sag_obj"
+
+csag:
+    opt_target: "csag_obj"
+
+# Linea DET SAG Por clusters
+# SAG1
+sag1_cluster3:
+    <<: *sag1_base
+
+sag1_cluster2:
+    <<: *sag1_base
+
+sag1_cluster1:
+    <<: *sag1_base
+
+sag1_cluster0:
+    <<: *sag1_base
+    
+# SAG2
+sag2_cluster3:
+    <<: *sag2_base
+
+sag2_cluster2:
+    <<: *sag2_base
+
+sag2_cluster1:
+    <<: *sag2_base
+
+sag2_cluster0:
+    <<: *sag2_base
+    
+# FSAG
+fsag_cluster3:
+    <<: *fsag_base
+
+fsag_cluster2:
+    <<: *fsag_base
+
+fsag_cluster1:
+    <<: *fsag_base
+
+fsag_cluster0:
+    <<: *fsag_base
+
+#####################################
+####         ESPESADORES         ####
+#####################################
+
+# Espesadores r2 - r10
+
+r2_esp: &r2_base
+    model_feature: "r2_feature"
+    model_target: "r2_esp_target"
+
+r3_esp: &r3_base
+    model_feature: "r3_feature"
+    model_target: "r3_esp_target"
+
+r4_esp: &r4_base
+    model_feature: "r4_feature"
+    model_target: "r4_esp_target"
+
+r5_esp: &r5_base
+    model_feature: "r5_feature"
+    model_target: "r5_esp_target"
+
+r6_esp: &r6_base
+    model_feature: "r6_feature"
+    model_target: "r6_esp_target"
+
+r7_esp: &r7_base
+    model_feature: "r7_feature"
+    model_target: "r7_esp_target"
+
+r9_esp: &r9_base
+    model_feature: "r9_feature"
+    model_target: "r9_esp_target"
+
+r10_esp: &r10_base
+    model_feature: "r10_feature"
+    model_target: "r10_esp_target"
+
+esp:
+    opt_target: "esp_obj"
+    
+    
+######################################
+## ESPESADORES POR CONTEXTO HIDRICO ##
+######################################
+
+# Espesadores contexto hidrico sequia
+# CH: Crisis Hidrica
+# NH: Normalidad hidrica
+
+r2_esp_ch:
+    <<: *r2_base
+
+r2_esp_nh:
+    <<: *r2_base
+
+r3_esp_ch:
+    <<: *r3_base
+
+r3_esp_nh:
+    <<: *r3_base
+
+r4_esp_ch:
+    <<: *r4_base
+
+r4_esp_nh:
+    <<: *r4_base
+
+r5_esp_ch:
+    <<: *r5_base
+
+r5_esp_nh:
+    <<: *r5_base
+
+r6_esp_ch:
+    <<: *r6_base
+
+r6_esp_nh:
+    <<: *r6_base
+
+r7_esp_ch:
+    <<: *r7_base
+
+r7_esp_nh:
+    <<: *r7_base
+
+r9_esp_ch:
+    <<: *r9_base
+
+r9_esp_nh:
+    <<: *r9_base
+
+r10_esp_ch:
+    <<: *r10_base
+
+r10_esp_nh:
+    <<: *r10_base
+
+
+

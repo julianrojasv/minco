@@ -1,0 +1,191 @@
+
+# -------------------- Grinding Parameters -----------------#
+
+sag_target_name: "calc_tph_sag_total"
+
+sag_tph_pebbles:
+    tag_prefix_target: 'calc_tph_'
+    tag_prefix_percentage: 'calc_perc_pebble_'
+    sag1: 
+        feed_rate: 'sag_wic2101'
+        #pebbles_realimentados:  'sag_wi2102'
+        pebbles_producidos: 'sag_pebbles_s1'                  
+    sag2: 
+        feed_rate: 'sag2_260_wit_1835'
+        #pebbles_realimentados: 'sag2_270_wit_2707a'   
+        pebbles_producidos: 'sag2_270_wit_2711a'
+sag_1: 
+    tonelaje: ['sag_wic2101']
+    potencia: ['sag_xe03']           
+sag_2: 
+    tonelaje: ['sag2_260_wit_1835']
+    potencia: ['sag2_260_ml_04ji']
+
+#sag1_sol:
+#    water: ["ma2_3ffic118", "ma2_3fi117", "ma2_3fic121"]
+#    sol: ["ma2_3wi116r", "ma2_3wic110"]
+
+#sag2_sol:
+#    water: ["ma2_3ffic218", "ma2_3fic221"]
+#    sol: ["ma2_3wi216r", "ma2_3wic210"]
+
+#sag1_sol_alim:
+#    water: ["ma2_3ffic118", "ma2_3fi117"]
+#    sol: ["ma2_3wi116r", "ma2_3wic110"]
+
+#sag2_sol_alim:
+#    water: ["ma2_3ffic218"]
+#    sol: ["ma2_3wi216r", "ma2_3wic210"]
+
+sag_pot_especif: ["calc_pot_esp_sag_1", "calc_pot_esp_sag_2"]
+
+sag_feeders:
+    tag_prefix: 'calc_norm_'
+    sag_gan_: ["sag2_260_fe_18si", "sag2_260_fe_17si", "sag2_260_fe_19si", "sag2_260_fe_20si", "sag2_260_fe_21si", "sag2_260_fe_22si"]
+
+sag_camera:
+    base_tag : [sag2_270_li_2793,sag2_270_li_2785,sag2_270_li_2777,sag2_270_lic_2768_daca_pv]
+    result_tag: [sag1_cr501_nivel_camara,sag1_cr502_nivel_camara,sag1_cr503_nivel_camara,sag1_cr504_nivel_camara,sag2_cr501_nivel_camara,sag2_cr502_nivel_camara,sag2_cr503_nivel_camara,sag2_cr504_nivel_camara]
+
+# -------------------- Flotation Parameters -----------------#
+fa2_flotation_config:
+  n_lines: 4    # Number of flotation lines in the model
+  n_celdas: 7   # Number of celdas in each line
+  n_bancos: 4   # Number of bancos in each line
+
+fsag_flotation_tags:
+  vel_burbujas_l1_tags: [
+      "fsag_320_yu_501a_pv3",
+      "fsag_320_yu_501b_pv14",
+      "fsag_320_yu_501c_pv25",
+      "fsag_320_yu_501d_pv36",
+      "fsag_320_yu_501e_pv47",
+      "fsag_320_yu_501f_pv58",
+      "fsag_320_yu_501g_pv69",
+  ]
+  vel_burbujas_l2_tags: [
+      "fsag_320_yu_502a_pv3",
+      "fsag_320_yu_502b_pv14",
+      "fsag_320_yu_502c_pv25",
+      "fsag_320_yu_502d_pv36",
+      "fsag_320_yu_502e_pv47",
+      "fsag_320_yu_502f_pv58",
+      "fsag_320_yu_502g_pv69",
+  ]
+  vel_burbujas_l3_tags: [
+      "fsag_320_yu_503a_pv3",
+      "fsag_320_yu_503b_pv14",
+      "fsag_320_yu_503c_pv25",
+      "fsag_320_yu_503d_pv36",
+      "fsag_320_yu_503e_pv47",
+      "fsag_320_yu_503f_pv58",
+      "fsag_320_yu_503g_pv69",
+  ]
+  vel_burbujas_l4_tags: [
+      "fsag_320_yu_504a_pv3",
+      "fsag_320_yu_504b_pv14",
+      "fsag_320_yu_504c_pv25",
+      "fsag_320_yu_504d_pv36",
+      "fsag_320_yu_504e_pv47",
+      "fsag_320_yu_504f_pv58",
+      "fsag_320_yu_504g_pv69",
+  ]
+
+  #estado_l1_tags: [
+  #  'sag2_320_cf_01hs',
+  #  'sag2_320_cf_02hs',
+  #  'sag2_320_cf_03hs',
+  #  'sag2_320_cf_04hs',
+  #  'sag2_320_cf_05hs',
+  #  'sag2_320_cf_06hs',
+  #  'sag2_320_cf_07hs']
+
+  #estado_l2_tags: [
+  #  'sag2_320_cf_08hs',
+  #  'sag2_320_cf_09hs',
+  #  'sag2_320_cf_10hs',
+  #  'sag2_320_cf_11hs',
+  #  'sag2_320_cf_12hs',
+  #  'sag2_320_cf_13hs',
+  #  'sag2_320_cf_14hs']
+
+  #estado_l3_tags: [
+  #  'sag2_320_cf_15hs',
+  #  'sag2_320_cf_16hs',
+  #  'sag2_320_cf_17hs',
+  #  'sag2_320_cf_18hs',
+  #  'sag2_320_cf_19hs',
+  #  'sag2_320_cf_20hs',
+  #  'sag2_320_cf_21hs']
+
+  #estado_l4_tags: [
+  #  'sag2_320_cf_22hs',
+  #  'sag2_320_cf_23hs',
+  #  'sag2_320_cf_24hs',
+  #  'sag2_320_cf_25hs',
+  #  'sag2_320_cf_26hs',
+  #  'sag2_320_cf_27hs',
+  #  'sag2_320_cf_28hs']
+
+#fsag_flotation_target:
+#    ley_alim_tag: ["lab_q_ley_cu_cabeza_sag_turno","lab_q_ley_cu_cabeza_sag2_turno"]
+#    ley_conc_tag: ["fsag_320_cou_s14cu"]
+#    ley_cola_rx_tags: ["fsag_320_cou_s1cu", "fsag_320_cou_s2cu", "fsag_320_cou_s11cu","fsag_320_cou_s10cu"]  # L1, L2, L3 respectively
+#    #ley_cola_tf_tags: ["fa2_3a0223cu", "fa2_3a0224cu", "fa2_3a0225cu"] # Analizadores L1, L2, L3
+#    weights_colas: [0.25, 0.25, 0.25, 0.25]  # Sum of entries must be = 1
+#    tph_tags: ["calc_tph_sag1", "calc_tph_sag2"]
+#    recup_wt_name: "calc_fsag_recup_ponder"
+#    cuf_obj_name: "calc_cuf_sag_xl"
+
+fsag_flotation_target:
+    ley_alim_tag: ["lab_q_ley_cu_cabeza_sag_turno","lab_q_ley_cu_cabeza_sag2_turno"]
+    ley_conc_tag: ["fsag_320_cou_s14cu"]
+    ley_cola_rx_tags: [ "fsag_320_cou_s2cu"]  # L1, L2, L3 respectively
+    #ley_cola_tf_tags: ["fa2_3a0223cu", "fa2_3a0224cu", "fa2_3a0225cu"] # Analizadores L1, L2, L3
+    weights_colas: [1]  # Sum of entries must be = 1
+    tph_tags: ["calc_tph_sag1", "calc_tph_sag2"]
+    recup_wt_name: "calc_fsag_recup_ponder"
+    cuf_obj_name: "calc_cuf_sag_xl"
+
+fsag_fe_over_cu:
+  ley_fe_alim: ["fsag_320_cou_s4fe","fsag_320_cou_s5fe"]
+  ley_cu_alim: ["lab_q_ley_cu_cabeza_sag_turno","lab_q_ley_cu_cabeza_sag2_turno"]
+
+fsag_reactivos:
+  tph: ['sag_wic2101', 'sag_wi2102']
+  react:
+    petroleo_1: "sag_360_fit_dsag1"
+    petroleo_2: "sag2_360_fit_dsag2"
+    espumante_1: "sag_360_fit_e1sag1"
+    espumante_2: "sag2_360_fit_e1sag2"
+    colector_1: "sag_360_fit_c1sag1"
+    colector_2: "sag2_360_fit_c1sag2"
+    colector_aux_1: "sag_360_fit_c2sag1"
+    colector_aux_2: "sag2_360_fit_c2sag2"
+
+# -------------------- ON/OFF SAG -----------------#
+on_off_sag:
+#    bm_19:
+#        tag: 'ma2_3ji19'
+#        off_when: 'less_than'    #'greater_than' # MISSING: MOBOS + CHANCADORES
+#        value: 9000
+#    chp_101:
+#        tag: 'ma2_3ii2700'
+#        off_when: 'less_than'
+#        value: 40
+#    chp_102:
+#        tag: 'ma2_3ii2800'
+#        off_when: 'less_than'
+#        value: 40
+    linea_sag2:
+        tag: 'calc_tph_sag1'
+        off_when: 'less_than'
+        value: 1500
+    linea_sag1:
+        tag: 'calc_tph_sag2'
+        off_when: 'less_than'
+        value: 1000
+    m_sag:
+        tag: 'calc_tph_sag_total'
+        off_when: 'less_than'
+        value: 2500

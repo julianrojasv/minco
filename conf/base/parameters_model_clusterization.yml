@@ -1,0 +1,6 @@
+# Clusterization
+clusterization:
+    min_clusters: 3
+    max_clusters: 6
+    n_sintonization_trials: 7
+    init_min_cluster_size: 0.06

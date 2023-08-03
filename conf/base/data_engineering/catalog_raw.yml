@@ -1,0 +1,74 @@
+# Here you can define all your data sets by using simple YAML syntax.
+#
+# Documentation for this file format can be found in "The Data Catalog"
+# Link: https://kedro.readthedocs.io/en/stable/04_user_guide/04_data_catalog.html
+
+#data_det:
+#  type: pandas.CSVDataSet
+#  #filepath: data/01_raw/2019_09_2020_09.csv
+#  #filepath: data/01_raw/MDT_20191201_20201221.csv
+#  filepath: data/01_raw/raw_data_2019-09_2020_09_espesadores.csv
+#  save_args:
+#    index: True
+#  load_args:
+#    parse_dates: ["Fecha"]
+
+data_det:
+    type: pandas.CSVDataSet
+    filepath: data/01_raw/raw_data_2019-09_2020_09_espesadores.csv
+    load_args:
+        parse_dates: ["Fecha"]
+        index_col: 0
+        sep: ","
+        dayfirst: True
+    fs_args:
+        open_args_load:
+            encoding: "latin1"
+
+#data_det:
+#  type: pandas.CSVDataSet
+  #filepath: data/01_raw/2019_09_2020_09.csv
+  #filepath: data/01_raw/MDT_20191201_20201221.csv
+#  filepath: data/01_raw/raw_data_2019-09_2020_09_espesadores.csv
+#  save_args:
+#    index: True
+#  load_args:
+#    parse_dates: ["Fecha"]
+
+
+
+
+data_det_old:
+  type: pandas.CSVDataSet
+  #filepath: data/01_raw/2019_09_2020_09.csv
+  filepath: data/01_raw/2019_09_2020_09_merge.csv
+  save_args:
+    index: True
+  load_args:
+    parse_dates: ["Fecha"]
+
+revestimiento:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/revestimiento.csv
+  load_args:
+    index_col: 0
+  save_args:
+    index: False
+
+## df variables en modelos (PI)
+df_pi:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/df_tags_model_PI.csv
+  save_args:
+    index: True
+  load_args:
+    parse_dates: ["Fecha"]
+
+## df dict_tag acotado (PI)
+df_dict_PI:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/dict_tag_PI.csv
+  save_args:
+    index: True
+  load_args:
+    parse_dates:

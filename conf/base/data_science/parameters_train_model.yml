@@ -1,0 +1,297 @@
+train_model: &train_model
+
+    regressor:
+        class: xgboost.XGBRegressor
+        kwargs:
+            random_state: 1234
+            objective: reg:squarederror
+            verbose: False
+            n_jobs: 1
+
+    cv:
+        class: sklearn.model_selection.TimeSeriesSplit
+        kwargs:
+            n_splits: 5
+
+    tuner:
+        class: sklearn.model_selection.RandomizedSearchCV
+        kwargs:
+            n_jobs: -1
+            refit: rmse
+            verbose: 1
+            random_state: 1234
+            n_iter: 300
+            param_distributions:
+#                regressor__n_estimators: [32, 64, 128]
+#                regressor__max_depth: [3, 4, 6]
+#                regressor__learning_rate: [0.01, 0.05, 0.1, 0.2, 0.3]
+#                regressor__subsample: [0.3, 0.5, 0.8]
+#                regressor__colsample_bytree: [0.1, 0.3, 0.5]
+#                regressor__gamma: [0, 0.5, 1, 1.5]
+#                regressor__reg_alpha: [0, 0.5, 1, 1.5]
+                regressor__n_estimators: [190, 250]
+                regressor__max_depth: [3]
+                regressor__learning_rate: [0.1]
+                regressor__min_chid_weight: [1, 55]
+                regressor__subsample: [0.7]
+                regressor__colsample_bytree: [0.8]
+                regressor__gamma: [0]
+                regressor__reg_alpha: [0]
+            scoring:
+                mae: neg_mean_absolute_error
+                rmse: neg_root_mean_squared_error
+                r2: r2
+
+    xgb_tune:
+        p_eval: 0.1  # proportion of data set aside for early stopping
+        early_stopping_rounds: 1000000
+    sensitivity_plots:
+        points: 30 #100
+        num_shifts: 10
+    report: "src/project_clisham/optimus_core/reporting_html/performance_report_template.ipynb"
+    report_dir: "data/08_reporting/"
+
+# linea SAG DET
+sag1.train_model: &sag1_base
+    <<: *train_model
+    namespace: "sag1"
+    dict_model_feature: "${sag1.model_feature}"   # see globals
+    dict_model_target: "${sag1.model_target}"     # see globals
+    timestamp_col: "${timestamp_col_name}"      # see globals
+    report_dir: "data/08_reporting/sag1/"
+
+sag2.train_model: &sag2_base
+    <<: *train_model
+    namespace: "sag2"
+    dict_model_feature: "${sag2.model_feature}"   # see globals
+    dict_model_target: "${sag2.model_target}"     # see globals
+    timestamp_col: "${timestamp_col_name}"      # see globals
+    report_dir: "data/08_reporting/sag2/"
+
+fsag.train_model: &fsag_base
+    <<: *train_model
+    namespace: "fsag"
+    dict_model_feature: "${fsag.model_feature}"   # see globals
+    dict_model_target: "${fsag.model_target}"     # see globals
+    timestamp_col: "${timestamp_col_name}"      # see globals
+    report_dir: "data/08_reporting/fsag/"
+
+## Linea SAG DET por cluster
+# SAG1
+sag1_cluster3.train_model:
+    <<: *sag1_base
+    namespace: "sag1_cluster3"
+    report_dir: "data/08_reporting/sag1_cluster3/"
+
+sag1_cluster2.train_model:
+    <<: *sag1_base
+    namespace: "sag1_cluster2"
+    report_dir: "data/08_reporting/sag1_cluster2/"
+
+sag1_cluster1.train_model:
+    <<: *sag1_base
+    namespace: "sag1_cluster1"
+    report_dir: "data/08_reporting/sag1_cluster1/"
+
+sag1_cluster0.train_model:
+    <<: *sag1_base
+    namespace: "sag1_cluster0"
+    report_dir: "data/08_reporting/sag1_cluster0/"
+    
+# SAG2
+sag2_cluster3.train_model:
+    <<: *sag2_base
+    namespace: "sag2_cluster3"
+    report_dir: "data/08_reporting/sag2_cluster3/"
+
+sag2_cluster2.train_model:
+    <<: *sag2_base
+    namespace: "sag2_cluster2"
+    report_dir: "data/08_reporting/sag2_cluster2/"
+
+sag2_cluster1.train_model:
+    <<: *sag2_base
+    namespace: "sag2_cluster1"
+    report_dir: "data/08_reporting/sag2_cluster1/"
+
+sag2_cluster0.train_model:
+    <<: *sag2_base
+    namespace: "sag2_cluster0"
+    report_dir: "data/08_reporting/sag2_cluster0/"
+    
+# FSAG
+fsag_cluster3.train_model:
+    <<: *fsag_base
+    namespace: "fsag_cluster3"
+    report_dir: "data/08_reporting/fsag_cluster3/"
+
+fsag_cluster2.train_model:
+    <<: *fsag_base
+    namespace: "fsag_cluster2"
+    report_dir: "data/08_reporting/fsag_cluster2/"
+
+fsag_cluster1.train_model:
+    <<: *fsag_base
+    namespace: "fsag_cluster1"
+    report_dir: "data/08_reporting/fsag_cluster1/"
+
+fsag_cluster0.train_model:
+    <<: *fsag_base
+    namespace: "fsag_cluster0"
+    report_dir: "data/08_reporting/fsag_cluster0/"
+
+# Espesadores DET
+esp.train_model: &esp_base
+    <<: *train_model
+    namespace: "esp"
+    timestamp_col: "${timestamp_col_name}"      # see globals
+    report_dir: "data/08_reporting/sag1/"
+
+# ESPESADORES sin analisis de RH
+# ESPESADORES
+
+r2_esp.train_model: &r2_base
+    <<: *esp_base
+    dict_model_feature: "${r2_esp.model_feature}"   # see globals
+    dict_model_target: "${r2_esp.model_target}"     # see globals
+    namespace: "r2_esp"
+    report_dir: "data/08_reporting/r2_esp/"
+
+r3_esp.train_model: &r3_base
+    <<: *esp_base
+    dict_model_feature: "${r3_esp.model_feature}"   # see globals
+    dict_model_target: "${r3_esp.model_target}"     # see globals
+    namespace: "r3_esp"
+    report_dir: "data/08_reporting/r3_esp/"
+
+r4_esp.train_model: &r4_base
+    <<: *esp_base
+    dict_model_feature: "${r4_esp.model_feature}"   # see globals
+    dict_model_target: "${r4_esp.model_target}"     # see globals
+    namespace: "r4_esp"
+    report_dir: "data/08_reporting/r4_esp/"
+
+r5_esp.train_model: &r5_base
+    <<: *esp_base
+    dict_model_feature: "${r5_esp.model_feature}"   # see globals
+    dict_model_target: "${r5_esp.model_target}"     # see globals
+    namespace: "r5_esp"
+    report_dir: "data/08_reporting/r5_esp/"
+
+r6_esp.train_model: &r6_base
+    <<: *esp_base
+    dict_model_feature: "${r6_esp.model_feature}"   # see globals
+    dict_model_target: "${r6_esp.model_target}"     # see globals
+    namespace: "r6_esp"
+    report_dir: "data/08_reporting/r6_esp/"
+
+r7_esp.train_model: &r7_base
+    <<: *esp_base
+    dict_model_feature: "${r7_esp.model_feature}"   # see globals
+    dict_model_target: "${r7_esp.model_target}"     # see globals
+    namespace: "r7_esp"
+    report_dir: "data/08_reporting/r7_esp/"
+
+r9_esp.train_model: &r9_base
+    <<: *esp_base
+    dict_model_feature: "${r9_esp.model_feature}"   # see globals
+    dict_model_target: "${r9_esp.model_target}"     # see globals
+    namespace: "r9_esp"
+    report_dir: "data/08_reporting/r9_esp/"
+
+r10_esp.train_model: &r10_base
+    <<: *esp_base
+    dict_model_feature: "${r10_esp.model_feature}"   # see globals
+    dict_model_target: "${r10_esp.model_target}"     # see globals
+    namespace: "r10_esp"
+    report_dir: "data/08_reporting/r10_esp/"
+
+
+#################################################################################
+# ANALISIS ESPESADORES POR CONTEXTO HIDRICO (CRISIS HIDRICA - NORMAL)
+#################################################################################
+
+### Crisis Hidrica ###
+
+r2_esp_ch.train_model:
+    <<: *r2_base
+    namespace: "r2_esp_ch"
+    report_dir: "data/08_reporting/r2_esp_ch/"
+
+r3_esp_ch.train_model:
+    <<: *r3_base
+    namespace: "r3_esp_ch"
+    report_dir: "data/08_reporting/r3_esp_ch/"
+
+r4_esp_ch.train_model:
+    <<: *r4_base
+    namespace: "r4_esp_ch"
+    report_dir: "data/08_reporting/r4_esp_ch/"
+
+r5_esp_ch.train_model:
+    <<: *r5_base
+    namespace: "r5_esp_ch"
+    report_dir: "data/08_reporting/r5_esp_ch/"
+
+r6_esp_ch.train_model:
+    <<: *r6_base
+    namespace: "r6_esp_ch"
+    report_dir: "data/08_reporting/r6_esp_ch/"
+
+r7_esp_ch.train_model:
+    <<: *r7_base
+    namespace: "r7_esp_ch"
+    report_dir: "data/08_reporting/r7_esp_ch/"
+
+r9_esp_ch.train_model:
+    <<: *r9_base
+    namespace: "r9_esp_ch"
+    report_dir: "data/08_reporting/r9_esp_ch/"
+
+r10_esp_ch.train_model:
+    <<: *r10_base
+    namespace: "r10_esp_ch"
+    report_dir: "data/08_reporting/r10_esp_ch/"
+
+
+### NORMALIDAD HIDRICA NH ###
+
+r2_esp_nh.train_model:
+    <<: *r2_base
+    namespace: "r2_esp_nh"
+    report_dir: "data/08_reporting/r2_esp_nh/"
+
+r3_esp_nh.train_model:
+    <<: *r3_base
+    namespace: "r3_esp_nh"
+    report_dir: "data/08_reporting/r3_esp_nh/"
+
+r4_esp_nh.train_model:
+    <<: *r4_base
+    namespace: "r4_esp_nh"
+    report_dir: "data/08_reporting/r4_esp_nh/"
+
+r5_esp_nh.train_model:
+    <<: *r5_base
+    namespace: "r5_esp_nh"
+    report_dir: "data/08_reporting/r5_esp_nh/"
+
+r6_esp_nh.train_model:
+    <<: *r6_base
+    namespace: "r6_esp_nh"
+    report_dir: "data/08_reporting/r6_esp_nh/"
+
+r7_esp_nh.train_model:
+    <<: *r7_base
+    namespace: "r7_esp_nh"
+    report_dir: "data/08_reporting/r7_esp_nh/"
+
+r9_esp_nh.train_model:
+    <<: *r9_base
+    namespace: "r9_esp_nh"
+    report_dir: "data/08_reporting/r9_esp_nh/"
+
+r10_esp_nh.train_model:
+    <<: *r10_base
+    namespace: "r10_esp_nh"
+    report_dir: "data/08_reporting/r10_esp_nh/"

@@ -1,0 +1,425 @@
+general_tags_esp:
+  procesamiento_convencional: [
+          'mol_wic44a',
+          'mol_wic44b',
+          'mol_wic44c',
+          'mol_wic44d',
+          'mol_wic44e',
+          'mol_wic44f',
+          'mol_wic44g',
+          'mol_wic44j',
+          'mol_wic44k',
+          'mol_wic44l',
+          'mol_wic44m',
+          'mol_wic44n',
+          'mu_280_wit_8778'
+  ]
+  procesamiento_sag: [
+          'sag_wic2101',
+          'sag2:260_wit_1835',
+          'tph_SAG_MILLS'
+  ]
+
+  solidos_sag: [
+          'mu_280_dhu_2013',
+          'mu_su_mol13',
+          'sag2_260_dic_1842',
+          'sag2_260_di_1884',
+          'sag2_260_di_1896',
+          'sag_dit2189a',
+          'sag_dit2189b',
+          'sag_dic2150z',
+          'sag2_%sol_sag2_a_flotacion'
+  ]
+
+  solidos_convencional: [
+          'mol_dic69a',
+          'mol_dic69b',
+          'mol_dic69c',
+          'mol_dic69d',
+          'mol_dic69e',
+          'mol_dic69f',
+          'mol_dic69g',
+          'mol_dic69j',
+          'mol_dic69k',
+          'mol_dic69l',
+          'mol_dic69m',
+          'mol_dic69n',
+          'mu_280_dit_8783'
+  ]
+
+
+  agua_convencional: [
+          'mol_fic65a',
+          'mol_fic65b',
+          'mol_fic65c',
+          'mol_fic65d',
+          'mol_fic65e',
+          'mol_fic65f',
+          'mol_fic65g',
+          'mol_fic65j',
+          'mol_fic65k',
+          'mol_fic65l',
+          'mol_fic65m',
+          'mol_fic65n',
+          'mu_280_fic_8785',
+          'mol_230_fic_66a',
+          'mol_230_fic_66b',
+          'mol_230_fic_66c',
+          'mol_230_fic_66d',
+          'mol_230_fic_66e',
+          'mol_230_fic_66f',
+          'mol_230_fic_66g',
+          'mol_230_fic_66j',
+          'mol_230_fic_66k',
+          'mol_230_fic_66l',
+          'mol_230_fic_66m',
+          'mol_230_fic_66n',
+          'mu_280_fit_8789',
+          'mol_fits65a',
+          'mol_fits65b',
+          'mol_fits65c',
+          'mol_fits65d',
+          'mol_fits65e',
+          'mol_fits65f',
+          'mol_fits65g',
+          'mol_fits65j',
+          'mol_fits65k',
+          'mol_fits65l',
+          'mol_fits65m',
+          'mol_fits65n',
+          'rh_f_75',
+          'rh_f12_flujo',
+          'rh_f11_flujo'
+  ]
+
+  # RECORDAR x POR 3.6
+  agua_sag: [
+          'rh_f_16',
+          'rh_f_17',
+          'rh_ge_plc_09_fit_097',
+          'sag_fic2150z',
+          'sag_fit2155',
+          'sag_fic2181a',
+          'sag_fic2188a',
+          'sag_fic2181b',
+          'sag_fic2188b',
+          'sag2_260_ffic_1842',
+          'sag2_260_fic_1848',
+          'sag2_260_fi_1890',
+          'sag2_260_fi_1872',
+          'sag2_260_fi_1876',
+          'sag2_260_fi_1892'
+  ]
+  esp_opt_name: 'calc_torque_esp_total'
+  esp_target_name: [
+          'target_torque_r10',
+          'target_torque_r9',
+          'target_torque_r7',
+          'target_torque_r6',
+          'target_torque_r2',
+          'target_torque_r3',
+          'target_torque_r4',
+          'target_torque_r5'
+  ]
+
+# --------------- Optimizar Solido ------------ #
+  opt_solido: True
+  alpha_solido: 0.5 # Cambiar para castigar mas o menos el solido en optimizacion tipo Min Torque - alfa*Solido
+
+
+  esp_target_name_solido_r2: [
+        'r_agua_r2_dit_01',
+        'r_agua_r2_dit_02'
+  ]
+
+  esp_target_name_solido_r3: [
+          'r_agua_r3_dit_01',
+          'r_agua_r3_dit_02'
+  ]
+
+  esp_target_name_solido_r4: [
+          'r_agua_r4_dit_01',
+          'r_agua_r4_dit_02'
+  ]
+
+  esp_target_name_solido_r5: [
+          'r_agua_r5_dit_01',
+          'r_agua_r5_dit_02'
+  ]
+
+  esp_target_name_solido_r6: [
+          'r_agua_r6_dit_01',
+          'r_agua_r6_dit_02'
+  ]
+
+  esp_target_name_solido_r7: [
+          'r_agua_r7_dit_01',
+          'r_agua_r7_dit_02'
+  ]
+
+  esp_target_name_solido_r9: [
+          'r_agua_r9_dit_01',
+          'r_agua_r9_dit_02'
+  ]
+
+  esp_target_name_solido_r10: [
+          'r_agua_r10_dit1107_dit1107',
+          'r_agua_r10_dit1111_dit1111'
+  ]
+
+
+# ----------- ON/OFF ---------- #
+
+# -------------------- ON/OFF R2 -----------------#
+on_off_R2:
+  floculante_r2:
+    tag: 'r_agua_flocu_fi_3820'
+    off_when: 'less_than'    #'greater_than'
+    value: 5
+  valvulas_descarga_l1_r2:
+    tag: 'promedio_apertura_valv_descarga_l1_r2'
+    off_when: 'greater_than'
+    value: 99
+  valvulas_descarga_l2_r2:
+    tag: 'promedio_apertura_valv_descarga_l2_r2'
+    off_when: 'greater_than'
+    value: 99
+  densimetro_01_r2:
+    tag: 'r_agua_r2_dit_01'
+    off_when: 'less_than'
+    value: 40
+  densimetro_02_r2:
+    tag: 'r_agua_r2_dit_02'
+    off_when: 'less_than'
+    value: 40
+  nivel_interfaz_r2:
+    tag: 'r_agua_r2_a330_lit_206_pulg'
+    off_when: 'less_than'
+    value: 30
+  flujo_alimentacion_r2:
+    tag: 'r_agua_r2_a330_fit_205'
+    off_when: 'less_than'
+    value: 100
+
+
+
+ # -------------------- ON/OFF R3 -----------------#
+on_off_R3:
+  floculante_r3:
+    tag: 'r_agua_flocu_fi_3824'
+    off_when: 'less_than'    #'greater_than'
+    value: 5
+  valvulas_descarga_l1_r3:
+    tag: 'promedio_apertura_valv_descarga_l1_r3'
+    off_when: 'greater_than'
+    value: 99
+  valvulas_descarga_l2_r3:
+    tag: 'promedio_apertura_valv_descarga_l2_r3'
+    off_when: 'greater_than'
+    value: 99
+  densimetro_01_r3:
+    tag: 'r_agua_r3_dit_01'
+    off_when: 'less_than'
+    value: 40
+  densimetro_02_r3:
+    tag: 'r_agua_r3_dit_02'
+    off_when: 'less_than'
+    value: 40
+  nivel_interfaz_r3:
+    tag: 'r_agua_r3_a330_lit_306_pulg'
+    off_when: 'less_than'
+    value: 30
+  flujo_alimentacion_r3:
+    tag: 'r_agua_r3_a330_fit_305'
+    off_when: 'less_than'
+    value: 100
+
+
+
+  # -------------------- ON/OFF R4 -----------------#
+on_off_R4:
+  floculante_r4:
+    tag: 'r_agua_flocu_fi_3828'
+    off_when: 'less_than'    #'greater_than'
+    value: 5
+  valvulas_descarga_l1_r4:
+    tag: 'promedio_apertura_valv_descarga_l1_r4'
+    off_when: 'greater_than'
+    value: 99
+  valvulas_descarga_l2_r4:
+    tag: 'promedio_apertura_valv_descarga_l2_r4'
+    off_when: 'greater_than'
+    value: 99
+  densimetro_01_r4:
+    tag: 'r_agua_r4_dit_01'
+    off_when: 'less_than'
+    value: 40
+  densimetro_02_r4:
+    tag: 'r_agua_r4_dit_02'
+    off_when: 'less_than'
+    value: 40
+  nivel_interfaz_r4:
+    tag: 'r_agua_r4_a330_lit_406_pulg'
+    off_when: 'less_than'
+    value: 30
+  flujo_alimentacion_r4:
+    tag: 'r_agua_r4_a330_fit_405'
+    off_when: 'less_than'
+    value: 100
+
+    # -------------------- ON/OFF R5 -----------------#
+on_off_R5:
+  floculante_r5:
+    tag: 'r_agua_flocu_fi_3832'
+    off_when: 'less_than'    #'greater_than'
+    value: 5
+  valvulas_descarga_l1_r5:
+    tag: 'promedio_apertura_valv_descarga_l1_r5'
+    off_when: 'greater_than'
+    value: 99
+  valvulas_descarga_l2_r5:
+    tag: 'promedio_apertura_valv_descarga_l2_r5'
+    off_when: 'greater_than'
+    value: 99
+  densimetro_01_r5:
+    tag: 'r_agua_r5_dit_01'
+    off_when: 'less_than'
+    value: 40
+  densimetro_02_r5:
+    tag: 'r_agua_r5_dit_02'
+    off_when: 'less_than'
+    value: 40
+  nivel_interfaz_r5:
+    tag: 'r_agua_r5_a330_lit_506_pulg'
+    off_when: 'less_than'
+    value: 30
+  flujo_alimentacion_r5:
+    tag: 'r_agua_r5_a330_fit_505'
+    off_when: 'less_than'
+    value: 100
+
+
+    # -------------------- ON/OFF R6 -----------------#
+on_off_R6:
+  floculante_r6:
+    tag: 'r_agua_flocu_fi_3836'
+    off_when: 'less_than'    #'greater_than'
+    value: 5
+  valvulas_descarga_l1_r6:
+    tag: 'promedio_apertura_valv_descarga_l1_r6'
+    off_when: 'greater_than'
+    value: 99
+  valvulas_descarga_l2_r6:
+    tag: 'promedio_apertura_valv_descarga_l2_r6'
+    off_when: 'greater_than'
+    value: 99
+  densimetro_01_r6:
+    tag: 'r_agua_r6_dit_01'
+    off_when: 'less_than'
+    value: 40
+  densimetro_02_r6:
+    tag: 'r_agua_r6_dit_02'
+    off_when: 'less_than'
+    value: 40
+  nivel_interfaz_r6:
+    tag: 'r_agua_r6_a330_lit_606_pulg'
+    off_when: 'less_than'
+    value: 30
+  flujo_alimentacion_r6:
+    tag: 'r_agua_r6_a330_fit_605'
+    off_when: 'less_than'
+    value: 100
+
+
+    # -------------------- ON/OFF R7 -----------------#
+on_off_R7:
+  floculante_r7:
+    tag: 'r_agua_flocu_fi_3840'
+    off_when: 'less_than'    #'greater_than'
+    value: 5
+  valvulas_descarga_l1_r7:
+    tag: 'promedio_apertura_valv_descarga_l1_r7'
+    off_when: 'greater_than'
+    value: 99
+  valvulas_descarga_l2_r7:
+    tag: 'promedio_apertura_valv_descarga_l2_r7'
+    off_when: 'greater_than'
+    value: 99
+  densimetro_01_r7:
+    tag: 'r_agua_r7_dit_01'
+    off_when: 'less_than'
+    value: 40
+  densimetro_02_r7:
+    tag: 'r_agua_r7_dit_02'
+    off_when: 'less_than'
+    value: 40
+  nivel_interfaz_r7:
+    tag: 'r_agua_r7_a330_lit_706_pulg'
+    off_when: 'less_than'
+    value: 30
+  flujo_alimentacion_r7:
+    tag: 'r_agua_r7_a330_fit_705'
+    off_when: 'less_than'
+    value: 100
+
+
+ # -------------------- ON/OFF R9 -----------------#
+on_off_R9:
+  floculante_r9:
+    tag: 'r_agua_flocu_fi_3844'
+    off_when: 'less_than'    #'greater_than'
+    value: 5
+  valvulas_descarga_l1_r9:
+    tag: 'promedio_apertura_valv_descarga_l1_r9'
+    off_when: 'greater_than'
+    value: 99
+  valvulas_descarga_l2_r9:
+    tag: 'promedio_apertura_valv_descarga_l2_r9'
+    off_when: 'greater_than'
+    value: 99
+  densimetro_01_r9:
+    tag: 'r_agua_r9_dit_01'
+    off_when: 'less_than'
+    value: 40
+  densimetro_02_r9:
+    tag: 'r_agua_r9_dit_02'
+    off_when: 'less_than'
+    value: 40
+  flujo_alimentacion_r9:
+    tag: 'r_agua_r9_a330_fit_905'
+    off_when: 'less_than'
+    value: 100
+
+ # -------------------- ON/OFF R10 -----------------#
+on_off_R10:
+  floculante_r10:
+    tag: 'r_agua_r10_fit_1154'
+    off_when: 'less_than'    #'greater_than'
+    value: 5
+  valvulas_descarga_l1_r10:
+    tag: 'promedio_apertura_valv_descarga_l1_r10'
+    off_when: 'greater_than'
+    value: 99
+  valvulas_descarga_l2_r10:
+    tag: 'promedio_apertura_valv_descarga_l2_r10'
+    off_when: 'greater_than'
+    value: 99
+  densimetro_01_r10:
+    tag: 'r_agua_r10_dit1107_dit1107'
+    off_when: 'less_than'
+    value: 40
+  densimetro_02_r10:
+    tag: 'r_agua_r10_dit1111_dit1111'
+    off_when: 'less_than'
+    value: 40
+  nivel_interfaz_r10:
+    tag: 'r_agua_r10_alturainterface'
+    off_when: 'less_than'
+    value: 30
+  presion_cono_decimal_r10:
+    tag: 'r_agua_r10_presioncono_decimal'
+    off_when: 'less_than'
+    value: 1.5
+
+

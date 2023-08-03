@@ -1,0 +1,160 @@
+#--- optimization grinding SAG ---#
+
+#--- optimization input ---#
+sag.data_input_optim_uuid:
+    type: pickle.PickleDataSet
+    filepath: data/05_model_input/optimization/data_input_optim_uuid.pkl
+
+sag.optimization_function:
+    type: pickle.PickleDataSet
+    filepath: data/06_models/optimization/sag/optimization_function.pkl
+
+#--- optimization output ---#
+sag.recommendations:
+    type: pandas.JSONDataSet
+    filepath: data/07_model_output/sag/recommendations.json
+    layer: recommend
+    save_args:
+        orient: records
+    load_args:
+        orient: records
+
+sag.bulk_state:
+    type: pandas.CSVDataSet
+    filepath: data/07_model_output/sag/bulk_state.csv
+    save_args:
+        index: True
+    load_args:
+        index_col: 0
+        header: [0, 1]
+        parse_dates: True
+    layer: uplift_report
+
+sag.bulk_ctrl:
+    type: pandas.CSVDataSet
+    filepath: data/07_model_output/sag/bulk_ctrl.csv
+    save_args:
+        index: True
+    load_args:
+        index_col: 0
+        header: [0, 1]
+        parse_dates: True
+    layer: uplift_report
+
+sag.bulk_output:
+    type: pandas.CSVDataSet
+    filepath: data/07_model_output/sag/bulk_output.csv
+    save_args:
+        index: True
+    load_args:
+        index_col: 0
+        header: [0, 1]
+        parse_dates: True
+    layer: uplift_report
+
+sag.rep_optim_objective:
+    type: pandas.CSVDataSet
+    filepath: data/08_reporting/optimization/sag/rep_optim_objective.csv
+    save_args:
+        index: True
+
+sag.rep_recommendations:
+    type: pandas.CSVDataSet
+    filepath: data/08_reporting/optimization/sag/rep_recommendations.csv
+    save_args:
+        index: True
+
+sag.sensitivity_plot_df:
+    type: pandas.CSVDataSet
+    filepath: data/08_reporting/optimization/sag/sensitivity_plot_data.csv
+    layer: sensitivity
+
+sag.model_sensitivity:
+    type: matplotlib.MatplotlibWriter
+    filepath: data/08_reporting/optimization/sag/sensitivity/
+    save_args:
+        bbox_inches: 'tight'
+
+#--- END optimization grinding SAG ---#
+
+#--- optimization cuf SAG per line---#
+
+#--- optimization input ---#
+#ca2xl.data_input_optim_uuid:
+#    type: pickle.PickleDataSet
+#    filepath: data/05_model_input/optimization/data_input_optim_uuid.pkl
+#
+#ca2xl.optimization_function:
+#    type: pickle.PickleDataSet
+#    filepath: data/06_models/optimization/ca2xl/optimization_function.pkl
+#
+##--- optimization output ---#
+#ca2xl.recommendations:
+#    type: pandas.JSONDataSet
+#    filepath: data/07_model_output/ca2xl/recommendations.json
+#    layer: recommend
+#    save_args:
+#        orient: records
+#    load_args:
+#        orient: records
+#
+#ca2xl.bulk_state:
+#    type: pandas.CSVDataSet
+#    filepath: data/07_model_output/ca2xl/bulk_state.csv
+#    save_args:
+#        index: True
+#    load_args:
+#        index_col: 0
+#        header: [0, 1]
+#        parse_dates: True
+#    layer: uplift_report
+#
+#ca2xl.bulk_ctrl:
+#    type: pandas.CSVDataSet
+#    filepath: data/07_model_output/ca2xl/bulk_ctrl.csv
+#    save_args:
+#        index: True
+#    load_args:
+#        index_col: 0
+#        header: [0, 1]
+#        parse_dates: True
+#    layer: uplift_report
+#
+#ca2xl.bulk_output:
+#    type: pandas.CSVDataSet
+#    filepath: data/07_model_output/ca2xl/bulk_output.csv
+#    save_args:
+#        index: True
+#    load_args:
+#        index_col: 0
+#        header: [0, 1]
+#        parse_dates: True
+#    layer: uplift_report
+#
+#ca2xl.rep_optim_objective:
+#    type: pandas.CSVDataSet
+#    filepath: data/08_reporting/optimization/ca2xl/rep_optim_objective.csv
+#    save_args:
+#        index: True
+#
+#ca2xl.rep_recommendations:
+#    type: pandas.CSVDataSet
+#    filepath: data/08_reporting/optimization/ca2xl/rep_recommendations.csv
+#    save_args:
+#        index: True
+#
+#ca2xl.sensitivity_plot_df:
+#    type: pandas.CSVDataSet
+#    filepath: data/08_reporting/optimization/ca2xl/sensitivity_plot_data.csv
+#    layer: sensitivity
+#
+#ca2xl.model_sensitivity:
+#    type: matplotlib.MatplotlibWriter
+#    filepath: data/08_reporting/optimization/ca2xl/sensitivity/
+#    save_args:
+#        bbox_inches: 'tight'
+#
+##--- END optimization cuf A2 per line ---#
+      
+
+     

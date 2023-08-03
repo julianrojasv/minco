@@ -1,0 +1,12 @@
+backend_api:
+  REACT_APP_OPTIMUS_ANALYTICS_API: "https://h2o-det-dev02.azurewebsites.net/api/v1/process_data/ESP"
+  REACT_APP_OPTIMUS_DATA_INSIGHT_API: "https://h2o-det-dev02.azurewebsites.net/api/v1/process_data/ESP"
+  model_to_api_map:
+    ca2xl: "a2"
+    ca1xl: "a1"
+    ma2: "ma2"
+    ca0xl: "a0"
+    esp: 'esp'
+
+group_shift_freq: "3H" # Adjust min counts per target below
+grouping_offset: "2H" # Hora de desplazamiento de agrupación, medida desde 00:00

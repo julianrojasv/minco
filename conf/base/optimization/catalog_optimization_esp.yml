@@ -1,0 +1,84 @@
+#--- optimization grinding SAG ---#
+
+esp.torque_dict:
+    type: pickle.PickleDataSet
+    filepath: data/05_model_input/optimization/torque_dict.pkl
+
+#--- optimization input ---#
+esp.data_input_optim_uuid:
+    type: pickle.PickleDataSet
+    filepath: data/05_model_input/optimization/data_input_optim_uuid.pkl
+
+esp.optimization_function:
+    type: pickle.PickleDataSet
+    filepath: data/06_models/optimization/esp/optimization_function.pkl
+
+#--- optimization output ---#
+esp.recommendations:
+    type: pandas.JSONDataSet
+    filepath: data/07_model_output/esp/recommendations.json
+    layer: recommend
+    save_args:
+        orient: records
+    load_args:
+        orient: records
+
+esp.bulk_state:
+    type: pandas.CSVDataSet
+    filepath: data/07_model_output/esp/bulk_state.csv
+    save_args:
+        index: True
+    load_args:
+        index_col: 0
+        header: [0, 1]
+        parse_dates: True
+    layer: uplift_report
+
+esp.bulk_ctrl:
+    type: pandas.CSVDataSet
+    filepath: data/07_model_output/esp/bulk_ctrl.csv
+    save_args:
+        index: True
+    load_args:
+        index_col: 0
+        header: [0, 1]
+        parse_dates: True
+    layer: uplift_report
+
+esp.bulk_output:
+    type: pandas.CSVDataSet
+    filepath: data/07_model_output/esp/bulk_output.csv
+    save_args:
+        index: True
+    load_args:
+        index_col: 0
+        header: [0, 1]
+        parse_dates: True
+    layer: uplift_report
+
+esp.rep_optim_objective:
+    type: pandas.CSVDataSet
+    filepath: data/08_reporting/optimization/esp/rep_optim_objective.csv
+    save_args:
+        index: True
+
+esp.rep_recommendations:
+    type: pandas.CSVDataSet
+    filepath: data/08_reporting/optimization/esp/rep_recommendations.csv
+    save_args:
+        index: True
+
+esp.sensitivity_plot_df:
+    type: pandas.CSVDataSet
+    filepath: data/08_reporting/optimization/esp/sensitivity_plot_data.csv
+    layer: sensitivity
+
+esp.model_sensitivity:
+    type: matplotlib.MatplotlibWriter
+    filepath: data/08_reporting/optimization/esp/sensitivity/
+    save_args:
+        bbox_inches: 'tight'
+
+      
+
+     

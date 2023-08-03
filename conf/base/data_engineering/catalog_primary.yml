@@ -1,0 +1,5 @@
+data_primary:
+  type: pickle.PickleDataSet
+  filepath: data/03_primary/data_primary.pkl
+
+

@@ -1,0 +1,432 @@
+﻿tag;real_tag;server;description;name;unit;measurement_type;process;area;sub_area;section;equipment;data_type;derived;quality_score;profit_type;target;r2_feature;r3_feature;r4_feature;r5_feature;r6_feature;r7_feature;r9_feature;r10_feature;range_min;range_max;max_delta;on_off_dependencies;constraint_set;comentarios;dist_count;dist_mean;dist_std;dist_min;dist_2%;dist_10%;dist_20%;dist_50%;dist_80%;dist_90%;dist_98%;dist_max;dif_count;dif_mean;dif_std;dif_min;dif_2%;dif_10%;dif_20%;dif_50%;dif_70%;dif_80%;dif_90%;dif_98%;dif_max;tag_type;op_min;op_max
+rh_volumen_embalse_2;RH:Volumen_Embalse_2;;Volumen Embalse Sapos;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+rh_f_70_iz;RH:F-70_IZ;;Agua Fresca Colon;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+rh_f_71_d;RH:F-71_D;;Agua Fresca Colon;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+rh_f_53;RH:F-53;;Agua Fresca Colon;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+rh_f10_flujo;RH:F10.FLUJO;;Agua Fresca Colon;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+rh_f18_flujo;RH:F18.FLUJO;;Agua Fresca Colon;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+rh_f25_flujo;RH:F25.FLUJO;;Agua Fresca Colon;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+rh_fit14;RH:FIT14;;Agua Fresca Colon;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+rh_f022;RH:F022;;Agua Fresca Colon;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+rh_fit_076;RH:FIT-076;;Agua Fresca Colon;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+rh_f19_flujo;RH:F19.FLUJO;;Agua Fresca Colon;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+rh_fit077;RH:FIT077;;Agua Fresca Colon;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+rh_f69_flujo;RH:F69.FLUJO;;Agua Fresca Colon;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+rh_fit_095a;RH:FIT-095A;;Agua Fresca Colon;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+rh_fit083;RH:FIT083;;Agua Fresca Colon;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+rh_fit_020;RH:FIT-020;;Agua Fresca Colon;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+rh_fit003;RH:FIT003;;Agua Fresca Colon;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+r_agua_r2_ph_ca6;R-AGUA_R2_PH_CA6;;Tags Espesadores Generales;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+r_agua_pp115_fit5315;R-AGUA:PP115.FIT5315;;R-AGUA>>Sala Bba 3>Flujo Agua Recuperada Descarga Bomba 340-PP-115;;m3/h;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+r_agua_pp116_fit5316;R-AGUA:PP116.FIT5316;;R-AGUA>>Sala Bba 3>Flujo Agua Recuperada Descarga Bomba 340-PP-116;;m3/h;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+r_agua_pp117_fit5317;R-AGUA:PP117.FIT5317;;R-AGUA>>Sala Bba 3>Flujo Agua Recuperada Descarga Bomba 340-PP-117;;m3/h;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+r_agua_pp118_fit5318;R-AGUA:PP118.FIT5318;;R-AGUA>>Sala Bba 3>Flujo Agua Recuperada Descarga Bomba 340-PP-118;;m3/h;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_wic44a;MOL:WIC44A;;Procesamiento Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_wic44b;MOL:WIC44B;;Procesamiento Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_wic44c;MOL:WIC44C;;Procesamiento Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_wic44d;MOL:WIC44D;;Procesamiento Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_wic44e;MOL:WIC44E;;Procesamiento Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_wic44f;MOL:WIC44F;;Procesamiento Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_wic44g;MOL:WIC44G;;Procesamiento Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_wic44j;MOL:WIC44J;;Procesamiento Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_wic44k;MOL:WIC44K;;Procesamiento Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_wic44l;MOL:WIC44L;;Procesamiento Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_wic44m;MOL:WIC44M;;Procesamiento Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_wic44n;MOL:WIC44N;;Procesamiento Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mu_280_wit_8778;MU:280_WIT_8778;;Procesamiento Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+sag_wic2101;SAG:WIC2101;;Procesamiento SAG;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+sag2_260_wit_1835;sag2:260_wit_1835;;Procesamiento SAG;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mu_280_dhu_2013;MU:280_DHU_2013;;Solidos Unitario;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mu_su_mol13;MU:Su_Mol13;;Solidos Unitario;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+sag2_260_dic_1842;SAG2:260_DIC_1842;;Solidos SAG;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+sag2_260_di_1884;SAG2:260_DI_1884;;Solidos SAG;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+sag2_260_di_1896;SAG2:260_DI_1896;;Solidos SAG;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+sag_dit2189a;SAG:DIT2189A;;Solidos SAG;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+sag_dit2189b;SAG:DIT2189B;;Solidos SAG;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+sag_dic2150z;SAG:DIC2150Z;;Solidos SAG;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+sag2_%sol_sag2_a_flotacion;SAG2:%Sol_SAG2_a_Flotacion;;Solidos SAG;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_dic69a;MOL:DIC69A;;Solidos Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_dic69b;MOL:DIC69B;;Solidos Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_dic69c;MOL:DIC69C;;Solidos Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_dic69d;MOL:DIC69D;;Solidos Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_dic69e;MOL:DIC69E;;Solidos Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_dic69f;MOL:DIC69F;;Solidos Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_dic69g;MOL:DIC69G;;Solidos Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_dic69j;MOL:DIC69J;;Solidos Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_dic69k;MOL:DIC69K;;Solidos Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_dic69l;MOL:DIC69L;;Solidos Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_dic69m;MOL:DIC69M;;Solidos Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_dic69n;MOL:DIC69N;;Solidos Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mu_280_dit_8783;MU:280_DIT_8783;;Solidos Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+rh_f_16;RH:F-16;;Agua SAG;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+rh_f_17;RH:F-17;;Agua SAG;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+rh_ge_plc_09_fit_097;RH:GE.PLC_09.FIT-097;;Agua SAG;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+sag_fic2150z;SAG:FIC2150Z;;Agua SAG;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+sag_fit2155;SAG:FIT2155;;Agua SAG;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+sag_fic2181a;SAG:FIC2181A;;Agua SAG;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+sag_fic2188a;SAG:FIC2188A;;Agua SAG;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+sag_fic2181b;SAG:FIC2181B;;Agua SAG;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+sag_fic2188b;SAG:FIC2188B;;Agua SAG;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+sag2_260_ffic_1842;SAG2:260_FFIC_1842;;Agua SAG;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+sag2_260_fic_1848;SAG2:260_FIC_1848;;Agua SAG;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+sag2_260_fi_1890;SAG2:260_FI_1890;;Agua SAG;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+sag2_260_fi_1872;SAG2:260_FI_1872;;Agua SAG;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+sag2_260_fi_1876;SAG2:260_FI_1876;;Agua SAG;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+sag2_260_fi_1892;SAG2:260_FI_1892;;Agua SAG;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_fic65a;MOL:FIC65A;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_fic65b;MOL:FIC65B;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_fic65c;MOL:FIC65C;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_fic65d;MOL:FIC65D;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_fic65e;MOL:FIC65E;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_fic65f;MOL:FIC65F;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_fic65g;MOL:FIC65G;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_fic65j;MOL:FIC65J;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_fic65k;MOL:FIC65K;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_fic65l;MOL:FIC65L;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_fic65m;MOL:FIC65M;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_fic65n;MOL:FIC65N;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mu_280_fic_8785;MU:280_FIC_8785;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_230_fic_66a;MOL:230_FIC_66A;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_230_fic_66b;MOL:230_FIC_66B;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_230_fic_66c;MOL:230_FIC_66C;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_230_fic_66d;MOL:230_FIC_66D;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_230_fic_66e;MOL:230_FIC_66E;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_230_fic_66f;MOL:230_FIC_66F;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_230_fic_66g;MOL:230_FIC_66G;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_230_fic_66j;MOL:230_FIC_66J;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_230_fic_66k;MOL:230_FIC_66K;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_230_fic_66l;MOL:230_FIC_66L;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_230_fic_66m;MOL:230_FIC_66M;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_230_fic_66n;MOL:230_FIC_66N;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mu_280_fit_8789;MU:280_FIT_8789;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_fits65a;MOL:FITS65A;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_fits65b;MOL:FITS65B;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_fits65c;MOL:FITS65C;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_fits65d;MOL:FITS65D;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_fits65e;MOL:FITS65E;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_fits65f;MOL:FITS65F;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_fits65g;MOL:FITS65G;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_fits65j;MOL:FITS65J;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_fits65k;MOL:FITS65K;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_fits65l;MOL:FITS65L;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_fits65m;MOL:FITS65M;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mol_fits65n;MOL:FITS65N;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+rh_f_75;RH:F_75;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+rh_f12_flujo;RH:F12.FLUJO;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+rh_f11_flujo;RH:F11.FLUJO;;Agua Convencional;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+r_agua_r2_torque_norte;R-AGUA:R2_Torque_Norte;;% Torque rastra Norte R2;;%;R2;ESPESADORES;R-AGUA;;R2;;;;;;;;;;;;;;;0;30;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;0;30
+r_agua_r2_torque_sur;R-AGUA:R2_Torque_Sur;;% Torque rastra Sur R2;;%;R2;ESPESADORES;R-AGUA;;R2;;;;;;;;;;;;;;;0;30;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;0;30
+r_agua_flocu_fi_3820;R-AGUA:Flocu_FI-3820;;R-AGUA>>Floculante>Flujo FI-3820 dosificaciÃ³n a R2;;m3/h;R2;ESPESADORES;R-AGUA;;R2;;;;;;;;;;;;;;;10;30;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;10;30
+r_agua_r2_dit_01;R-AGUA:R2_DIT_01;;R2>>Densimetro 1;;%;R2;ESPESADORES;R-AGUA;;R2;;;;;;;1;;;;;;;;54;58;;on_off_floculante_r2, on_off_flujo_alimentacion_r2;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;54;58
+r_agua_r2_dit_02;R-AGUA:R2_DIT_02;;R2>>Densimetro 2;;%;R2;ESPESADORES;R-AGUA;;R2;;;;;;;1;;;;;;;;54;58;;on_off_floculante_r2, on_off_flujo_alimentacion_r2;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;54;58
+r_agua_r2_valv_01;R-AGUA:R2_VALV_01;;R2>>Apertura Valvula de descarga1;;%;R2;ESPESADORES;R-AGUA;;R2;;;;;;;;;;;;;;;30;85;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30;85
+r_agua_r2_valv_02;R-AGUA:R2_VALV_02;;R2>>Apertura Valvula de descarga2;;%;R2;ESPESADORES;R-AGUA;;R2;;;;;;;;;;;;;;;30;85;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30;85
+r_agua_r2_valv_03;R-AGUA:R2_VALV_03;;R2>>Apertura Valvula de descarga3;;%;R2;ESPESADORES;R-AGUA;;R2;;;;;;;;;;;;;;;30;85;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30;85
+r_agua_r2_valv_04;R-AGUA:R2_VALV_04;;R2>>Apertura Valvula de descarga4 ;;%;R2;ESPESADORES;R-AGUA;;R2;;;;;;;;;;;;;;;30;85;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30;85
+r_agua_r2_nivel_rastras;R-AGUA:R2_Nivel_Rastras;;Nivel rastra R2;;pulg.;R2;ESPESADORES;R-AGUA;;R2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+r_agua_r2_a330_fit_208;R-AGUA:R2_A330_FIT_208;;R2>>Flujo Agua clara;;l/s;R2;ESPESADORES;R-AGUA;;R2;;;;;;;;;;;;;;;1500;3000;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;1500;3000
+r_agua_r2_a330_fit_205;R-AGUA:R2_A330_FIT_205;;R2>>Flujo AlimentaciÃ³n;;m3/hr;R2;ESPESADORES;R-AGUA;;R2;;;;;;;;;;;;;;;1000;3000;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;1000;3000
+r_agua_r2_a330_lit_206_pulg;R-AGUA:R2_A330_LIT_206_pulg;;R2>>Nivel Interfaz;;pulg.;R2;ESPESADORES;R-AGUA;;R2;;;;;;;1;;;;;;;;40;85;;on_off_floculante_r2, on_off_flujo_alimentacion_r2;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;40;85
+r_agua_r2_a330_zit_203;R-AGUA:R2_A330_ZIT_203;;R2>>Recorrido Valvula FCV-203;;%;R2;ESPESADORES;R-AGUA;;R2;;;;;;;;;;;;;;;0;100;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;0;100
+r_agua_r2_a330_ait_207;R-AGUA:R2_A330_AIT_207;;R2>>Turbidimetro;;NTU;R2;ESPESADORES;R-AGUA;;R2;;;;;;;1;;;;;;;;5;70;;on_off_floculante_r2, on_off_flujo_alimentacion_r2;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;5;70
+r_agua_r10_torque;R-AGUA:R10_Torque;;R10>>Torque;;%;R10;ESPESADORES;R-AGUA;;R10;;;;;;;;;;;;;;;0;30;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;0;30
+r_agua_r10_fit_1154;R-AGUA:R10_FIT_1154;;R10>>Flujo Floculante a Espesador R-10;;l/m;R10;ESPESADORES;R-AGUA;;R10;;;;;;;;;;;;;;;50;85;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;50;85
+r_agua_r10_dit1107_dit1107;R-AGUA:R10_DIT1107_DIT1107;;Densidad DIT-1107 lÃ­nea de descarga de relaves vÃ¡lvulas 1107A y 1107B;;%;R10;ESPESADORES;R-AGUA;;R10;;;;;;;;;;;;;;1;54;58;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;54;58
+r_agua_r10_dit1111_dit1111;R-AGUA:R10_DIT1111_DIT1111;;Densidad DIT-1111 lÃ­nea de descarga de relaves vÃ¡lvulas 1111A y 1111B;;%;R10;ESPESADORES;R-AGUA;;R10;;;;;;;;;;;;;;1;54;58;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;54;58
+r_agua_r10_fit_1106;R-AGUA:R10_FIT_1106;;R10>>FIT1106 Flujo Linea de descarga de relaves ( Valvulas 1107A/B );;m3/hr;R10;ESPESADORES;R-AGUA;;R10;;;;;;;;;;;;;;;200;1000;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;200;1000
+r_agua_r10_fit_1110;R-AGUA:R10_FIT_1110;;R10>>FIT1110 Flujo Linea de descarga de relaves ( Valvulas 1111A/B );;m3/hr;R10;ESPESADORES;R-AGUA;;R10;;;;;;;;;;;;;;;400;1000;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;400;1000
+r_agua_r10_presioncono_decimal;R-AGUA:R10_PresionCono_Decimal;;R10>>Presion de Cono;;PSI;R10;ESPESADORES;R-AGUA;;R10;;;;;;;;;;;;;;1;2;4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;2;4
+r_agua_r10_fit_1156;R-AGUA:R10_FIT_1156;;R10>>Flujo de Agua Fresca;;l/m;R10;ESPESADORES;R-AGUA;;R10;;;;;;;;;;;;;;;0;500;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;0;500
+r_agua_r10_alturainterface;R-AGUA:R10_AlturaInterface;;R10>>Altura Interface ( Nivel de Cama );;IN;R10;ESPESADORES;R-AGUA;;R10;;;;;;;;;;;;;;1;90;120;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;90;120
+r_agua_r10_turbidez;R-AGUA:R10_TURBIDEZ;;R10>>Grado de Turbidez;;NTU;R10;ESPESADORES;R-AGUA;;R10;;;;;;;;;;;;;;1;5;150;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;5;150
+r_agua_r10_nivelrastra;R-AGUA:R10_NivelRastra;;R10>>Nivel (PosiciÃ³n) de Rastra;;IN;R10;ESPESADORES;R-AGUA;;R10;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+r_agua_r3_torque_norte;R-AGUA:R3_Torque_Norte;;% Torque rastra Norte R3;;%;R3;ESPESADORES;R-AGUA;;R3;;;;;;;;;;;;;;;0;30;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;0;30
+r_agua_r3_torque_sur;R-AGUA:R3_Torque_Sur;;% Torque rastra Sur R3;;%;R3;ESPESADORES;R-AGUA;;R3;;;;;;;;;;;;;;;0;30;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;0;30
+r_agua_flocu_fi_3824;R-AGUA:FLOCU_FI-3824;;Floculante Flujo FI dosificacion a R3;;;R3;ESPESADORES;R-AGUA;;R3;;;;;;;;;;;;;;;10;30;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;10;30
+r_agua_r3_dit_01;R-AGUA:R3_DIT_01;;R3>>Densimetro 1 Espesador R3;;%;R3;ESPESADORES;R-AGUA;;R3;;;;;;;;1;;;;;;;54;58;;on_off_floculante_r3, on_off_flujo_alimentacion_r3;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;54;58
+r_agua_r3_dit_02;R-AGUA:R3_DIT_02;;R3>>Densimetro 2 Espesador R3;;%;R3;ESPESADORES;R-AGUA;;R3;;;;;;;;1;;;;;;;54;58;;on_off_floculante_r3, on_off_flujo_alimentacion_r3;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;54;58
+r_agua_r3_valv_01;R-AGUA:R3_VALV_01;;R3>>Apertura Valvula de descarga1;;%;R3;ESPESADORES;R-AGUA;;R3;;;;;;;;;;;;;;;30;85;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30;85
+r_agua_r3_valv_02;R-AGUA:R3_VALV_02;;R3>>Apertura Valvula de descarga2;;%;R3;ESPESADORES;R-AGUA;;R3;;;;;;;;;;;;;;;30;85;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30;85
+r_agua_r3_valv_03;R-AGUA:R3_VALV_03;;R3>>Apertura Valvula de descarga3;;%;R3;ESPESADORES;R-AGUA;;R3;;;;;;;;;;;;;;;30;85;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30;85
+r_agua_r3_valv_04;R-AGUA:R3_VALV_04;;R3>>Apertura Valvula de descarga4 ;;%;R3;ESPESADORES;R-AGUA;;R3;;;;;;;;;;;;;;;30;85;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30;85
+r_agua_r3_nivel_rastras;R-AGUA:R3_Nivel_Rastras;;Nivel rastra R3;;pulg.;R3;ESPESADORES;R-AGUA;;R3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+r_agua_r3_a330_fit_308;R-AGUA:R3_A330_FIT_308;;R3>>Flujo Agua clara;;l/s;R3;ESPESADORES;R-AGUA;;R3;;;;;;;;1;;;;;;;100;700;;on_off_floculante_r3, on_off_flujo_alimentacion_r3;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;100;700
+r_agua_r3_a330_fit_305;R-AGUA:R3_A330_FIT_305;;R3>>Flujo AlimentaciÃ³n;;m3/hr;R3;ESPESADORES;R-AGUA;;R3;;;;;;;;;;;;;;;1500;4000;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;1500;4000
+r_agua_r3_a330_lit_306_pulg;R-AGUA:R3_A330_LIT_306_pulg;;R3>>Nivel Interfaz;;pulg.;R3;ESPESADORES;R-AGUA;;R3;;;;;;;;1;;;;;;;40;85;;on_off_floculante_r3, on_off_flujo_alimentacion_r3;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;40;85
+r_agua_r3_a330_zit_303;R-AGUA:R3_A330_ZIT_303;;R3>>Recorrido Valvula FCV-303;;%;R3;ESPESADORES;R-AGUA;;R3;;;;;;;;;;;;;;;0;100;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;0;100
+r_agua_r3_a330_ait_307;R-AGUA:R3_A330_AIT_307;;R3>>Turbidimetro;;NTU;R3;ESPESADORES;R-AGUA;;R3;;;;;;;;1;;;;;;;5;70;;on_off_floculante_r3, on_off_flujo_alimentacion_r3;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;5;70
+r_agua_r4_torque_norte;R-AGUA:R4_Torque_Norte;;% Torque rastra Norte R4;;%;R4;ESPESADORES;R-AGUA;;R4;;;;;;;;;;;;;;;0;30;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;0;30
+r_agua_r4_torque_sur;R-AGUA:R4_Torque_Sur;;% Torque rastra Sur R4;;%;R4;ESPESADORES;R-AGUA;;R4;;;;;;;;;;;;;;;0;30;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;0;30
+r_agua_flocu_fi_3828;R-AGUA:FLOCU_FI-3828;;Floculante Flujo FI dosificacion a R4;;;R4;ESPESADORES;R-AGUA;;R4;;;;;;;;;;;;;;;10;30;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;10;30
+r_agua_r4_dit_01;R-AGUA:R4_DIT_01;;R4>>Densimetro 1 Espesador R4;;%;R4;ESPESADORES;R-AGUA;;R4;;;;;;;;;1;;;;;;54;58;;on_off_floculante_r4, on_off_flujo_alimentacion_r4;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;54;58
+r_agua_r4_dit_02;R-AGUA:R4_DIT_02;;R4>>Densimetro 2 Espesador R4;;%;R4;ESPESADORES;R-AGUA;;R4;;;;;;;;;1;;;;;;54;58;;on_off_floculante_r4, on_off_flujo_alimentacion_r4;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;54;58
+r_agua_r4_valv_01;R-AGUA:R4_VALV_01;;R4>>Apertura Valvula de descarga1;;%;R4;ESPESADORES;R-AGUA;;R4;;;;;;;;;;;;;;;30;85;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30;85
+r_agua_r4_valv_02;R-AGUA:R4_VALV_02;;R4>>Apertura Valvula de descarga2;;%;R4;ESPESADORES;R-AGUA;;R4;;;;;;;;;;;;;;;30;85;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30;85
+r_agua_r4_valv_03;R-AGUA:R4_VALV_03;;R4>>Apertura Valvula de descarga3;;%;R4;ESPESADORES;R-AGUA;;R4;;;;;;;;;;;;;;;30;85;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30;85
+r_agua_r4_valv_04;R-AGUA:R4_VALV_04;;R4>>Apertura Valvula de descarga4 ;;%;R4;ESPESADORES;R-AGUA;;R4;;;;;;;;;;;;;;;30;85;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30;85
+r_agua_r4_nivel_rastras;R-AGUA:R4_Nivel_Rastras;;Nivel rastra R4;;pulg.;R4;ESPESADORES;R-AGUA;;R4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+r_agua_r4_a330_fit_408;R-AGUA:R4_A330_FIT_408;;R4>>Flujo Agua clara;;l/s;R4;ESPESADORES;R-AGUA;;R4;;;;;;;;;;;;;;;100;600;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;100;600
+r_agua_r4_a330_fit_405;R-AGUA:R4_A330_FIT_405;;R4>>Flujo AlimentaciÃ³n;;m3/hr;R4;ESPESADORES;R-AGUA;;R4;;;;;;;;;;;;;;;1500;2800;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;1500;2800
+r_agua_r4_a330_lit_406_pulg;R-AGUA:R4_A330_LIT_406_pulg;;R4>>Nivel Interfaz;;pulg.;R4;ESPESADORES;R-AGUA;;R4;;;;;;;;;1;;;;;;40;85;;on_off_floculante_r4, on_off_flujo_alimentacion_r4;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;40;85
+r_agua_r4_a330_zit_403;R-AGUA:R4_A330_ZIT_403;;R4>>Recorrido Valvula FCV-403;;%;R4;ESPESADORES;R-AGUA;;R4;;;;;;;;;;;;;;;0;100;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;0;100
+r_agua_r4_a330_ait_407;R-AGUA:R4_A330_AIT_407;;R4>>Turbidimetro;;NTU;R4;ESPESADORES;R-AGUA;;R4;;;;;;;;;1;;;;;;5;70;;on_off_floculante_r4, on_off_flujo_alimentacion_r4;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;5;70
+r_agua_r5_torque_norte;R-AGUA:R5_Torque_Norte;;% Torque rastra Norte R5;;%;R5;ESPESADORES;R-AGUA;;R5;;;;;;;;;;;;;;;0;30;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;0;30
+r_agua_r5_torque_sur;R-AGUA:R5_Torque_Sur;;% Torque rastra Sur R5;;%;R5;ESPESADORES;R-AGUA;;R5;;;;;;;;;;;;;;;0;30;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;0;30
+r_agua_flocu_fi_3832;R-AGUA:FLOCU_FI-3832;;Floculante Flujo FI dosificacion a R5;;;R5;ESPESADORES;R-AGUA;;R5;;;;;;;;;;;;;;;10;30;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;10;30
+r_agua_r5_dit_01;R-AGUA:R5_DIT_01;;R5>>Densimetro 1 Espesador R5;;%;R5;ESPESADORES;R-AGUA;;R5;;;;;;;;;;1;;;;;54;58;;on_off_floculante_r5, on_off_flujo_alimentacion_r5;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;54;58
+r_agua_r5_dit_02;R-AGUA:R5_DIT_02;;R5>>Densimetro 2 Espesador R5;;%;R5;ESPESADORES;R-AGUA;;R5;;;;;;;;;;1;;;;;54;58;;on_off_floculante_r5, on_off_flujo_alimentacion_r5;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;54;58
+r_agua_r5_valv_01;R-AGUA:R5_VALV_01;;R5>>Apertura Valvula de descarga1;;%;R5;ESPESADORES;R-AGUA;;R5;;;;;;;;;;;;;;;30;85;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30;85
+r_agua_r5_valv_02;R-AGUA:R5_VALV_02;;R5>>Apertura Valvula de descarga2;;%;R5;ESPESADORES;R-AGUA;;R5;;;;;;;;;;;;;;;30;85;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30;85
+r_agua_r5_valv_03;R-AGUA:R5_VALV_03;;R5>>Apertura Valvula de descarga3;;%;R5;ESPESADORES;R-AGUA;;R5;;;;;;;;;;;;;;;30;85;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30;85
+r_agua_r5_valv_04;R-AGUA:R5_VALV_04;;R5>>Apertura Valvula de descarga4 ;;%;R5;ESPESADORES;R-AGUA;;R5;;;;;;;;;;;;;;;30;85;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30;85
+r_agua_r5_nivel_rastras;R-AGUA:R5_Nivel_Rastras;;Nivel rastra R5;;pulg.;R5;ESPESADORES;R-AGUA;;R5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+r_agua_r5_a330_fit_508;R-AGUA:R5_A330_FIT_508;;R5>>Flujo Agua clara;;l/s;R5;ESPESADORES;R-AGUA;;R5;;;;;;;;;;;;;;;300;800;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;300;800
+r_agua_r5_a330_fit_505;R-AGUA:R5_A330_FIT_505;;R5>>Flujo AlimentaciÃ³n;;m3/hr;R5;ESPESADORES;R-AGUA;;R5;;;;;;;;;;;;;;;1500;2500;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;1500;2500
+r_agua_r5_a330_lit_506_pulg;R-AGUA:R5_A330_LIT_506_pulg;;R5>>Nivel Interfaz;;pulg.;R5;ESPESADORES;R-AGUA;;R5;;;;;;;;;;1;;;;;40;85;;on_off_floculante_r5, on_off_flujo_alimentacion_r5;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;40;85
+r_agua_r5_a330_zit_503;R-AGUA:R5_A330_ZIT_503;;R5>>Recorrido Valvula FCV-503;;%;R5;ESPESADORES;R-AGUA;;R5;;;;;;;;;;;;;;;0;100;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;0;100
+r_agua_r5_a330_ait_507;R-AGUA:R5_A330_AIT_507;;;;;R5;ESPESADORES;R-AGUA;;R5;;;;;;;;;;;;;;;5;70;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;5;70
+r_agua_r6_torque_norte;R-AGUA:R6_Torque_Norte;;% Torque rastra Norte R6;;%;R6;ESPESADORES;R-AGUA;;R6;;;;;;;;;;;;;;;0;30;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;0;30
+r_agua_r6_torque_sur;R-AGUA:R6_Torque_Sur;;% Torque rastra Sur R6;;%;R6;ESPESADORES;R-AGUA;;R6;;;;;;;;;;;;;;;0;30;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;0;30
+r_agua_flocu_fi_3836;R-AGUA:FLOCU_FI-3836;;Floculante Flujo FI dosificacion a R6;;;R6;ESPESADORES;R-AGUA;;R6;;;;;;;;;;;;;;;10;30;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;10;30
+r_agua_r6_dit_01;R-AGUA:R6_DIT_01;;R6>>Densimetro 1 Espesador R6;;%;R6;ESPESADORES;R-AGUA;;R6;;;;;;;;;;;1;;;;54;58;;on_off_floculante_r6, on_off_flujo_alimentacion_r6;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;54;58
+r_agua_r6_dit_02;R-AGUA:R6_DIT_02;;R6>>Densimetro 2 Espesador R6;;%;R6;ESPESADORES;R-AGUA;;R6;;;;;;;;;;;1;;;;54;58;;on_off_floculante_r6, on_off_flujo_alimentacion_r6;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;54;58
+r_agua_r6_valv_01;R-AGUA:R6_VALV_01;;R6>>Apertura Valvula de descarga1;;%;R6;ESPESADORES;R-AGUA;;R6;;;;;;;;;;;;;;;30;85;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30;85
+r_agua_r6_valv_02;R-AGUA:R6_VALV_02;;R6>>Apertura Valvula de descarga2;;%;R6;ESPESADORES;R-AGUA;;R6;;;;;;;;;;;;;;;30;85;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30;85
+r_agua_r6_valv_03;R-AGUA:R6_VALV_03;;R6>>Apertura Valvula de descarga3;;%;R6;ESPESADORES;R-AGUA;;R6;;;;;;;;;;;;;;;30;85;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30;85
+r_agua_r6_valv_04;R-AGUA:R6_VALV_04;;R6>>Apertura Valvula de descarga4 ;;%;R6;ESPESADORES;R-AGUA;;R6;;;;;;;;;;;;;;;30;85;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30;85
+r_agua_r6_nivel_rastras;R-AGUA:R6_Nivel_Rastras;;Nivel rastra R6  (desde TDC);;pulg.;R6;ESPESADORES;R-AGUA;;R6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+r_agua_r6_a330_fit_608;R-AGUA:R6_A330_FIT_608;;R6>>Flujo Agua clara;;l/s;R6;ESPESADORES;R-AGUA;;R6;;;;;;;;;;;;;;;100;800;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;100;800
+r_agua_r6_a330_fit_605;R-AGUA:R6_A330_FIT_605;;R6>>Flujo AlimentaciÃ³n;;m3/hr;R6;ESPESADORES;R-AGUA;;R6;;;;;;;;;;;;;;;1500;3000;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;1500;3000
+r_agua_r6_a330_lit_606_pulg;R-AGUA:R6_A330_LIT_606_pulg;;R6>>Nivel Interfaz;;pulg.;R6;ESPESADORES;R-AGUA;;R6;;;;;;;;;;;1;;;;40;85;;on_off_floculante_r6, on_off_flujo_alimentacion_r6;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;40;85
+r_agua_r6_a330_zit_603;R-AGUA:R6_A330_ZIT_603;;R6>>Recorrido Valvula FCV-603;;%;R6;ESPESADORES;R-AGUA;;R6;;;;;;;;;;;;;;;0;100;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;0;100
+r_agua_r6_a330_ait_607;R-AGUA:R6_A330_AIT_607;;R6>>Turbidimetro;;NTU;R6;ESPESADORES;R-AGUA;;R6;;;;;;;;;;;1;;;;5;70;;on_off_floculante_r6, on_off_flujo_alimentacion_r6;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;5;70
+r_agua_r7_torque_norte;R-AGUA:R7_Torque_Norte;;% Torque rastra Norte R7;;%;R7;ESPESADORES;R-AGUA;;R7;;;;;;;;;;;;;;;0;30;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;0;30
+r_agua_r7_torque_sur;R-AGUA:R7_Torque_Sur;;% Torque rastra Sur R7;;%;R7;ESPESADORES;R-AGUA;;R7;;;;;;;;;;;;;;;0;30;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;0;30
+r_agua_flocu_fi_3840;R-AGUA:FLOCU_FI-3840;;Floculante Flujo FI dosificacion a R7;;;R7;ESPESADORES;R-AGUA;;R7;;;;;;;;;;;;;;;10;30;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;10;30
+r_agua_r7_dit_01;R-AGUA:R7_DIT_01;;R7>>Densimetro 1 Espesador R7;;%;R7;ESPESADORES;R-AGUA;;R7;;;;;;;;;;;;1;;;54;58;;on_off_floculante_r7, on_off_flujo_alimentacion_r7;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;54;58
+r_agua_r7_dit_02;R-AGUA:R7_DIT_02;;R7>>Densimetro 2 Espesador R7;;%;R7;ESPESADORES;R-AGUA;;R7;;;;;;;;;;;;1;;;54;58;;on_off_floculante_r7, on_off_flujo_alimentacion_r7;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;54;58
+r_agua_r7_valv_01;R-AGUA:R7_VALV_01;;R7>>Apertura Valvula de descarga1;;%;R7;ESPESADORES;R-AGUA;;R7;;;;;;;;;;;;;;;30;85;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30;85
+r_agua_r7_valv_02;R-AGUA:R7_VALV_02;;R7>>Apertura Valvula de descarga2;;%;R7;ESPESADORES;R-AGUA;;R7;;;;;;;;;;;;;;;30;85;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30;85
+r_agua_r7_valv_03;R-AGUA:R7_VALV_03;;R7>>Apertura Valvula de descarga3;;%;R7;ESPESADORES;R-AGUA;;R7;;;;;;;;;;;;;;;30;85;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30;85
+r_agua_r7_valv_04;R-AGUA:R7_VALV_04;;R7>>Apertura Valvula de descarga4 ;;%;R7;ESPESADORES;R-AGUA;;R7;;;;;;;;;;;;;;;30;85;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30;85
+r_agua_r7_nivel_rastras;R-AGUA:R7_Nivel_Rastras;;Nivel rastra R7;;pulg.;R7;ESPESADORES;R-AGUA;;R7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+r_agua_r7_a330_fit_708;R-AGUA:R7_A330_FIT_708;;R7>>Flujo Agua clara;;l/s;R7;ESPESADORES;R-AGUA;;R7;;;;;;;;;;;;;;;50;800;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;50;800
+r_agua_r7_a330_fit_705;R-AGUA:R7_A330_FIT_705;;R7>>Flujo AlimentaciÃ³n;;m3/hr;R7;ESPESADORES;R-AGUA;;R7;;;;;;;;;;;;;;;1500;3500;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;1500;3500
+r_agua_r7_a330_lit_706_pulg;R-AGUA:R7_A330_LIT_706_pulg;;R7>>Nivel Interfaz;;pulg.;R7;ESPESADORES;R-AGUA;;R7;;;;;;;;;;;;1;;;40;85;;on_off_floculante_r7, on_off_flujo_alimentacion_r7;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;40;85
+r_agua_r7_a330_zit_703;R-AGUA:R7_A330_ZIT_703;;R7>>Recorrido Valvula FCV-703;;%;R7;ESPESADORES;R-AGUA;;R7;;;;;;;;;;;;;;;0;100;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;0;100
+r_agua_r7_a330_ait_707;R-AGUA:R7_A330_AIT_707;;R7>>Turbidimetro;;NTU;R7;ESPESADORES;R-AGUA;;R7;;;;;;;;;;;;1;;;5;70;;on_off_floculante_r7, on_off_flujo_alimentacion_r7;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;5;70
+r_agua_r9_torque_norte;R-AGUA:R9_Torque_Norte;;% Torque rastra Norte R9;;%;R9;ESPESADORES;R-AGUA;;R9;;;;;;;;;;;;;;;0;30;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;0;30
+r_agua_r9_torque_sur;R-AGUA:R9_Torque_Sur;;% Torque rastra Sur R9;;%;R9;ESPESADORES;R-AGUA;;R9;;;;;;;;;;;;;;;0;30;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;0;30
+r_agua_flocu_fi_3844;R-AGUA:FLOCU_FI-3844;;Floculante Flujo FI dosificacion a R9;;;R9;ESPESADORES;R-AGUA;;R9;;;;;;;;;;;;;;;10;30;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;10;30
+r_agua_r9_dit_01;R-AGUA:R9_DIT_01;;R9>>Densimetro 1 Espesador R9;;%;R9;ESPESADORES;R-AGUA;;R9;;;;;;;;;;;;;1;;54;58;;on_off_floculante_r9, on_off_flujo_alimentacion_r9;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;54;58
+r_agua_r9_dit_02;R-AGUA:R9_DIT_02;;R9>>Densimetro 2 Espesador R9;;%;R9;ESPESADORES;R-AGUA;;R9;;;;;;;;;;;;;1;;54;58;;on_off_floculante_r9, on_off_flujo_alimentacion_r9;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;54;58
+r_agua_r9_valv_01;R-AGUA:R9_VALV_01;;R9>>Apertura Valvula de descarga1;;%;R9;ESPESADORES;R-AGUA;;R9;;;;;;;;;;;;;;;30;85;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30;85
+r_agua_r9_valv_02;R-AGUA:R9_VALV_02;;R9>>Apertura Valvula de descarga2;;%;R9;ESPESADORES;R-AGUA;;R9;;;;;;;;;;;;;;;30;85;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30;85
+r_agua_r9_valv_03;R-AGUA:R9_VALV_03;;R9>>Apertura Valvula de descarga3;;%;R9;ESPESADORES;R-AGUA;;R9;;;;;;;;;;;;;;;30;85;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30;85
+r_agua_r9_valv_04;R-AGUA:R9_VALV_04;;R9>>Apertura Valvula de descarga4 ;;%;R9;ESPESADORES;R-AGUA;;R9;;;;;;;;;;;;;;;30;85;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30;85
+r_agua_r9_nivel_rastras;R-AGUA:R9_Nivel_Rastras;;Nivel rastra R9;;pulg.;R9;ESPESADORES;R-AGUA;;R9;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+r_agua_r9_a330_fit_908;R-AGUA:R9_A330_FIT_908;;R9>>Flujo Agua clara;;l/s;R9;ESPESADORES;R-AGUA;;R9;;;;;;;;;;;;;;;100;800;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;100;800
+r_agua_r9_a330_fit_905;R-AGUA:R9_A330_FIT_905;;R9>>Flujo AlimentaciÃ³n;;m3/hr;R9;ESPESADORES;R-AGUA;;R9;;;;;;;;;;;;;;;1500;3000;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;1500;3000
+r_agua_r9_a330_lit_906_pulg;R-AGUA:R9_A330_LIT_906_pulg;;;;;R9;ESPESADORES;R-AGUA;;R9;;;;;;;;;;;;;;;60;110;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;60;110
+r_agua_r9_a330_zit_903;R-AGUA:R9_A330_ZIT_903;;R9>>Recorrido Valvula FCV-903;;%;R9;ESPESADORES;R-AGUA;;R9;;;;;;;;;;;;;;;0;100;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;0;100
+r_agua_r9_a330_ait_907;R-AGUA:R9_A330_AIT_907;;R9>>Turbidimetro;;NTU;R9;ESPESADORES;R-AGUA;;R9;;;;;;;;;;;;;1;;5;70;;on_off_floculante_r9, on_off_flujo_alimentacion_r9;;;;;;;;;;;;;;;;;;;;;;;;;;;;control;5;70
+target_torque_r2;target_torque_r2;;;;;;;;;;;;;;;r2_esp_target;;;;;;;;;;;;on_off_floculante_r2, on_off_flujo_alimentacion_r2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r2;delta_torque_r2;;;;;;;;;;;;;;;;1;;;;;;;;;;;on_off_floculante_r2, on_off_flujo_alimentacion_r2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r2_1hora;delta_torque_r2_1hora;;;;;;;;;;;;;;;;1;;;;;;;;;;;on_off_floculante_r2, on_off_flujo_alimentacion_r2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r2_2hora;delta_torque_r2_2hora;;;;;;;;;;;;;;;;1;;;;;;;;;;;on_off_floculante_r2, on_off_flujo_alimentacion_r2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r2_4hora;delta_torque_r2_4hora;;;;;;;;;;;;;;;;1;;;;;;;;;;;on_off_floculante_r2, on_off_flujo_alimentacion_r2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r2_8hora;delta_torque_r2_8hora;;;;;;;;;;;;;;;;1;;;;;;;;;;;on_off_floculante_r2, on_off_flujo_alimentacion_r2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dosificacion_acumulada_floculante_r2;dosificacion_acumulada_floculante_r2;;;;;;;;;;;;;;;;1;;;;;;;;;;;on_off_floculante_r2, on_off_flujo_alimentacion_r2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+promedio_densimetros_r2;promedio_densimetros_r2;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off_floculante_r2, on_off_flujo_alimentacion_r2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+media_mov_densimetros_r2;media_mov_densimetros_r2;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off_floculante_r2, on_off_flujo_alimentacion_r2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+promedio_apertura_valv_descarga_r2;promedio_apertura_valv_descarga_r2;;;;;;;;;;;;;;;;1;;;;;;;;;;;on_off_floculante_r2, on_off_flujo_alimentacion_r2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+nivel_rastras_r2;nivel_rastras_r2;;;;;;;;;;;;;;;;1;;;;;;;;;;;on_off_floculante_r2, on_off_flujo_alimentacion_r2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+agua_clara_media_r2;agua_clara_media_r2;;;;;;;;;;;;;;;;1;;;;;;;;;;;on_off_floculante_r2, on_off_flujo_alimentacion_r2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+flujo_alimentacion_r2;flujo_alimentacion_r2;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off_floculante_r2, on_off_flujo_alimentacion_r2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+nivel_interfaz_r2;nivel_interfaz_r2;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off_floculante_r2, on_off_flujo_alimentacion_r2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+valvula_fcv_r2;valvula_fcv_r2;;;;;;;;;;;;;;;;1;;;;;;;;;;;on_off_floculante_r2, on_off_flujo_alimentacion_r2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+turbidez_r2;turbidez_r2;;;;;;;;;;;;;;;;1;;;;;;;;;;;on_off_floculante_r2, on_off_flujo_alimentacion_r2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+target_torque_r3;target_torque_r3;;;;;;;;;;;;;;;r3_esp_target;;;;;;;;;;;;on_off_floculante_r3, on_off_flujo_alimentacion_r3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r3;delta_torque_r3;;;;;;;;;;;;;;;;;1;;;;;;;;;;on_off_floculante_r3, on_off_flujo_alimentacion_r3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r3_1hora;delta_torque_r3_1hora;;;;;;;;;;;;;;;;;1;;;;;;;;;;on_off_floculante_r3, on_off_flujo_alimentacion_r3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r3_2hora;delta_torque_r3_2hora;;;;;;;;;;;;;;;;;1;;;;;;;;;;on_off_floculante_r3, on_off_flujo_alimentacion_r3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r3_4hora;delta_torque_r3_4hora;;;;;;;;;;;;;;;;;1;;;;;;;;;;on_off_floculante_r3, on_off_flujo_alimentacion_r3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r3_8hora;delta_torque_r3_8hora;;;;;;;;;;;;;;;;;1;;;;;;;;;;on_off_floculante_r3, on_off_flujo_alimentacion_r3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dosificacion_acumulada_floculante_r3;dosificacion_acumulada_floculante_r3;;;;;;;;;;;;;;;;;1;;;;;;;;;;on_off_floculante_r3, on_off_flujo_alimentacion_r3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+promedio_densimetros_r3;promedio_densimetros_r3;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off_floculante_r3, on_off_flujo_alimentacion_r3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+media_mov_densimetros_r3;media_mov_densimetros_r3;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off_floculante_r3, on_off_flujo_alimentacion_r3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+promedio_apertura_valv_descarga_r3;promedio_apertura_valv_descarga_r3;;;;;;;;;;;;;;;;;1;;;;;;;;;;on_off_floculante_r3, on_off_flujo_alimentacion_r3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+nivel_rastras_r3;nivel_rastras_r3;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off_floculante_r3, on_off_flujo_alimentacion_r3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+agua_clara_media_r3;agua_clara_media_r3;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off_floculante_r3, on_off_flujo_alimentacion_r3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+flujo_alimentacion_r3;flujo_alimentacion_r3;;;;;;;;;;;;;;;;;1;;;;;;;;;;on_off_floculante_r3, on_off_flujo_alimentacion_r3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+nivel_interfaz_r3;nivel_interfaz_r3;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off_floculante_r3, on_off_flujo_alimentacion_r3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+valvula_fcv_r3;valvula_fcv_r3;;;;;;;;;;;;;;;;;1;;;;;;;;;;on_off_floculante_r3, on_off_flujo_alimentacion_r3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+turbidez_r3;turbidez_r3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+target_torque_r4;target_torque_r4;;;;;;;;;;;;;;;r4_esp_target;;;;;;;;;;;;on_off_floculante_r4, on_off_flujo_alimentacion_r4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r4;delta_torque_r4;;;;;;;;;;;;;;;;;;1;;;;;;;;;on_off_floculante_r4, on_off_flujo_alimentacion_r4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r4_1hora;delta_torque_r4_1hora;;;;;;;;;;;;;;;;;;1;;;;;;;;;on_off_floculante_r4, on_off_flujo_alimentacion_r4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r4_2hora;delta_torque_r4_2hora;;;;;;;;;;;;;;;;;;1;;;;;;;;;on_off_floculante_r4, on_off_flujo_alimentacion_r4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r4_4hora;delta_torque_r4_4hora;;;;;;;;;;;;;;;;;;1;;;;;;;;;on_off_floculante_r4, on_off_flujo_alimentacion_r4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r4_8hora;delta_torque_r4_8hora;;;;;;;;;;;;;;;;;;1;;;;;;;;;on_off_floculante_r4, on_off_flujo_alimentacion_r4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dosificacion_acumulada_floculante_r4;dosificacion_acumulada_floculante_r4;;;;;;;;;;;;;;;;;;1;;;;;;;;;on_off_floculante_r4, on_off_flujo_alimentacion_r4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+promedio_densimetros_r4;promedio_densimetros_r4;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off_floculante_r4, on_off_flujo_alimentacion_r4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+media_mov_densimetros_r4;media_mov_densimetros_r4;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off_floculante_r4, on_off_flujo_alimentacion_r4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+promedio_apertura_valv_descarga_r4;promedio_apertura_valv_descarga_r4;;;;;;;;;;;;;;;;;;1;;;;;;;;;on_off_floculante_r4, on_off_flujo_alimentacion_r4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+nivel_rastras_r4;nivel_rastras_r4;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off_floculante_r4, on_off_flujo_alimentacion_r4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+agua_clara_media_r4;agua_clara_media_r4;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off_floculante_r4, on_off_flujo_alimentacion_r4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+flujo_alimentacion_r4;flujo_alimentacion_r4;;;;;;;;;;;;;;;;;;1;;;;;;;;;on_off_floculante_r4, on_off_flujo_alimentacion_r4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+nivel_interfaz_r4;nivel_interfaz_r4;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off_floculante_r4, on_off_flujo_alimentacion_r4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+valvula_fcv_r4;valvula_fcv_r4;;;;;;;;;;;;;;;;;;1;;;;;;;;;on_off_floculante_r4, on_off_flujo_alimentacion_r4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+turbidez_r4;turbidez_r4;;;;;;;;;;;;;;;;;;1;;;;;;;;;on_off_floculante_r4, on_off_flujo_alimentacion_r4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+target_torque_r5;target_torque_r5;;;;;;;;;;;;;;;r5_esp_target;;;;;;;;;;;;on_off_floculante_r5, on_off_flujo_alimentacion_r5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r5;delta_torque_r5;;;;;;;;;;;;;;;;;;;1;;;;;;;;on_off_floculante_r5, on_off_flujo_alimentacion_r5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r5_1hora;delta_torque_r5_1hora;;;;;;;;;;;;;;;;;;;1;;;;;;;;on_off_floculante_r5, on_off_flujo_alimentacion_r5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r5_2hora;delta_torque_r5_2hora;;;;;;;;;;;;;;;;;;;1;;;;;;;;on_off_floculante_r5, on_off_flujo_alimentacion_r5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r5_4hora;delta_torque_r5_4hora;;;;;;;;;;;;;;;;;;;1;;;;;;;;on_off_floculante_r5, on_off_flujo_alimentacion_r5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r5_8hora;delta_torque_r5_8hora;;;;;;;;;;;;;;;;;;;1;;;;;;;;on_off_floculante_r5, on_off_flujo_alimentacion_r5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dosificacion_acumulada_floculante_r5;dosificacion_acumulada_floculante_r5;;;;;;;;;;;;;;;;;;;1;;;;;;;;on_off_floculante_r5, on_off_flujo_alimentacion_r5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+promedio_densimetros_r5;promedio_densimetros_r5;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off_floculante_r5, on_off_flujo_alimentacion_r5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+media_mov_densimetros_r5;media_mov_densimetros_r5;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off_floculante_r5, on_off_flujo_alimentacion_r5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+promedio_apertura_valv_descarga_r5;promedio_apertura_valv_descarga_r5;;;;;;;;;;;;;;;;;;;1;;;;;;;;on_off_floculante_r5, on_off_flujo_alimentacion_r5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+nivel_rastras_r5;nivel_rastras_r5;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off_floculante_r5, on_off_flujo_alimentacion_r5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+agua_clara_media_r5;agua_clara_media_r5;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off_floculante_r5, on_off_flujo_alimentacion_r5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+flujo_alimentacion_r5;flujo_alimentacion_r5;;;;;;;;;;;;;;;;;;;1;;;;;;;;on_off_floculante_r5, on_off_flujo_alimentacion_r5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+nivel_interfaz_r5;nivel_interfaz_r5;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off_floculante_r5, on_off_flujo_alimentacion_r5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+valvula_fcv_r5;valvula_fcv_r5;;;;;;;;;;;;;;;;;;;1;;;;;;;;on_off_floculante_r5, on_off_flujo_alimentacion_r5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+target_torque_r6;target_torque_r6;;;;;;;;;;;;;;;r6_esp_target;;;;;;;;;;;;on_off_floculante_r6, on_off_flujo_alimentacion_r6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r6;delta_torque_r6;;;;;;;;;;;;;;;;;;;;1;;;;;;;on_off_floculante_r6, on_off_flujo_alimentacion_r6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r6_1hora;delta_torque_r6_1hora;;;;;;;;;;;;;;;;;;;;1;;;;;;;on_off_floculante_r6, on_off_flujo_alimentacion_r6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r6_2hora;delta_torque_r6_2hora;;;;;;;;;;;;;;;;;;;;1;;;;;;;on_off_floculante_r6, on_off_flujo_alimentacion_r6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r6_4hora;delta_torque_r6_4hora;;;;;;;;;;;;;;;;;;;;1;;;;;;;on_off_floculante_r6, on_off_flujo_alimentacion_r6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r6_8hora;delta_torque_r6_8hora;;;;;;;;;;;;;;;;;;;;1;;;;;;;on_off_floculante_r6, on_off_flujo_alimentacion_r6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dosificacion_acumulada_floculante_r6;dosificacion_acumulada_floculante_r6;;;;;;;;;;;;;;;;;;;;1;;;;;;;on_off_floculante_r6, on_off_flujo_alimentacion_r6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+promedio_densimetros_r6;promedio_densimetros_r6;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off_floculante_r6, on_off_flujo_alimentacion_r6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+media_mov_densimetros_r6;media_mov_densimetros_r6;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off_floculante_r6, on_off_flujo_alimentacion_r6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+promedio_apertura_valv_descarga_r6;promedio_apertura_valv_descarga_r6;;;;;;;;;;;;;;;;;;;;1;;;;;;;on_off_floculante_r6, on_off_flujo_alimentacion_r6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+nivel_rastras_r6;nivel_rastras_r6;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off_floculante_r6, on_off_flujo_alimentacion_r6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+agua_clara_media_r6;agua_clara_media_r6;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off_floculante_r6, on_off_flujo_alimentacion_r6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+flujo_alimentacion_r6;flujo_alimentacion_r6;;;;;;;;;;;;;;;;;;;;1;;;;;;;on_off_floculante_r6, on_off_flujo_alimentacion_r6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+nivel_interfaz_r6;nivel_interfaz_r6;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off_floculante_r6, on_off_flujo_alimentacion_r6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+valvula_fcv_r6;valvula_fcv_r6;;;;;;;;;;;;;;;;;;;;1;;;;;;;on_off_floculante_r6, on_off_flujo_alimentacion_r6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+turbidez_r6;turbidez_r6;;;;;;;;;;;;;;;;;;;;1;;;;;;;on_off_floculante_r6, on_off_flujo_alimentacion_r6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+target_torque_r7;target_torque_r7;;;;;;;;;;;;;;;r7_esp_target;;;;;;;;;;;;on_off_floculante_r7, on_off_flujo_alimentacion_r7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r7;delta_torque_r7;;;;;;;;;;;;;;;;;;;;;1;;;;;;on_off_floculante_r7, on_off_flujo_alimentacion_r7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r7_1hora;delta_torque_r7_1hora;;;;;;;;;;;;;;;;;;;;;1;;;;;;on_off_floculante_r7, on_off_flujo_alimentacion_r7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r7_2hora;delta_torque_r7_2hora;;;;;;;;;;;;;;;;;;;;;1;;;;;;on_off_floculante_r7, on_off_flujo_alimentacion_r7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r7_4hora;delta_torque_r7_4hora;;;;;;;;;;;;;;;;;;;;;1;;;;;;on_off_floculante_r7, on_off_flujo_alimentacion_r7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r7_8hora;delta_torque_r7_8hora;;;;;;;;;;;;;;;;;;;;;1;;;;;;on_off_floculante_r7, on_off_flujo_alimentacion_r7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dosificacion_acumulada_floculante_r7;dosificacion_acumulada_floculante_r7;;;;;;;;;;;;;;;;;;;;;1;;;;;;on_off_floculante_r7, on_off_flujo_alimentacion_r7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+promedio_densimetros_r7;promedio_densimetros_r7;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off_floculante_r7, on_off_flujo_alimentacion_r7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+media_mov_densimetros_r7;media_mov_densimetros_r7;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off_floculante_r7, on_off_flujo_alimentacion_r7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+promedio_apertura_valv_descarga_r7;promedio_apertura_valv_descarga_r7;;;;;;;;;;;;;;;;;;;;;1;;;;;;on_off_floculante_r7, on_off_flujo_alimentacion_r7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+nivel_rastras_r7;nivel_rastras_r7;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off_floculante_r7, on_off_flujo_alimentacion_r7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+agua_clara_media_r7;agua_clara_media_r7;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off_floculante_r7, on_off_flujo_alimentacion_r7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+flujo_alimentacion_r7;flujo_alimentacion_r7;;;;;;;;;;;;;;;;;;;;;1;;;;;;on_off_floculante_r7, on_off_flujo_alimentacion_r7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+nivel_interfaz_r7;nivel_interfaz_r7;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off_floculante_r7, on_off_flujo_alimentacion_r7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+valvula_fcv_r7;valvula_fcv_r7;;;;;;;;;;;;;;;;;;;;;1;;;;;;on_off_floculante_r7, on_off_flujo_alimentacion_r7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+turbidez_r7;turbidez_r7;;;;;;;;;;;;;;;;;;;;;1;;;;;;on_off_floculante_r7, on_off_flujo_alimentacion_r7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+target_torque_r9;target_torque_r9;;;;;;;;;;;;;;;r9_esp_target;;;;;;;;;;;;on_off_floculante_r9, on_off_flujo_alimentacion_r9;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r9;delta_torque_r9;;;;;;;;;;;;;;;;;;;;;;1;;;;;on_off_floculante_r9, on_off_flujo_alimentacion_r9;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r9_1hora;delta_torque_r9_1hora;;;;;;;;;;;;;;;;;;;;;;1;;;;;on_off_floculante_r9, on_off_flujo_alimentacion_r9;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r9_2hora;delta_torque_r9_2hora;;;;;;;;;;;;;;;;;;;;;;1;;;;;on_off_floculante_r9, on_off_flujo_alimentacion_r9;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r9_4hora;delta_torque_r9_4hora;;;;;;;;;;;;;;;;;;;;;;1;;;;;on_off_floculante_r9, on_off_flujo_alimentacion_r9;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r9_8hora;delta_torque_r9_8hora;;;;;;;;;;;;;;;;;;;;;;1;;;;;on_off_floculante_r9, on_off_flujo_alimentacion_r9;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dosificacion_acumulada_floculante_r9;dosificacion_acumulada_floculante_r9;;;;;;;;;;;;;;;;;;;;;;1;;;;;on_off_floculante_r9, on_off_flujo_alimentacion_r9;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+promedio_densimetros_r9;promedio_densimetros_r9;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off_floculante_r9, on_off_flujo_alimentacion_r9;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+media_mov_densimetros_r9;media_mov_densimetros_r9;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off_floculante_r9, on_off_flujo_alimentacion_r9;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+promedio_apertura_valv_descarga_r9;promedio_apertura_valv_descarga_r9;;;;;;;;;;;;;;;;;;;;;;1;;;;;on_off_floculante_r9, on_off_flujo_alimentacion_r9;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+nivel_rastras_r9;nivel_rastras_r9;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off_floculante_r9, on_off_flujo_alimentacion_r9;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+agua_clara_media_r9;agua_clara_media_r9;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off_floculante_r9, on_off_flujo_alimentacion_r9;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+flujo_alimentacion_r9;flujo_alimentacion_r9;;;;;;;;;;;;;;;;;;;;;;1;;;;;on_off_floculante_r9, on_off_flujo_alimentacion_r9;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+valvula_fcv_r9;valvula_fcv_r9;;;;;;;;;;;;;;;;;;;;;;1;;;;;on_off_floculante_r9, on_off_flujo_alimentacion_r9;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+turbidez_r9;turbidez_r9;;;;;;;;;;;;;;;;;;;;;;1;;;;;on_off_floculante_r9, on_off_flujo_alimentacion_r9;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+target_torque_r10;target_torque_r10;;;;;;;;;;;;;;;r10_esp_target;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r10;delta_torque_r10;;;;;;;;;;;;;;;;;;;;;;;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r10_1hora;delta_torque_r10_1hora;;;;;;;;;;;;;;;;;;;;;;;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r10_2hora;delta_torque_r10_2hora;;;;;;;;;;;;;;;;;;;;;;;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r10_4hora;delta_torque_r10_4hora;;;;;;;;;;;;;;;;;;;;;;;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_torque_r10_8hora;delta_torque_r10_8hora;;;;;;;;;;;;;;;;;;;;;;;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+dosificacion_acumulada_floculante_r10;dosificacion_acumulada_floculante_r10;;;;;;;;;;;;;;;;;;;;;;;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+promedio_densimetros_r10;promedio_densimetros_r10;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+media_mov_densimetros_r10;media_mov_densimetros_r10;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+promedio_apertura_valv_descarga_r10;promedio_apertura_valv_descarga_r10;;;;;;;;;;;;;;;;;;;;;;;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+agua_clara_media_r10;agua_clara_media_r10;;;;;;;;;;;;;;;;;;;;;;;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+nivel_interfaz_r10;nivel_interfaz_r10;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+turbidez_r10;turbidez_r10;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+presion_cono_decimal_suav_r10;presion_cono_decimal_suav_r10;;;;;;;;;;;;;;;;;;;;;;;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+presion_cono_decimal_r10;presion_cono_decimal_r10;;;;;;;;;;;;;;;;;;;;;;;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+delta_presion_cono_decimal_r10;delta_presion_cono_decimal_r10;;;;;;;;;;;;;;;;;;;;;;;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Agua_Fresca_Colon;Agua_Fresca_Colon;;;;;;;;;;;;;;;;1;1;1;1;1;1;1;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Procesamiento_SAG;Procesamiento_SAG;;;;;;;;;;;;;;;;1;1;1;1;1;1;1;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Procesamiento_Convencional;Procesamiento_Convencional;;;;;;;;;;;;;;;;1;1;1;1;1;1;1;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Procesamiento_Total;Procesamiento_Total;;;;;;;;;;;;;;;;1;1;1;1;1;1;1;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Solido_SAG;Solido_SAG;;;;;;;;;;;;;;;;1;1;1;1;1;1;1;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Solido_Convencional;Solido_Convencional;;;;;;;;;;;;;;;;1;1;1;1;1;1;1;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Agua_SAG;Agua_SAG;;;;;;;;;;;;;;;;1;1;1;1;1;1;1;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Agua_Convencional;Agua_Convencional;;;;;;;;;;;;;;;;1;1;1;1;1;1;1;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Agua_Total;Agua_Total;;;;;;;;;;;;;;;;1;1;1;1;1;1;1;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+CEA_Total;CEA_Total;;;;;;;;;;;;;;;;1;1;1;1;1;1;1;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+tph_sag1;tph_sag1;;;;;;;;;;;;;;;;1;1;1;1;1;1;1;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+tph_sag2;tph_sag2;;;;;;;;;;;;;;;;1;1;1;1;1;1;1;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+tph_sag_mills;tph_sag_mills;;;;;;;;;;;;;;;;1;1;1;1;1;1;1;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+promedio_descarga_bomba_15_16;promedio_descarga_bomba_15_16;;;;;;;;;;;;;;;;1;1;1;1;1;1;1;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+promedio_descarga_bomba_17_18;promedio_descarga_bomba_17_18;;;;;;;;;;;;;;;;1;1;1;1;1;1;1;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+flujo_agua_recup_prom;flujo_agua_recup_prom;;;;;;;;;;;;;;;;1;1;1;1;1;1;1;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+agua_prom_descarga_recuperadores;agua_prom_descarga_recuperadores;;;;;;;;;;;;;;;;1;1;1;1;1;1;1;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+ph_ca6_suavizado;ph_ca6_suavizado;;;;;;;;;;;;;;;;1;1;1;1;1;1;1;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+calc_torque_esp_total;calc_torque_esp_total;;;;;;;;;;;;;;;esp_obj;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+on_off_floculante_r2;on_off_floculante_r2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_valvulas_descarga_l1_r2;on_off_valvulas_descarga_l1_r2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_valvulas_descarga_l2_r2;on_off_valvulas_descarga_l2_r2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_densimetro_01_r2;on_off_densimetro_01_r2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_densimetro_02_r2;on_off_densimetro_02_r2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_nivel_interfaz_r2;on_off_nivel_interfaz_r2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_flujo_alimentacion_r2;on_off_flujo_alimentacion_r2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_floculante_r3;on_off_floculante_r3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_valvulas_descarga_l1_r3;on_off_valvulas_descarga_l1_r3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_valvulas_descarga_l2_r3;on_off_valvulas_descarga_l2_r3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_densimetro_01_r3;on_off_densimetro_01_r3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_densimetro_02_r3;on_off_densimetro_02_r3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_nivel_interfaz_r3;on_off_nivel_interfaz_r3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_flujo_alimentacion_r3;on_off_flujo_alimentacion_r3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_floculante_r4;on_off_floculante_r4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_valvulas_descarga_l1_r4;on_off_valvulas_descarga_l1_r4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_valvulas_descarga_l2_r4;on_off_valvulas_descarga_l2_r4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_densimetro_01_r4;on_off_densimetro_01_r4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_densimetro_02_r4;on_off_densimetro_02_r4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_nivel_interfaz_r4;on_off_nivel_interfaz_r4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_flujo_alimentacion_r4;on_off_flujo_alimentacion_r4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_floculante_r5;on_off_floculante_r5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_valvulas_descarga_l1_r5;on_off_valvulas_descarga_l1_r5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_valvulas_descarga_l2_r5;on_off_valvulas_descarga_l2_r5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_densimetro_01_r5;on_off_densimetro_01_r5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_densimetro_02_r5;on_off_densimetro_02_r5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_nivel_interfaz_r5;on_off_nivel_interfaz_r5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_flujo_alimentacion_r5;on_off_flujo_alimentacion_r5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_floculante_r6;on_off_floculante_r6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_valvulas_descarga_l1_r6;on_off_valvulas_descarga_l1_r6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_valvulas_descarga_l2_r6;on_off_valvulas_descarga_l2_r6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_densimetro_01_r6;on_off_densimetro_01_r6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_densimetro_02_r6;on_off_densimetro_02_r6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_nivel_interfaz_r6;on_off_nivel_interfaz_r6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_flujo_alimentacion_r6;on_off_flujo_alimentacion_r6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_floculante_r7;on_off_floculante_r7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_valvulas_descarga_l1_r7;on_off_valvulas_descarga_l1_r7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_valvulas_descarga_l2_r7;on_off_valvulas_descarga_l2_r7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_densimetro_01_r7;on_off_densimetro_01_r7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_densimetro_02_r7;on_off_densimetro_02_r7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_nivel_interfaz_r7;on_off_nivel_interfaz_r7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_flujo_alimentacion_r7;on_off_flujo_alimentacion_r7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_floculante_r9;on_off_floculante_r9;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_valvulas_descarga_l1_r9;on_off_valvulas_descarga_l1_r9;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_valvulas_descarga_l2_r9;on_off_valvulas_descarga_l2_r9;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_densimetro_01_r9;on_off_densimetro_01_r9;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_densimetro_02_r9;on_off_densimetro_02_r9;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_flujo_alimentacion_r9;on_off_flujo_alimentacion_r9;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_floculante_r10;on_off_floculante_r10;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_valvulas_descarga_l1_r10;on_off_valvulas_descarga_l1_r10;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_valvulas_descarga_l2_r10;on_off_valvulas_descarga_l2_r10;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_densimetro_01_r10;on_off_densimetro_01_r10;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_densimetro_02_r10;on_off_densimetro_02_r10;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_nivel_interfaz_r10;on_off_nivel_interfaz_r10;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;
+on_off_presion_cono_decimal_r10;on_off_presion_cono_decimal_r10;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;on_off;;

@@ -1,0 +1,23 @@
+#--- engineering Catalog (espesadores)---#
+input_data_espesadores_de:
+    type: pandas.CSVDataSet
+    filepath: data/01_raw/raw_data_2019-09_2020_09_espesadores.csv
+    save_args:
+        index: True
+    load_args:
+        parse_dates: ["Fecha"]
+        index_col: 0
+        sep: ","
+        dayfirst: True
+    fs_args:
+        open_args_load:
+            encoding: "latin1"
+
+data_all_features_esp:
+  type: pandas.CSVDataSet
+  filepath: data/04_feature/data_all_features_esp.csv
+  save_args:
+      index: True
+  load_args:
+      parse_dates: ["Fecha"]
+#      index_col: 0

@@ -1,0 +1,19 @@
+curation:
+  stop_if_no_go: False  # If True, code execution will be stopped if DQ tests are not passed for all model variables
+  replace_outliers_by_value: # This is commonly known as clipping
+    tag_list:
+      "sag2_320_li_3270":
+        high_value: 100 #Check this value with experts
+        low_value: 0
+#      "ma2_3zi2800":
+#        high_value: 50
+#        low_value: 0
+#      "ma2_3zi2900":
+#        high_value: 50
+#        low_value: 0
+#      "ma2_3kic0105":
+#        high_value: 90
+#        low_value: 0
+#      "ma2_3xi2700":
+#        high_value: 60
+#        low_value: 0

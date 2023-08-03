@@ -1,0 +1,27 @@
+#--- Clusterization Catalog ---#
+input_data_clusterization:
+    type: pandas.CSVDataSet
+    filepath: data/01_raw/PICOLON_201909_202009_Cada_Hora_V2.csv
+    save_args:
+        index: True
+    load_args:
+        parse_dates: ["Timestamp"]
+        index_col: 0
+        sep: ";"
+    fs_args:
+        open_args_load:
+            encoding: "latin1"
+
+
+input_data_2_clusterization:
+    type: pandas.CSVDataSet
+    filepath: data/01_raw/PIRH_201909_202009_1_hora_v3.csv
+    save_args:
+        index: True
+    load_args:
+        parse_dates: ["Fecha"]
+        index_col: 0
+        sep: ";"
+    fs_args:
+        open_args_load:
+            encoding: "latin1"

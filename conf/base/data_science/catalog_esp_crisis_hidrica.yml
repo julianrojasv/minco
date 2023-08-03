@@ -1,0 +1,470 @@
+#########################################
+#--- train_model R2 ESPESADORES Catalog ---#
+#########################################
+#--- model input ---#
+r2_esp_ch.master_filtered:
+    type: pickle.PickleDataSet
+    filepath: data/07_model_output/r2_esp_ch/master_filtered.pkl
+
+r2_esp_ch.train_set: &base_train_set
+    type: pandas.CSVDataSet
+    filepath: data/05_model_input/r2_esp_ch/train_set.csv
+    save_args:
+      index: True
+    load_args:
+      parse_dates: ["${timestamp_col_name}"]
+      #index_col: 0
+
+r2_esp_ch.test_set: &base_test_set
+    type: pandas.CSVDataSet
+    filepath: data/05_model_input/r2_esp_ch/test_set.csv
+    save_args:
+        index: True
+    load_args:
+        parse_dates: ["${timestamp_col_name}"]
+        #index_col: 0
+
+r2_esp_ch.regressor:
+    type: MemoryDataSet
+
+r2_esp_ch.regressor_pipeline:
+    type: MemoryDataSet
+
+#--- model output ---#
+r2_esp_ch.train_model:
+    type: pickle.PickleDataSet
+    filepath: data/06_models/r2_esp_ch/train_model.pkl
+
+r2_esp_ch.train_set_cv_results:
+    type: MemoryDataSet
+
+#--- reporting ---#
+r2_esp_ch.train_set_feature_importance:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/r2_esp_ch/train_set_feature_importance.pkl
+
+r2_esp_ch.test_set_predictions:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/r2_esp_ch/test_set_predictions.pkl
+
+r2_esp_ch.test_set_metrics: &base_test_metrics
+    type: pandas.CSVDataSet
+    filepath: data/08_reporting/r2_esp_ch/test_set_metrics.csv
+    load_args:
+        index_col: 0
+    save_args:
+        index: True
+        
+        
+#########################################
+#--- train_model R3 ESPESADORES Catalog ---#
+#########################################
+#--- model input ---#
+r3_esp_ch.master_filtered:
+    type: pickle.PickleDataSet
+    filepath: data/07_model_output/r3_esp_ch/master_filtered.pkl
+
+r3_esp_ch.train_set:
+    type: pandas.CSVDataSet
+    filepath: data/05_model_input/r3_esp_ch/train_set.csv
+    save_args:
+        index: True
+    load_args:
+        parse_dates: ["${timestamp_col_name}"]
+#      index_col: 0
+
+r3_esp_ch.test_set:
+    type: pandas.CSVDataSet
+    filepath: data/05_model_input/r3_esp_ch/test_set.csv
+    save_args:
+        index: True
+    load_args:
+        parse_dates: ["${timestamp_col_name}"]
+#        index_col: 0
+
+r3_esp_ch.regressor:
+    type: MemoryDataSet
+
+r3_esp_ch.regressor_pipeline:
+    type: MemoryDataSet
+
+#--- model output ---#
+r3_esp_ch.train_model:
+    type: pickle.PickleDataSet
+    filepath: data/06_models/r3_esp_ch/train_model.pkl
+
+r3_esp_ch.train_set_cv_results:
+    type: MemoryDataSet
+
+#--- reporting ---#
+r3_esp_ch.train_set_feature_importance:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/r3_esp_ch/train_set_feature_importance.pkl
+
+r3_esp_ch.test_set_predictions:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/r3_esp_ch/test_set_predictions.pkl
+
+r3_esp_ch.test_set_metrics:
+    type: pandas.CSVDataSet
+    filepath: data/08_reporting/r3_esp_ch/test_set_metrics.csv
+    load_args:
+        index_col: 0
+    save_args:
+        index: True
+        
+#########################################
+#--- train_model R4 ESPESADORES Catalog ---#
+#########################################
+#--- model input ---#
+r4_esp_ch.master_filtered:
+    type: pickle.PickleDataSet
+    filepath: data/07_model_output/r4_esp_ch/master_filtered.pkl
+
+r4_esp_ch.train_set:
+    type: pandas.CSVDataSet
+    filepath: data/05_model_input/r4_esp_ch/train_set.csv
+    save_args:
+        index: True
+    load_args:
+        parse_dates: ["${timestamp_col_name}"]
+        #index_col: 0
+
+r4_esp_ch.test_set:
+    type: pandas.CSVDataSet
+    filepath: data/05_model_input/r4_esp_ch/test_set.csv
+    save_args:
+        index: True
+    load_args:
+        parse_dates: ["${timestamp_col_name}"]
+        #index_col: 0
+
+r4_esp_ch.regressor:
+    type: MemoryDataSet
+
+r4_esp_ch.regressor_pipeline:
+    type: MemoryDataSet
+
+#--- model output ---#
+r4_esp_ch.train_model:
+    type: pickle.PickleDataSet
+    filepath: data/06_models/r4_esp_ch/train_model.pkl
+
+r4_esp_ch.train_set_cv_results:
+    type: MemoryDataSet
+
+#--- reporting ---#
+r4_esp_ch.train_set_feature_importance:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/r4_esp_ch/train_set_feature_importance.pkl
+
+r4_esp_ch.test_set_predictions:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/r4_esp_ch/test_set_predictions.pkl
+
+r4_esp_ch.test_set_metrics:
+    type: pandas.CSVDataSet
+    filepath: data/08_reporting/r4_esp_ch/test_set_metrics.csv
+    load_args:
+        index_col: 0
+    save_args:
+        index: True
+        
+        
+#########################################
+#--- train_model R5 ESPESADORES Catalog ---#
+#########################################
+#--- model input ---#
+r5_esp_ch.master_filtered:
+    type: pickle.PickleDataSet
+    filepath: data/07_model_output/r5_esp_ch/master_filtered.pkl
+
+r5_esp_ch.train_set:
+    type: pandas.CSVDataSet
+    filepath: data/05_model_input/r5_esp_ch/train_set.csv
+    save_args:
+      index: True
+    load_args:
+      parse_dates: ["${timestamp_col_name}"]
+      #index_col: 0
+
+r5_esp_ch.test_set:
+    type: pandas.CSVDataSet
+    filepath: data/05_model_input/r5_esp_ch/test_set.csv
+    save_args:
+        index: True
+    load_args:
+        parse_dates: ["${timestamp_col_name}"]
+        #index_col: 0
+
+r5_esp_ch.regressor:
+    type: MemoryDataSet
+
+r5_esp_ch.regressor_pipeline:
+    type: MemoryDataSet
+
+#--- model output ---#
+r5_esp_ch.train_model:
+    type: pickle.PickleDataSet
+    filepath: data/06_models/r5_esp_ch/train_model.pkl
+
+r5_esp_ch.train_set_cv_results:
+    type: MemoryDataSet
+
+#--- reporting ---#
+r5_esp_ch.train_set_feature_importance:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/r5_esp_ch/train_set_feature_importance.pkl
+
+r5_esp_ch.test_set_predictions:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/r5_esp_ch/test_set_predictions.pkl
+
+r5_esp_ch.test_set_metrics:
+    type: pandas.CSVDataSet
+    filepath: data/08_reporting/r5_esp_ch/test_set_metrics.csv
+    load_args:
+        index_col: 0
+    save_args:
+        index: True
+        
+        
+#########################################
+#--- train_model R6 ESPESADORES Catalog ---#
+#########################################
+#--- model input ---#
+r6_esp_ch.master_filtered:
+    type: pickle.PickleDataSet
+    filepath: data/07_model_output/r6_esp_ch/master_filtered.pkl
+
+r6_esp_ch.train_set:
+    type: pandas.CSVDataSet
+    filepath: data/05_model_input/r6_esp_ch/train_set.csv
+    save_args:
+      index: True
+    load_args:
+      parse_dates: ["${timestamp_col_name}"]
+      #index_col: 0
+
+r6_esp_ch.test_set:
+    type: pandas.CSVDataSet
+    filepath: data/05_model_input/r6_esp_ch/test_set.csv
+    save_args:
+        index: True
+    load_args:
+        parse_dates: ["${timestamp_col_name}"]
+       # index_col: 0
+
+r6_esp_ch.regressor:
+    type: MemoryDataSet
+
+r6_esp_ch.regressor_pipeline:
+    type: MemoryDataSet
+
+#--- model output ---#
+r6_esp_ch.train_model:
+    type: pickle.PickleDataSet
+    filepath: data/06_models/r6_esp_ch/train_model.pkl
+
+r6_esp_ch.train_set_cv_results:
+    type: MemoryDataSet
+
+#--- reporting ---#
+r6_esp_ch.train_set_feature_importance:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/r6_esp_ch/train_set_feature_importance.pkl
+
+r6_esp_ch.test_set_predictions:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/r6_esp_ch/test_set_predictions.pkl
+
+r6_esp_ch.test_set_metrics:
+    type: pandas.CSVDataSet
+    filepath: data/08_reporting/r6_esp_ch/test_set_metrics.csv
+    load_args:
+        index_col: 0
+    save_args:
+        index: True
+        
+        
+        
+#########################################
+#--- train_model R7 ESPESADORES Catalog ---#
+#########################################
+#--- model input ---#
+r7_esp_ch.master_filtered:
+    type: pickle.PickleDataSet
+    filepath: data/07_model_output/r7_esp_ch/master_filtered.pkl
+
+r7_esp_ch.train_set:
+    type: pandas.CSVDataSet
+    filepath: data/05_model_input/r7_esp_ch/train_set.csv
+    save_args:
+      index: True
+    load_args:
+      parse_dates: ["${timestamp_col_name}"]
+      #index_col: 0
+
+r7_esp_ch.test_set:
+    type: pandas.CSVDataSet
+    filepath: data/05_model_input/r7_esp_ch/test_set.csv
+    save_args:
+        index: True
+    load_args:
+        parse_dates: ["${timestamp_col_name}"]
+        #index_col: 0
+
+r7_esp_ch.regressor:
+    type: MemoryDataSet
+
+r7_esp_ch.regressor_pipeline:
+    type: MemoryDataSet
+
+#--- model output ---#
+r7_esp_ch.train_model:
+    type: pickle.PickleDataSet
+    filepath: data/06_models/r7_esp_ch/train_model.pkl
+
+r7_esp_ch.train_set_cv_results:
+    type: MemoryDataSet
+
+#--- reporting ---#
+r7_esp_ch.train_set_feature_importance:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/r7_esp_ch/train_set_feature_importance.pkl
+
+r7_esp_ch.test_set_predictions:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/r7_esp_ch/test_set_predictions.pkl
+
+r7_esp_ch.test_set_metrics:
+    type: pandas.CSVDataSet
+    filepath: data/08_reporting/r7_esp_ch/test_set_metrics.csv
+    load_args:
+        index_col: 0
+    save_args:
+        index: True
+        
+        
+        
+#########################################
+#--- train_model R9 ESPESADORES Catalog ---#
+#########################################
+#--- model input ---#
+r9_esp_ch.master_filtered:
+    type: pickle.PickleDataSet
+    filepath: data/07_model_output/r9_esp_ch/master_filtered.pkl
+
+r9_esp_ch.train_set:
+    type: pandas.CSVDataSet
+    filepath: data/05_model_input/r9_esp_ch/train_set.csv
+    save_args:
+      index: True
+    load_args:
+      parse_dates: ["${timestamp_col_name}"]
+      #index_col: 0
+
+r9_esp_ch.test_set:
+    type: pandas.CSVDataSet
+    filepath: data/05_model_input/r9_esp_ch/test_set.csv
+    save_args:
+        index: True
+    load_args:
+        parse_dates: ["${timestamp_col_name}"]
+        #index_col: 0
+
+r9_esp_ch.regressor:
+    type: MemoryDataSet
+
+r9_esp_ch.regressor_pipeline:
+    type: MemoryDataSet
+
+#--- model output ---#
+r9_esp_ch.train_model:
+    type: pickle.PickleDataSet
+    filepath: data/06_models/r9_esp_ch/train_model.pkl
+
+r9_esp_ch.train_set_cv_results:
+    type: MemoryDataSet
+
+#--- reporting ---#
+r9_esp_ch.train_set_feature_importance:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/r9_esp_ch/train_set_feature_importance.pkl
+
+r9_esp_ch.test_set_predictions:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/r9_esp_ch/test_set_predictions.pkl
+
+r9_esp_ch.test_set_metrics:
+    type: pandas.CSVDataSet
+    filepath: data/08_reporting/r9_esp_ch/test_set_metrics.csv
+    load_args:
+        index_col: 0
+    save_args:
+        index: True
+        
+        
+        
+#########################################
+#--- train_model R10 ESPESADORES Catalog ---#
+#########################################
+#--- model input ---#
+r10_esp_ch.master_filtered:
+    type: pickle.PickleDataSet
+    filepath: data/07_model_output/r10_esp_ch/master_filtered.pkl
+
+r10_esp_ch.train_set:
+    type: pandas.CSVDataSet
+    filepath: data/05_model_input/r10_esp_ch/train_set.csv
+    save_args:
+        index: True
+    load_args:
+        parse_dates: ["${timestamp_col_name}"]
+        #index_col: 0
+
+r10_esp_ch.test_set:
+    type: pandas.CSVDataSet
+    filepath: data/05_model_input/r10_esp_ch/test_set.csv
+    save_args:
+        index: True
+    load_args:
+        parse_dates: ["${timestamp_col_name}"]
+        #index_col: 0
+
+r10_esp_ch.regressor:
+    type: MemoryDataSet
+
+r10_esp_ch.regressor_pipeline:
+    type: MemoryDataSet
+
+#--- model output ---#
+r10_esp_ch.train_model:
+    type: pickle.PickleDataSet
+    filepath: data/06_models/r10_esp_ch/train_model.pkl
+
+r10_esp_ch.train_set_cv_results:
+    type: MemoryDataSet
+
+#--- reporting ---#
+r10_esp_ch.train_set_feature_importance:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/r10_esp_ch/train_set_feature_importance.pkl
+
+r10_esp_ch.test_set_predictions:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/r10_esp_ch/test_set_predictions.pkl
+
+r10_esp_ch.test_set_metrics:
+    type: pandas.CSVDataSet
+    filepath: data/08_reporting/r10_esp_ch/test_set_metrics.csv
+    load_args:
+        index_col: 0
+    save_args:
+        index: True
+
+
+
+
+        
+        

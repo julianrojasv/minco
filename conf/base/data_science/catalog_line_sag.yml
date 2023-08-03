@@ -1,0 +1,724 @@
+data_cluster3: &cluster_base
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/data_cluster_3.csv
+  load_args:
+    parse_dates: ["Fecha"]
+  save_args:
+    index: True
+
+data_cluster2:
+  <<: *cluster_base
+  filepath: data/01_raw/data_cluster_2.csv
+
+data_cluster1:
+  <<: *cluster_base
+  filepath: data/01_raw/data_cluster_1.csv
+
+data_cluster0:
+  <<: *cluster_base
+  filepath: data/01_raw/data_cluster_0.csv
+
+
+#--- train_model TPH SAG1 Train Model Catalog ---#
+#--- model input ---#
+sag1.master_filtered:
+    type: pickle.PickleDataSet
+    filepath: data/07_model_output/sag1/master_filtered.pkl
+
+sag1.train_set: &base_train_set
+    type: pandas.CSVDataSet
+    filepath: data/05_model_input/sag1/train_set.csv
+    save_args:
+      index: True
+    load_args:
+      parse_dates: ["${timestamp_col_name}"]
+      index_col: 0
+
+sag1.test_set: &base_test_set
+    type: pandas.CSVDataSet
+    filepath: data/05_model_input/sag1/test_set.csv
+    save_args:
+        index: True
+    load_args:
+        parse_dates: ["${timestamp_col_name}"]
+        index_col: 0
+
+sag1.regressor:
+    type: MemoryDataSet
+
+sag1.regressor_pipeline:
+    type: MemoryDataSet
+
+#--- model output ---#
+sag1.train_model:
+    type: pickle.PickleDataSet
+    filepath: data/06_models/sag1/train_model.pkl
+
+sag1.train_set_cv_results:
+    type: MemoryDataSet
+
+#--- reporting ---#
+sag1.train_set_feature_importance:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/sag1/train_set_feature_importance.pkl
+
+sag1.test_set_predictions:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/sag1/test_set_predictions.pkl
+
+sag1.test_set_metrics: &base_test_metrics
+    type: pandas.CSVDataSet
+    filepath: data/08_reporting/sag1/test_set_metrics.csv
+    load_args:
+        index_col: 0
+    save_args:
+        index: True
+
+
+#--- train_model TPH SAG2 Train Model Catalog ---#
+
+#--- model input ---#
+sag2.master_filtered:
+    type: pickle.PickleDataSet
+    filepath: data/07_model_output/sag2/master_filtered.pkl
+
+sag2.train_set:
+    type: pandas.CSVDataSet
+    filepath: data/05_model_input/sag2/train_set.csv
+    save_args:
+      index: True
+    load_args:
+      parse_dates: ["${timestamp_col_name}"]
+      index_col: 0
+
+sag2.test_set:
+    type: pandas.CSVDataSet
+    filepath: data/05_model_input/sag2/test_set.csv
+    save_args:
+        index: True
+    load_args:
+        parse_dates: ["${timestamp_col_name}"]
+        index_col: 0
+
+sag2.regressor:
+    type: MemoryDataSet
+
+sag2.regressor_pipeline:
+    type: MemoryDataSet
+
+#--- model output ---#
+sag2.train_model:
+    type: pickle.PickleDataSet
+    filepath: data/06_models/sag2/train_model.pkl
+
+sag2.train_set_cv_results:
+    type: MemoryDataSet
+
+#--- reporting ---#
+sag2.train_set_feature_importance:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/sag2/train_set_feature_importance.pkl
+
+sag2.test_set_predictions:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/sag2/test_set_predictions.pkl
+
+sag2.test_set_metrics:
+    type: pandas.CSVDataSet
+    filepath: data/08_reporting/sag2/test_set_metrics.csv
+    load_args:
+        index_col: 0
+    save_args:
+        index: True
+
+#--- train_model TPH FSAG Train Model Catalog ---#
+
+#--- model input ---#
+fsag.master_filtered:
+    type: pickle.PickleDataSet
+    filepath: data/07_model_output/fsag/master_filtered.pkl
+
+fsag.train_set:
+    type: pandas.CSVDataSet
+    filepath: data/05_model_input/fsag/train_set.csv
+    save_args:
+      index: True
+    load_args:
+      parse_dates: ["${timestamp_col_name}"]
+      index_col: 0
+
+fsag.test_set:
+    type: pandas.CSVDataSet
+    filepath: data/05_model_input/fsag/test_set.csv
+    save_args:
+        index: True
+    load_args:
+        parse_dates: ["${timestamp_col_name}"]
+        index_col: 0
+
+fsag.regressor:
+    type: MemoryDataSet
+
+fsag.regressor_pipeline:
+    type: MemoryDataSet
+
+#--- model output ---#
+fsag.train_model:
+    type: pickle.PickleDataSet
+    filepath: data/06_models/fsag/train_model.pkl
+
+fsag.train_set_cv_results:
+    type: MemoryDataSet
+
+#--- reporting ---#
+fsag.train_set_feature_importance:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/fsag/train_set_feature_importance.pkl
+
+fsag.test_set_predictions:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/fsag/test_set_predictions.pkl
+
+fsag.test_set_metrics:
+    type: pandas.CSVDataSet
+    filepath: data/08_reporting/fsag/test_set_metrics.csv
+    load_args:
+        index_col: 0
+    save_args:
+        index: True
+
+
+# ------ CLUSTERS ---------- #
+# ------ CLUSTERS ---------- #
+# ------ SAG1 CLUSTER 3---------- #
+sag1_cluster3.master_target_cluster:
+    type: pickle.PickleDataSet
+    filepath: data/07_model_output/sag1_cluster3/master_target_cluster.pkl
+
+sag1_cluster3.master_filtered:
+    type: pickle.PickleDataSet
+    filepath: data/07_model_output/sag1_cluster3/master_filtered.pkl
+
+sag1_cluster3.train_set:
+    filepath: data/05_model_input/sag1_cluster3/train_set.csv
+    <<: *base_train_set
+
+sag1_cluster3.test_set:
+    filepath: data/05_model_input/sag1_cluster3/test_set.csv
+    <<: *base_test_set
+
+sag1_cluster3.regressor:
+    type: MemoryDataSet
+
+sag1_cluster3.regressor_pipeline:
+    type: MemoryDataSet
+
+#--- model output ---#
+sag1_cluster3.train_model:
+    type: pickle.PickleDataSet
+    filepath: data/06_models/sag1_cluster3/train_model.pkl
+
+sag1_cluster3.train_set_cv_results:
+    type: MemoryDataSet
+
+#--- reporting ---#
+sag1_cluster3.train_set_feature_importance:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/sag1_cluster3/train_set_feature_importance.pkl
+
+sag1_cluster3.test_set_predictions:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/sag1_cluster3/test_set_predictions.pkl
+
+sag1_cluster3.test_set_metrics:
+    filepath: data/08_reporting/sag1_cluster3/test_set_metrics.csv
+    <<: *base_test_metrics
+
+# ------ SAG1 CLUSTER 2---------- #
+sag1_cluster2.master_target_cluster:
+    type: pickle.PickleDataSet
+    filepath: data/07_model_output/sag1_cluster2/master_target_cluster.pkl
+
+sag1_cluster2.master_filtered:
+    type: pickle.PickleDataSet
+    filepath: data/07_model_output/sag1_cluster2/master_filtered.pkl
+
+sag1_cluster2.train_set:
+    filepath: data/05_model_input/sag1_cluster2/train_set.csv
+    <<: *base_train_set
+
+sag1_cluster2.test_set:
+    filepath: data/05_model_input/sag1_cluster2/test_set.csv
+    <<: *base_test_set
+
+sag1_cluster2.regressor:
+    type: MemoryDataSet
+
+sag1_cluster2.regressor_pipeline:
+    type: MemoryDataSet
+
+#--- model output ---#
+sag1_cluster2.train_model:
+    type: pickle.PickleDataSet
+    filepath: data/06_models/sag1_cluster2/train_model.pkl
+
+sag1_cluster2.train_set_cv_results:
+    type: MemoryDataSet
+
+#--- reporting ---#
+sag1_cluster2.train_set_feature_importance:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/sag1_cluster2/train_set_feature_importance.pkl
+
+sag1_cluster2.test_set_predictions:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/sag1_cluster2/test_set_predictions.pkl
+
+sag1_cluster2.test_set_metrics:
+    filepath: data/08_reporting/sag1_cluster2/test_set_metrics.csv
+    <<: *base_test_metrics
+    
+# ------ SAG1 CLUSTER 1---------- #
+sag1_cluster1.master_target_cluster:
+    type: pickle.PickleDataSet
+    filepath: data/07_model_output/sag1_cluster1/master_target_cluster.pkl
+
+sag1_cluster1.master_filtered:
+    type: pickle.PickleDataSet
+    filepath: data/07_model_output/sag1_cluster1/master_filtered.pkl
+
+sag1_cluster1.train_set:
+    filepath: data/05_model_input/sag1_cluster1/train_set.csv
+    <<: *base_train_set
+
+sag1_cluster1.test_set:
+    filepath: data/05_model_input/sag1_cluster1/test_set.csv
+    <<: *base_test_set
+
+sag1_cluster1.regressor:
+    type: MemoryDataSet
+
+sag1_cluster1.regressor_pipeline:
+    type: MemoryDataSet
+
+#--- model output ---#
+sag1_cluster1.train_model:
+    type: pickle.PickleDataSet
+    filepath: data/06_models/sag1_cluster1/train_model.pkl
+
+sag1_cluster1.train_set_cv_results:
+    type: MemoryDataSet
+
+#--- reporting ---#
+sag1_cluster1.train_set_feature_importance:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/sag1_cluster1/train_set_feature_importance.pkl
+
+sag1_cluster1.test_set_predictions:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/sag1_cluster1/test_set_predictions.pkl
+
+sag1_cluster1.test_set_metrics:
+    filepath: data/08_reporting/sag1_cluster1/test_set_metrics.csv
+    <<: *base_test_metrics
+    
+# ------ SAG1 CLUSTER 0---------- #
+sag1_cluster0.master_target_cluster:
+    type: pickle.PickleDataSet
+    filepath: data/07_model_output/sag1_cluster0/master_target_cluster.pkl
+
+sag1_cluster0.master_filtered:
+    type: pickle.PickleDataSet
+    filepath: data/07_model_output/sag1_cluster0/master_filtered.pkl
+
+sag1_cluster0.train_set:
+    filepath: data/05_model_input/sag1_cluster0/train_set.csv
+    <<: *base_train_set
+
+sag1_cluster0.test_set:
+    filepath: data/05_model_input/sag1_cluster0/test_set.csv
+    <<: *base_test_set
+
+sag1_cluster0.regressor:
+    type: MemoryDataSet
+
+sag1_cluster0.regressor_pipeline:
+    type: MemoryDataSet
+
+#--- model output ---#
+sag1_cluster0.train_model:
+    type: pickle.PickleDataSet
+    filepath: data/06_models/sag1_cluster0/train_model.pkl
+
+sag1_cluster0.train_set_cv_results:
+    type: MemoryDataSet
+
+#--- reporting ---#
+sag1_cluster0.train_set_feature_importance:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/sag1_cluster0/train_set_feature_importance.pkl
+
+sag1_cluster0.test_set_predictions:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/sag1_cluster0/test_set_predictions.pkl
+
+sag1_cluster0.test_set_metrics:
+    filepath: data/08_reporting/sag1_cluster0/test_set_metrics.csv
+    <<: *base_test_metrics
+    
+    
+
+# ------ SAG2 CLUSTER 3---------- #
+sag2_cluster3.master_target_cluster:
+    type: pickle.PickleDataSet
+    filepath: data/07_model_output/sag2_cluster3/master_target_cluster.pkl
+
+sag2_cluster3.master_filtered:
+    type: pickle.PickleDataSet
+    filepath: data/07_model_output/sag2_cluster3/master_filtered.pkl
+
+sag2_cluster3.train_set:
+    filepath: data/05_model_input/sag2_cluster3/train_set.csv
+    <<: *base_train_set
+
+sag2_cluster3.test_set:
+    filepath: data/05_model_input/sag2_cluster3/test_set.csv
+    <<: *base_test_set
+
+sag2_cluster3.regressor:
+    type: MemoryDataSet
+
+sag2_cluster3.regressor_pipeline:
+    type: MemoryDataSet
+
+#--- model output ---#
+sag2_cluster3.train_model:
+    type: pickle.PickleDataSet
+    filepath: data/06_models/sag2_cluster3/train_model.pkl
+
+sag2_cluster3.train_set_cv_results:
+    type: MemoryDataSet
+
+#--- reporting ---#
+sag2_cluster3.train_set_feature_importance:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/sag2_cluster3/train_set_feature_importance.pkl
+
+sag2_cluster3.test_set_predictions:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/sag2_cluster3/test_set_predictions.pkl
+
+sag2_cluster3.test_set_metrics:
+    filepath: data/08_reporting/sag2_cluster3/test_set_metrics.csv
+    <<: *base_test_metrics
+
+# ------ SAG2 CLUSTER 2---------- #
+sag2_cluster2.master_target_cluster:
+    type: pickle.PickleDataSet
+    filepath: data/07_model_output/sag2_cluster2/master_target_cluster.pkl
+
+sag2_cluster2.master_filtered:
+    type: pickle.PickleDataSet
+    filepath: data/07_model_output/sag2_cluster2/master_filtered.pkl
+
+sag2_cluster2.train_set:
+    filepath: data/05_model_input/sag2_cluster2/train_set.csv
+    <<: *base_train_set
+
+sag2_cluster2.test_set:
+    filepath: data/05_model_input/sag2_cluster2/test_set.csv
+    <<: *base_test_set
+
+sag2_cluster2.regressor:
+    type: MemoryDataSet
+
+sag2_cluster2.regressor_pipeline:
+    type: MemoryDataSet
+
+#--- model output ---#
+sag2_cluster2.train_model:
+    type: pickle.PickleDataSet
+    filepath: data/06_models/sag2_cluster2/train_model.pkl
+
+sag2_cluster2.train_set_cv_results:
+    type: MemoryDataSet
+
+#--- reporting ---#
+sag2_cluster2.train_set_feature_importance:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/sag2_cluster2/train_set_feature_importance.pkl
+
+sag2_cluster2.test_set_predictions:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/sag2_cluster2/test_set_predictions.pkl
+
+sag2_cluster2.test_set_metrics:
+    filepath: data/08_reporting/sag2_cluster2/test_set_metrics.csv
+    <<: *base_test_metrics
+    
+# ------ SAG2 CLUSTER 1---------- #
+sag2_cluster1.master_target_cluster:
+    type: pickle.PickleDataSet
+    filepath: data/07_model_output/sag2_cluster1/master_target_cluster.pkl
+
+sag2_cluster1.master_filtered:
+    type: pickle.PickleDataSet
+    filepath: data/07_model_output/sag2_cluster1/master_filtered.pkl
+
+sag2_cluster1.train_set:
+    filepath: data/05_model_input/sag2_cluster1/train_set.csv
+    <<: *base_train_set
+
+sag2_cluster1.test_set:
+    filepath: data/05_model_input/sag2_cluster1/test_set.csv
+    <<: *base_test_set
+
+sag2_cluster1.regressor:
+    type: MemoryDataSet
+
+sag2_cluster1.regressor_pipeline:
+    type: MemoryDataSet
+
+#--- model output ---#
+sag2_cluster1.train_model:
+    type: pickle.PickleDataSet
+    filepath: data/06_models/sag2_cluster1/train_model.pkl
+
+sag2_cluster1.train_set_cv_results:
+    type: MemoryDataSet
+
+#--- reporting ---#
+sag2_cluster1.train_set_feature_importance:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/sag2_cluster1/train_set_feature_importance.pkl
+
+sag2_cluster1.test_set_predictions:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/sag2_cluster1/test_set_predictions.pkl
+
+sag2_cluster1.test_set_metrics:
+    filepath: data/08_reporting/sag2_cluster1/test_set_metrics.csv
+    <<: *base_test_metrics
+    
+# ------ SAG2 CLUSTER 0---------- #
+sag2_cluster0.master_target_cluster:
+    type: pickle.PickleDataSet
+    filepath: data/07_model_output/sag2_cluster0/master_target_cluster.pkl
+
+sag2_cluster0.master_filtered:
+    type: pickle.PickleDataSet
+    filepath: data/07_model_output/sag2_cluster0/master_filtered.pkl
+
+sag2_cluster0.train_set:
+    filepath: data/05_model_input/sag2_cluster0/train_set.csv
+    <<: *base_train_set
+
+sag2_cluster0.test_set:
+    filepath: data/05_model_input/sag2_cluster0/test_set.csv
+    <<: *base_test_set
+
+sag2_cluster0.regressor:
+    type: MemoryDataSet
+
+sag2_cluster0.regressor_pipeline:
+    type: MemoryDataSet
+
+#--- model output ---#
+sag2_cluster0.train_model:
+    type: pickle.PickleDataSet
+    filepath: data/06_models/sag2_cluster0/train_model.pkl
+
+sag2_cluster0.train_set_cv_results:
+    type: MemoryDataSet
+
+#--- reporting ---#
+sag2_cluster0.train_set_feature_importance:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/sag2_cluster0/train_set_feature_importance.pkl
+
+sag2_cluster0.test_set_predictions:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/sag2_cluster0/test_set_predictions.pkl
+
+sag2_cluster0.test_set_metrics:
+    filepath: data/08_reporting/sag2_cluster0/test_set_metrics.csv
+    <<: *base_test_metrics
+
+
+
+# ------ FSAG CLUSTER 3---------- #
+fsag_cluster3.master_target_cluster:
+    type: pickle.PickleDataSet
+    filepath: data/07_model_output/fsag_cluster3/master_target_cluster.pkl
+
+fsag_cluster3.master_filtered:
+    type: pickle.PickleDataSet
+    filepath: data/07_model_output/fsag_cluster3/master_filtered.pkl
+
+fsag_cluster3.train_set:
+    filepath: data/05_model_input/fsag_cluster3/train_set.csv
+    <<: *base_train_set
+
+fsag_cluster3.test_set:
+    filepath: data/05_model_input/fsag_cluster3/test_set.csv
+    <<: *base_test_set
+
+fsag_cluster3.regressor:
+    type: MemoryDataSet
+
+fsag_cluster3.regressor_pipeline:
+    type: MemoryDataSet
+
+#--- model output ---#
+fsag_cluster3.train_model:
+    type: pickle.PickleDataSet
+    filepath: data/06_models/fsag_cluster3/train_model.pkl
+
+fsag_cluster3.train_set_cv_results:
+    type: MemoryDataSet
+
+#--- reporting ---#
+fsag_cluster3.train_set_feature_importance:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/fsag_cluster3/train_set_feature_importance.pkl
+
+fsag_cluster3.test_set_predictions:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/fsag_cluster3/test_set_predictions.pkl
+
+fsag_cluster3.test_set_metrics:
+    filepath: data/08_reporting/fsag_cluster3/test_set_metrics.csv
+    <<: *base_test_metrics
+
+# ------ fsag CLUSTER 2---------- #
+fsag_cluster2.master_target_cluster:
+    type: pickle.PickleDataSet
+    filepath: data/07_model_output/fsag_cluster2/master_target_cluster.pkl
+
+fsag_cluster2.master_filtered:
+    type: pickle.PickleDataSet
+    filepath: data/07_model_output/fsag_cluster2/master_filtered.pkl
+
+fsag_cluster2.train_set:
+    filepath: data/05_model_input/fsag_cluster2/train_set.csv
+    <<: *base_train_set
+
+fsag_cluster2.test_set:
+    filepath: data/05_model_input/fsag_cluster2/test_set.csv
+    <<: *base_test_set
+
+fsag_cluster2.regressor:
+    type: MemoryDataSet
+
+fsag_cluster2.regressor_pipeline:
+    type: MemoryDataSet
+
+#--- model output ---#
+fsag_cluster2.train_model:
+    type: pickle.PickleDataSet
+    filepath: data/06_models/fsag_cluster2/train_model.pkl
+
+fsag_cluster2.train_set_cv_results:
+    type: MemoryDataSet
+
+#--- reporting ---#
+fsag_cluster2.train_set_feature_importance:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/fsag_cluster2/train_set_feature_importance.pkl
+
+fsag_cluster2.test_set_predictions:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/fsag_cluster2/test_set_predictions.pkl
+
+fsag_cluster2.test_set_metrics:
+    filepath: data/08_reporting/fsag_cluster2/test_set_metrics.csv
+    <<: *base_test_metrics
+    
+# ------ fsag CLUSTER 1---------- #
+fsag_cluster1.master_target_cluster:
+    type: pickle.PickleDataSet
+    filepath: data/07_model_output/fsag_cluster1/master_target_cluster.pkl
+
+fsag_cluster1.master_filtered:
+    type: pickle.PickleDataSet
+    filepath: data/07_model_output/fsag_cluster1/master_filtered.pkl
+
+fsag_cluster1.train_set:
+    filepath: data/05_model_input/fsag_cluster1/train_set.csv
+    <<: *base_train_set
+
+fsag_cluster1.test_set:
+    filepath: data/05_model_input/fsag_cluster1/test_set.csv
+    <<: *base_test_set
+
+fsag_cluster1.regressor:
+    type: MemoryDataSet
+
+fsag_cluster1.regressor_pipeline:
+    type: MemoryDataSet
+
+#--- model output ---#
+fsag_cluster1.train_model:
+    type: pickle.PickleDataSet
+    filepath: data/06_models/fsag_cluster1/train_model.pkl
+
+fsag_cluster1.train_set_cv_results:
+    type: MemoryDataSet
+
+#--- reporting ---#
+fsag_cluster1.train_set_feature_importance:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/fsag_cluster1/train_set_feature_importance.pkl
+
+fsag_cluster1.test_set_predictions:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/fsag_cluster1/test_set_predictions.pkl
+
+fsag_cluster1.test_set_metrics:
+    filepath: data/08_reporting/fsag_cluster1/test_set_metrics.csv
+    <<: *base_test_metrics
+    
+# ------ fsag CLUSTER 0---------- #
+fsag_cluster0.master_target_cluster:
+    type: pickle.PickleDataSet
+    filepath: data/07_model_output/fsag_cluster0/master_target_cluster.pkl
+
+fsag_cluster0.master_filtered:
+    type: pickle.PickleDataSet
+    filepath: data/07_model_output/fsag_cluster0/master_filtered.pkl
+
+fsag_cluster0.train_set:
+    filepath: data/05_model_input/fsag_cluster0/train_set.csv
+    <<: *base_train_set
+
+fsag_cluster0.test_set:
+    filepath: data/05_model_input/fsag_cluster0/test_set.csv
+    <<: *base_test_set
+
+fsag_cluster0.regressor:
+    type: MemoryDataSet
+
+fsag_cluster0.regressor_pipeline:
+    type: MemoryDataSet
+
+#--- model output ---#
+fsag_cluster0.train_model:
+    type: pickle.PickleDataSet
+    filepath: data/06_models/fsag_cluster0/train_model.pkl
+
+fsag_cluster0.train_set_cv_results:
+    type: MemoryDataSet
+
+#--- reporting ---#
+fsag_cluster0.train_set_feature_importance:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/fsag_cluster0/train_set_feature_importance.pkl
+
+fsag_cluster0.test_set_predictions:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/fsag_cluster0/test_set_predictions.pkl
+
+fsag_cluster0.test_set_metrics:
+    filepath: data/08_reporting/fsag_cluster0/test_set_metrics.csv
+    <<: *base_test_metrics
+

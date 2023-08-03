@@ -1,0 +1,4 @@
+fa0_flotation_target:
+    ley_conc_tag: ["rx_cop_cur118_rx"]
+    ley_alim_tag: ["rx_co_a0_cur101"]
+    ley_cola_rx_tags: ["rx_cp_cuc101_rx", "rx_cp_cuc102_rx"]

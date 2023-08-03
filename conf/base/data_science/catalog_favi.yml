@@ -1,0 +1,4 @@
+#--- model input ---#
+input_favi:
+    type: pandas.CSVDataSet
+    filepath: data/01_raw/favi.csv

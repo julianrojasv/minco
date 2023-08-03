@@ -1,0 +1,29 @@
+#data_det:
+#  type: pandas.CSVDataSet
+#  filepath: data/01_raw/pi_mdt_ESP_10_DIAS.csv
+#  save_args:
+#    index: True
+#  load_args:
+#    parse_dates: ["Fecha"]
+
+revestimiento:
+  type: pandas.CSVDataSet
+  filepath:
+    data/01_raw/revestimiento.csv
+    #data/01_raw/revestimiento.csv
+  load_args:
+    index_col: 0
+  save_args:
+    index: False
+
+data_det:
+    type: pandas.CSVDataSet
+    filepath: data/01_raw/pi_mdt_ESP_10_DIAS.csv
+    load_args:
+        parse_dates: ["Fecha"]
+        index_col: 0
+        sep: ","
+        dayfirst: True
+    fs_args:
+        open_args_load:
+            encoding: "latin1"

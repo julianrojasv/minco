@@ -1,0 +1,292 @@
+split: &split
+    crisis_hidrica_less_than: 1000000
+    datetime_col: "${timestamp_col_name}"      # see globals
+    type: frac  # "frac" or "date"
+    datetime_start: #"${begin_train}"
+    datetime_val: #"${begin_test}"      # see globals
+    datetime_end: #"${end_test}"
+    train_split_fract: 0.7 #0.8
+    shut_down_dates: #empty to use all [["2019-01-01", "2019-10-05"], ["2020 .gitkeep files-01-15", "2020-04-05"]]
+    filter:
+        current: -1        # -1 for no filter
+        lag_p1:      # empty for no filter
+        count:
+
+## Solo para SAG2
+split2: &split2
+    datetime_col: "${timestamp_col_name}"      # see globals
+    type: frac  # "frac" or "date"
+    datetime_start: #"${begin_train}"
+    datetime_val: #"${begin_test}"      # see globals
+    datetime_end: #"${end_test}"
+    train_split_fract: 0.95
+    shut_down_dates: #empty to use all [["2019-01-01", "2019-10-05"], ["2020 .gitkeep files-01-15", "2020-04-05"]]
+    filter:
+        current: -1        # -1 for no filter
+        lag_p1:      # empty for no filter
+        count:
+
+## Solo para FSAG
+split3: &split3
+    datetime_col: "${timestamp_col_name}"      # see globals
+    type: frac  # "frac" or "date"
+    datetime_start: #"${begin_train}"
+    datetime_val: #"${begin_test}"      # see globals
+    datetime_end: #"${end_test}"
+    train_split_fract: 0.95
+    shut_down_dates: #empty to use all [["2019-01-01", "2019-10-05"], ["2020 .gitkeep files-01-15", "2020-04-05"]]
+    filter:
+        current: -1        # -1 for no filter
+        lag_p1:      # empty for no filter
+        count:
+
+sag1_base: &sag1_base
+    dict_model_feature: "${sag1.model_feature}"   # see globals
+    dict_model_target: "${sag1.model_target}"     # see globals
+    shut_down_dates: #empty to use all
+    filter:
+        current: [1000, 2000]     # empty for no filter
+        lag_p1:      # empty for no filter
+        count:         # -1 for no filter
+
+sag2_base: &sag2_base
+    dict_model_feature: "${sag2.model_feature}"   # see globals
+    dict_model_target: "${sag2.model_target}"     # see globals
+    shut_down_dates: #empty to use all
+    filter:
+        current: [1800, 4000]      # empty for no filter
+        lag_p1:      # empty for no filter
+        count:         # -1 for no filter
+
+fsag_base: &fsag_base
+    dict_model_feature: "${fsag.model_feature}"   # see globals
+    dict_model_target: "${fsag.model_target}"     # see globals
+    shut_down_dates: [["2018-06-29", "2020-10-30"]]  #empty to use all
+    filter:
+        current: [0.8, 1]    # empty for no filter
+        lag_p1:      # empty for no filter
+        count:         # -1 for no filter
+        
+## Area SAG DET
+sag1.model_input:
+    <<: *split
+    <<: *sag1_base
+
+sag2.model_input:
+    <<: *split2
+    <<: *sag2_base
+
+fsag.model_input:
+    <<: *split3
+    <<: *fsag_base
+
+## Area SAG DET modelo por cluster
+# SAG1
+sag1_cluster3.model_input:
+    <<: *split
+    <<: *sag1_base
+    n_cluster: 3
+
+sag1_cluster2.model_input:
+    <<: *split
+    <<: *sag1_base
+    n_cluster: 2
+
+sag1_cluster1.model_input:
+    <<: *split
+    <<: *sag1_base
+    n_cluster: 1
+
+sag1_cluster0.model_input:
+    <<: *split
+    <<: *sag1_base
+    n_cluster: 0
+
+# SAG2
+sag2_cluster3.model_input:
+    <<: *split2
+    <<: *sag2_base
+    n_cluster: 3
+
+sag2_cluster2.model_input:
+    <<: *split2
+    <<: *sag2_base
+    n_cluster: 2
+
+sag2_cluster1.model_input:
+    <<: *split2
+    <<: *sag2_base
+    n_cluster: 1
+
+sag2_cluster0.model_input:
+    <<: *split2
+    <<: *sag2_base
+    n_cluster: 0
+    
+# FSAG
+fsag_cluster3.model_input:
+    <<: *split3
+    <<: *fsag_base
+    n_cluster: 3
+
+fsag_cluster2.model_input:
+    <<: *split3
+    <<: *fsag_base
+    n_cluster: 2
+
+fsag_cluster1.model_input:
+    <<: *split3
+    <<: *fsag_base
+    n_cluster: 1
+
+fsag_cluster0.model_input:
+    <<: *split3
+    <<: *fsag_base
+    n_cluster: 0
+
+
+# Espesadores
+r2_esp.model_input: &r2_base
+    dict_model_feature: "${r2_esp.model_feature}"   # see globals
+    dict_model_target: "${r2_esp.model_target}"     # see globals
+    shut_down_dates: #empty to use all
+    filter:
+        current: [7.5, 60]     # empty for no filter
+        lag_p1:      # empty for no filter
+        count:         # -1 for no filter
+    <<: *split
+
+r3_esp.model_input: &r3_base
+    <<: *split
+    dict_model_feature: "${r3_esp.model_feature}"   # see globals
+    dict_model_target: "${r3_esp.model_target}"     # see globals
+    shut_down_dates: #empty to use all
+    filter:
+        current: [0, 60]     # empty for no filter
+        lag_p1:      # empty for no filter
+        count:         # -1 for no filter
+
+r4_esp.model_input: &r4_base
+    <<: *split
+    dict_model_feature: "${r4_esp.model_feature}"   # see globals
+    dict_model_target: "${r4_esp.model_target}"     # see globals
+    shut_down_dates: #empty to use all
+    filter:
+        current: [0, 60]     # empty for no filter
+        lag_p1:      # empty for no filter
+        count:         # -1 for no filter
+
+r5_esp.model_input: &r5_base
+    <<: *split
+    dict_model_feature: "${r5_esp.model_feature}"   # see globals
+    dict_model_target: "${r5_esp.model_target}"     # see globals
+    shut_down_dates: #empty to use all
+    filter:
+        current: [0, 60]     # empty for no filter
+        lag_p1:      # empty for no filter
+        count:         # -1 for no filter
+
+r6_esp.model_input: &r6_base
+    <<: *split
+    dict_model_feature: "${r6_esp.model_feature}"   # see globals
+    dict_model_target: "${r6_esp.model_target}"     # see globals
+    shut_down_dates: #empty to use all
+    filter:
+        current: [0, 60]     # empty for no filter
+        lag_p1:      # empty for no filter
+        count:         # -1 for no filter
+
+r7_esp.model_input: &r7_base
+    <<: *split
+    dict_model_feature: "${r7_esp.model_feature}"   # see globals
+    dict_model_target: "${r7_esp.model_target}"     # see globals
+    shut_down_dates: #empty to use all
+    filter:
+        current: [0, 60]     # empty for no filter
+        lag_p1:      # empty for no filter
+        count:         # -1 for no filter
+
+r9_esp.model_input: &r9_base
+    <<: *split
+    dict_model_feature: "${r9_esp.model_feature}"   # see globals
+    dict_model_target: "${r9_esp.model_target}"     # see globals
+    shut_down_dates: #empty to use all
+    filter:
+        current: [0, 60]     # empty for no filter
+        lag_p1:      # empty for no filter
+        count:         # -1 for no filter
+
+r10_esp.model_input: &r10_base
+    <<: *split
+    dict_model_feature: "${r10_esp.model_feature}"   # see globals
+    dict_model_target: "${r10_esp.model_target}"     # see globals
+    shut_down_dates: #empty to use all
+    filter:
+        current: [0, 60]     # empty for no filter
+        lag_p1:      # empty for no filter
+        count:         # -1 for no filter
+
+
+
+############################################
+# Espesadores con COntext Hidrico          #
+############################################
+
+# CH: Crisis Hidrica
+# NH: Normalidad Hidrica
+
+r2_esp_ch.model_input:
+    <<: *r2_base
+
+r3_esp_ch.model_input:
+    <<: *r3_base
+
+r4_esp_ch.model_input:
+    <<: *r4_base
+
+r5_esp_ch.model_input:
+    <<: *r5_base
+
+r6_esp_ch.model_input:
+    <<: *r6_base
+
+r7_esp_ch.model_input:
+    <<: *r7_base
+
+r9_esp_ch.model_input:
+    <<: *r9_base
+
+r10_esp_ch.model_input:
+    <<: *r10_base
+    
+    
+## NH NORMALIDAD HIDRICA
+
+r2_esp_nh.model_input:
+    <<: *r2_base
+
+r3_esp_nh.model_input:
+    <<: *r3_base
+
+r4_esp_nh.model_input:
+    <<: *r4_base
+
+r5_esp_nh.model_input:
+    <<: *r5_base
+
+r6_esp_nh.model_input:
+    <<: *r6_base
+
+r7_esp_nh.model_input:
+    <<: *r7_base
+
+r9_esp_nh.model_input:
+    <<: *r9_base
+
+r10_esp_nh.model_input:
+    <<: *r10_base
+
+
+
+
+

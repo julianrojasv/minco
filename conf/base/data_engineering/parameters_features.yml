@@ -1,0 +1,66 @@
+
+group_shift_freq: "2H"  # Adjust min counts per target below
+grouping_offset: "23H"   # Hora de desplazamiento de agrupación, medida desde 00:00
+
+mean_grouping: 
+    tag_prefix: 'calc_mean_'
+
+    groups: ['m5_rest_pres', 's16_vel_bomba', 's17_vel_bomba', 'ma2_tolva_102',
+             "s16_pres_alim_bhc", "s17_pres_alim_bhc", "s16_sol_flot_bhc", "s17_sol_flot_bhc",
+             "s16_densidad_bhc", "s17_densidad_bhc", "s16_tamano_part", "s17_tamano_part", 
+             "mb13_temp", "mb14_temp", "mb15_temp", "ma1_presion_bhc", "ma1_sol_a_flot", "ma1_densidad_bhc",
+             "ma1_tamano_a_flot"
+    ]
+
+sum_grouping: 
+    tag_prefix: 'calc_sum_'
+    groups: ['s16_water_add', 's17_water_add', 'm5_water_add']
+
+sol_grouping:
+    tag_prefix: 'calc_'
+    groups: ['s16_sol', 's17_sol', 's16_sol_alim', 's17_sol_alim', 's13_sol', 's14_sol', 's15_sol']
+
+specific_power_grouping:
+    tag_prefix: 'calc_pot_esp_'
+    groups: ['sag_1', 'sag_2']
+    factor: 
+        sag_1: 1000
+        sag_2: 1
+
+
+lag_grouping:  # ["list of tags to be lagged", number of shifts] (positive number of shifts: bring from past)
+    groups: [
+        ["sag_pot_especif", 1 ] 
+    ]
+
+conversion_reactivos:
+    carga_seca: 0.97
+    densidad:
+        petroleo_1: 0.87
+        petroleo_2: 0.87
+        espumante_1: 0.851
+        espumante_2: 0.851
+        colector_1: 0.915
+        colector_2: 0.915
+        colector_aux_1: 1.12
+        colector_aux_2: 1.12
+    min_max:
+        petroleo_1: [0, 10]
+        espumante_1: [0, 50]
+        colector_1: [250,800]
+        colector_aux_1: [250,600]
+        petroleo_2: [0, 10]
+        espumante_2: [0, 50]
+        colector_2: [250,800]
+        colector_aux_2: [250,600]
+    suffix: "dosif"
+    tags:
+        fsag: "fsag_reactivos"
+
+######################################
+## ON-OFF ESPESADORES ##
+######################################
+on_off:
+    tag_prefix: 'on_off_'
+    groups: ['on_off_R2','on_off_R3','on_off_R4','on_off_R5',
+             'on_off_R6','on_off_R7','on_off_R9','on_off_R10',]
